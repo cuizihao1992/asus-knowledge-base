@@ -31,6 +31,7 @@ https://cuizihao1992.github.io/asus-knowledge-base/docs/index.html
 - `docs/05-data-assets-index.md`：`E:\Data` 数据资产浅层索引。
 - `docs/06-roadmap.md`：后续整理路线图和优先级。
 - `docs/assets/model-assets.md`：`E:\Data\全生命周期BIM` 模型资产卡片。
+- `docs/summaries/mini-transformer.md`：`D:\zhc\mini-transformer` 专题摘要。
 
 ## 静态站点构建
 
