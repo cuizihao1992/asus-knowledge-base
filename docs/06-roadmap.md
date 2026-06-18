@@ -18,6 +18,7 @@
 | `08-local-scanner-design.md` | 本地扫描脚本 | 自动索引设计 |
 | `09-knowledge-schema.md` | 知识库对象 | 数据模型规范 |
 | `10-status-board.md` | 全局进度 | 整理状态看板 |
+| `11-evaluation-rules.md` | D/E 盘资料 | 价值评估与整理规则 |
 | `assets/model-assets.md` | `E:\Data\全生命周期BIM` | 模型资产卡片 |
 | `summaries/mini-transformer.md` | `D:\zhc\mini-transformer` | Transformer 学习项目专题摘要 |
 | `summaries/zhc-companion.md` | `D:\zhc\zhc-companion` | 本地项目伴侣专题摘要 |

@@ -19,6 +19,7 @@
 | 本地扫描脚本设计 | 完成 | `08-local-scanner-design.md` |
 | 数据模型规范 | 完成 | `09-knowledge-schema.md` |
 | 全生命周期 BIM 模型资产卡片 | 完成 | `assets/model-assets.md` |
+| 资料价值评估与整理规则 | 完成 | `11-evaluation-rules.md` |
 | mini-transformer 专题摘要 | 完成 | `summaries/mini-transformer.md` |
 | zhc-companion 专题摘要 | 完成 | `summaries/zhc-companion.md` |
 | quant-system 专题摘要 | 完成 | `summaries/quant-system.md` |
@@ -28,6 +29,7 @@
 
 | 优先级 | 任务 | 原因 | 建议产物 |
 | --- | --- | --- | --- |
+| 高 | 对 `E:\学习资料` 做浅层索引和价值评估 | 验证新规则，进入学习资料模块 | `docs/generated/learning-value-assessment.md` |
 | 高 | 实现 `scan-local-projects.js` | 把人工扫描固化成脚本 | `docs/generated/project-index.md` |
 | 高 | 摘要 SUTPC 核心需求文档 | 项目知识价值高 | `docs/summaries/sutpc-lifecycle-requirements.md` |
 | 中 | 建立大文件清单 | 控制磁盘整理风险 | `docs/generated/large-files.md` |
