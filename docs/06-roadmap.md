@@ -14,6 +14,7 @@
 | `03-code-project-index.md` | `D:\zhc` | 近期代码项目索引 |
 | `04-sutpc-project-index.md` | `E:\SUTPC` | 项目文档索引 |
 | `05-data-assets-index.md` | `E:\Data` | BIM/GIS/三维数据资产索引 |
+| `assets/model-assets.md` | `E:\Data\全生命周期BIM` | 模型资产卡片 |
 
 ## 当前资料地图
 
@@ -21,7 +22,7 @@
 | --- | --- | --- | --- |
 | 代码项目 | `D:\zhc` | 已建立浅层索引 | 做项目摘要和运行说明 |
 | SUTPC 项目文档 | `E:\SUTPC` | 已建立浅层索引 | 摘要核心需求和 BIM/GIS 文档 |
-| 数据资产 | `E:\Data` | 已建立浅层索引 | 建立模型资产卡片 |
+| 数据资产 | `E:\Data` | 已建立浅层索引和首批模型资产卡片 | 补充模型预览和关联文档 |
 | 学习资料 | `E:\学习资料`、`E:\BaiduNetdiskDownload` | 未详细索引 | 后续按主题整理 |
 | GIS/Cesium/SuperMap | `D:\Cesium`、`E:\Cesium-1.91`、`D:\SuperMap` | 未详细索引 | 后续建立技术资料索引 |
 | 下载池 | `E:\Download`、`E:\360Downloads`、`E:\迅雷下载` | 未整理 | 最后处理 |

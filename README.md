@@ -30,6 +30,7 @@ https://cuizihao1992.github.io/asus-knowledge-base/docs/index.html
 - `docs/04-sutpc-project-index.md`：`E:\SUTPC` 项目文档浅层索引。
 - `docs/05-data-assets-index.md`：`E:\Data` 数据资产浅层索引。
 - `docs/06-roadmap.md`：后续整理路线图和优先级。
+- `docs/assets/model-assets.md`：`E:\Data\全生命周期BIM` 模型资产卡片。
 
 ## 静态站点构建
 

@@ -40,6 +40,17 @@ function slugFor(fileName) {
     .toLowerCase() || "doc";
 }
 
+function findMarkdownFiles(dir, baseDir = dir) {
+  return fs
+    .readdirSync(dir, { withFileTypes: true })
+    .flatMap((entry) => {
+      const fullPath = path.join(dir, entry.name);
+      if (entry.isDirectory()) return findMarkdownFiles(fullPath, baseDir);
+      if (!entry.isFile() || !entry.name.toLowerCase().endsWith(".md")) return [];
+      return [path.relative(baseDir, fullPath).replace(/\\/g, "/")];
+    });
+}
+
 function inlineMarkdown(value) {
   return escapeHtml(value)
     .replace(/`([^`]+)`/g, "<code>$1</code>")
@@ -226,10 +237,7 @@ function buildDocs() {
   fs.copyFileSync(path.join(rootDir, "doc-site.css"), path.join(siteDir, "doc-site.css"));
   fs.writeFileSync(path.join(siteDir, ".nojekyll"), "");
 
-  const markdownFiles = fs
-    .readdirSync(docsDir)
-    .filter((file) => file.toLowerCase().endsWith(".md"))
-    .sort((a, b) => a.localeCompare(b, "zh-CN"));
+  const markdownFiles = findMarkdownFiles(docsDir).sort((a, b) => a.localeCompare(b, "zh-CN"));
 
   const docs = markdownFiles.map((file) => {
     const markdown = fs.readFileSync(path.join(docsDir, file), "utf8");
