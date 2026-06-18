@@ -89,11 +89,12 @@ select {
 
 .toolbar {
   display: grid;
-  grid-template-columns: 1fr 42px 42px;
+  grid-template-columns: 1fr 1fr 42px 42px;
   gap: 8px;
 }
 
 .primary-button,
+.secondary-button,
 .danger-button,
 .icon-button {
   min-height: 42px;
@@ -112,6 +113,16 @@ select {
 
 .primary-button:hover {
   background: var(--accent-strong);
+}
+
+.secondary-button {
+  display: grid;
+  place-items: center;
+  border-color: #b7cbc5;
+  background: var(--panel-strong);
+  color: var(--accent-strong);
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .danger-button {

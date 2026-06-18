@@ -6,6 +6,8 @@
 
 直接打开 `index.html` 即可使用随笔知识库。数据默认保存在浏览器 `localStorage` 中，支持 JSON 导入和导出。
 
+推送到 `main` 后，GitHub Actions 会把 `docs/*.md` 自动构建为 HTML 页面并发布到 GitHub Pages。
+
 ## 文档结构
 
 - `docs/00-disk-inventory.md`：D 盘、E 盘浅层盘点。
@@ -15,6 +17,16 @@
 - `docs/04-sutpc-project-index.md`：`E:\SUTPC` 项目文档浅层索引。
 - `docs/05-data-assets-index.md`：`E:\Data` 数据资产浅层索引。
 - `docs/06-roadmap.md`：后续整理路线图和优先级。
+
+## 静态站点构建
+
+本地生成 HTML 站点：
+
+```powershell
+node scripts/build-site.js
+```
+
+构建结果输出到 `_site/`，其中 `_site/docs/index.html` 是文档入口。
 
 ## 当前定位
 
