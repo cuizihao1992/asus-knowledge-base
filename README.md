@@ -14,6 +14,7 @@
 - `docs/03-code-project-index.md`：`D:\zhc` 代码项目浅层索引。
 - `docs/04-sutpc-project-index.md`：`E:\SUTPC` 项目文档浅层索引。
 - `docs/05-data-assets-index.md`：`E:\Data` 数据资产浅层索引。
+- `docs/06-roadmap.md`：后续整理路线图和优先级。
 
 ## 当前定位
 
