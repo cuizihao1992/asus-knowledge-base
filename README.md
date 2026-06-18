@@ -11,6 +11,7 @@
 - `docs/00-disk-inventory.md`：D 盘、E 盘浅层盘点。
 - `docs/01-knowledge-modules.md`：建议的知识库模块划分。
 - `docs/02整理规范.md`：后续整理资料时的命名、标签和收录规则。
+- `docs/03-code-project-index.md`：`D:\zhc` 代码项目浅层索引。
 
 ## 当前定位
 
