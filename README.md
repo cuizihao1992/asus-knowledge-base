@@ -6,7 +6,20 @@
 
 直接打开 `index.html` 即可使用随笔知识库。数据默认保存在浏览器 `localStorage` 中，支持 JSON 导入和导出。
 
-推送到 `main` 后，GitHub Actions 会把 `docs/*.md` 自动构建为 HTML 页面并发布到 GitHub Pages。
+推送到 `main` 后，GitHub Actions 会把 `docs/*.md` 自动构建为 HTML 页面并发布到 `gh-pages` 分支。
+
+如果仓库首次启用 GitHub Pages，需要在 GitHub 仓库设置中选择：
+
+```text
+Settings -> Pages -> Build and deployment -> Source: Deploy from a branch
+Branch: gh-pages / root
+```
+
+启用后文档入口为：
+
+```text
+https://cuizihao1992.github.io/asus-knowledge-base/docs/index.html
+```
 
 ## 文档结构
 
