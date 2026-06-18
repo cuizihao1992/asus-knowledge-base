@@ -14,6 +14,10 @@
 | `03-code-project-index.md` | `D:\zhc` | 近期代码项目索引 |
 | `04-sutpc-project-index.md` | `E:\SUTPC` | 项目文档索引 |
 | `05-data-assets-index.md` | `E:\Data` | BIM/GIS/三维数据资产索引 |
+| `07-zhc-capability-map.md` | `D:\zhc` | 项目能力地图 |
+| `08-local-scanner-design.md` | 本地扫描脚本 | 自动索引设计 |
+| `09-knowledge-schema.md` | 知识库对象 | 数据模型规范 |
+| `10-status-board.md` | 全局进度 | 整理状态看板 |
 | `assets/model-assets.md` | `E:\Data\全生命周期BIM` | 模型资产卡片 |
 | `summaries/mini-transformer.md` | `D:\zhc\mini-transformer` | Transformer 学习项目专题摘要 |
 | `summaries/zhc-companion.md` | `D:\zhc\zhc-companion` | 本地项目伴侣专题摘要 |

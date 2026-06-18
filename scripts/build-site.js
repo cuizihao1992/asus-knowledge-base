@@ -228,6 +228,22 @@ function pageShell({ title, body, navItems, currentHref = "" }) {
 `;
 }
 
+function clientSearchScript() {
+  return `<script>
+    const searchInput = document.querySelector("[data-doc-search]");
+    const cards = Array.from(document.querySelectorAll("[data-doc-card]"));
+    if (searchInput) {
+      searchInput.addEventListener("input", () => {
+        const query = searchInput.value.trim().toLowerCase();
+        for (const card of cards) {
+          const haystack = card.textContent.toLowerCase();
+          card.hidden = Boolean(query) && !haystack.includes(query);
+        }
+      });
+    }
+  </script>`;
+}
+
 function buildDocs() {
   cleanDir(siteDir);
   ensureDir(siteDocsDir);
@@ -267,17 +283,21 @@ function buildDocs() {
   const indexBody = `<section class="doc-home">
     <h1>文档目录</h1>
     <p>这些页面由仓库中的 Markdown 文档自动生成。</p>
+    <label class="doc-search">
+      <span>搜索</span>
+      <input data-doc-search type="search" placeholder="输入标题或文件名" autocomplete="off" />
+    </label>
     <div class="doc-card-grid">
       ${docs
         .map(
-          (doc) => `<a class="doc-card" href="${doc.slug}.html">
+          (doc) => `<a class="doc-card" data-doc-card href="${doc.slug}.html">
             <strong>${escapeHtml(doc.title)}</strong>
             <span>${escapeHtml(doc.file)}</span>
           </a>`
         )
         .join("")}
     </div>
-  </section>`;
+  </section>${clientSearchScript()}`;
 
   fs.writeFileSync(path.join(siteDocsDir, "index.html"), pageShell({ title: "文档目录", body: indexBody, navItems }), "utf8");
 

@@ -165,6 +165,32 @@
   margin-top: 20px;
 }
 
+.doc-search {
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr);
+  align-items: center;
+  max-width: 520px;
+  min-height: 44px;
+  margin-top: 18px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.doc-search span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.doc-search input {
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--ink);
+}
+
 .doc-card {
   display: grid;
   gap: 8px;
