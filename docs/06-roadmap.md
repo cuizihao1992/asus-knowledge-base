@@ -16,12 +16,13 @@
 | `05-data-assets-index.md` | `E:\Data` | BIM/GIS/三维数据资产索引 |
 | `assets/model-assets.md` | `E:\Data\全生命周期BIM` | 模型资产卡片 |
 | `summaries/mini-transformer.md` | `D:\zhc\mini-transformer` | Transformer 学习项目专题摘要 |
+| `summaries/zhc-companion.md` | `D:\zhc\zhc-companion` | 本地项目伴侣专题摘要 |
 
 ## 当前资料地图
 
 | 模块 | 主要来源 | 当前状态 | 下一步 |
 | --- | --- | --- | --- |
-| 代码项目 | `D:\zhc` | 已建立浅层索引，mini-transformer 已完成专题摘要 | 继续整理 zhc-companion 或 quant-system |
+| 代码项目 | `D:\zhc` | 已建立浅层索引，mini-transformer 和 zhc-companion 已完成专题摘要 | 继续整理 quant-system |
 | SUTPC 项目文档 | `E:\SUTPC` | 已建立浅层索引 | 摘要核心需求和 BIM/GIS 文档 |
 | 数据资产 | `E:\Data` | 已建立浅层索引和首批模型资产卡片 | 补充模型预览和关联文档 |
 | 学习资料 | `E:\学习资料`、`E:\BaiduNetdiskDownload` | 未详细索引 | 后续按主题整理 |
