@@ -1,6 +1,6 @@
 # 整理状态看板
 
-更新日期：2026-06-20
+更新日期：2026-06-21
 
 这个看板用于记录当前知识库整理进度。它不是任务系统，只是阶段性状态快照。
 
@@ -46,15 +46,23 @@
 | 本地扫描脚本 | 完成 | `scripts/scan-local-projects.js`、`scan.config.json` |
 | 自动扫描项目索引 | 完成 | `90-generated/scans/project-index.md` |
 | GitHub Pages 分类导航 | 完成 | `scripts/build-site.js`、`doc-site.css` |
+| 工具包与 SDK 归档确认表 | 完成 | `50-operations/cleanup/tool-archive-plan.md` |
+| 工具归档 2A 迁移执行清单 | 完成 | `50-operations/cleanup/tool-archive-2a-execution-checklist.md` |
+| 工具归档迁移日志 | 完成 | `50-operations/cleanup/tool-archive-migration-log.md` |
+| 待确认压缩包内容评估 | 完成 | `50-operations/cleanup/archive-content-review.md` |
+| zhc-companion 源码压缩包对比 | 完成 | `20-projects/zhc/zhc-companion-source-zip-review.md` |
+| zhc-companion 发布产物记录 | 完成 | `20-projects/zhc/zhc-companion-release-artifacts.md` |
+| 压缩模型包资产卡片 | 完成 | `30-assets/bim-models/compressed-model-archives.md` |
+| glTF 场景清单 | 完成 | `30-assets/bim-models/gltf-scene-inventory.md` |
 
 ## 下一批建议
 
 | 优先级 | 任务 | 原因 | 建议产物 |
 | --- | --- | --- | --- |
-| 高 | 执行第一批低风险清理 | 仅处理已确认的旧安装包/破解包，不碰核心资料 | 更新删除记录 |
-| 中 | 补充 Cesium/WebGL 渲染术语 | 连接三维数据和前端可视化资料 | `40-learning/cesium-webgl/cesium-webgl-glossary.md` |
-| 中 | 生成 SUTPC 大屏地图交互摘要 | 提炼大屏图层、模型跳转和监测视频交互 | `20-projects/sutpc/dashboard-map-interaction.md` |
-| 中 | 小体量 FBX 转换预案 | 为桥梁/边坡模型设计 glTF/3D Tiles 试验步骤 | `30-assets/bim-models/fbx-conversion-plan.md` |
+| 高 | RAR 只列目录能力补齐 | `fbx.rar`、SuperMap iEarth、dae 转 glTF 工具仍需 7z/WinRAR 只列目录 | 更新 `archive-content-review.md` 和模型资产卡片 |
+| 高 | 小体量 FBX 转换预案 | 为桥梁/边坡模型设计 glTF/3D Tiles 试验步骤 | `30-assets/bim-models/fbx-conversion-plan.md` |
+| 中 | SUTPC 大屏地图交互摘要 | 提炼大屏图层、模型跳转和监测视频交互 | `20-projects/sutpc/dashboard-map-interaction.md` |
+| 中 | Cesium/WebGL 渲染术语 | 连接三维数据和前端可视化资料 | `40-learning/cesium-webgl/cesium-webgl-glossary.md` |
 | 中 | 文档标签和最近更新看板 | 让 Pages 更像可维护的资料库 | `90-generated/scans/recent-changes.md` |
 
 ## 暂不处理
@@ -69,4 +77,4 @@
 
 ## 当前判断
 
-知识库已经从“人工文档堆叠”进入“结构化文档 + 自动扫描草稿”的阶段。下一步不应继续全量搬资料，而是围绕扫描结果做确认、摘要和小批清理。
+知识库已经进入“结构化文档 + 自动扫描 + 小批迁移归档”的阶段。工具安装包已从资料区迁入 `E:\ToolsArchive` 并纳入扫描；后续重点应转向 RAR 只列目录、模型转换预案和 SUTPC 交互知识沉淀。
