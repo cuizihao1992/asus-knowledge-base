@@ -42,6 +42,7 @@
 | 重复文件删除确认草案 | 完成 | `50-operations/cleanup/duplicate-removal-review.md` |
 | 2026-06-20 已删除文件记录 | 完成 | `50-operations/cleanup/deleted-files-2026-06-20.md` |
 | 下一批清理候选清单 | 完成 | `50-operations/cleanup/cleanup-candidates-next.md` |
+| 清理确认清单 | 完成 | `50-operations/cleanup/cleanup-confirmation.md` |
 | 本地扫描脚本 | 完成 | `scripts/scan-local-projects.js`、`scan.config.json` |
 | 自动扫描项目索引 | 完成 | `90-generated/scans/project-index.md` |
 | GitHub Pages 分类导航 | 完成 | `scripts/build-site.js`、`doc-site.css` |
@@ -50,7 +51,7 @@
 
 | 优先级 | 任务 | 原因 | 建议产物 |
 | --- | --- | --- | --- |
-| 高 | 确认低风险清理候选 | 从安装包、工具包、发布包开始确认，不碰核心资料 | `50-operations/cleanup/cleanup-confirmation.md` |
+| 高 | 执行第一批低风险清理 | 仅处理已确认的旧安装包/破解包，不碰核心资料 | 更新删除记录 |
 | 中 | 补充 Cesium/WebGL 渲染术语 | 连接三维数据和前端可视化资料 | `40-learning/cesium-webgl/cesium-webgl-glossary.md` |
 | 中 | 生成 SUTPC 大屏地图交互摘要 | 提炼大屏图层、模型跳转和监测视频交互 | `20-projects/sutpc/dashboard-map-interaction.md` |
 | 中 | 小体量 FBX 转换预案 | 为桥梁/边坡模型设计 glTF/3D Tiles 试验步骤 | `30-assets/bim-models/fbx-conversion-plan.md` |
