@@ -15,3 +15,17 @@
 迁移总量：`133,869,105` 字节，约 `127.67 MiB`。
 
 复查结论：5 个源路径均已不存在，5 个目标路径均已存在。
+
+## 2026-06-21：2B 工具包迁移
+
+执行范围：继续迁移 `tool-archive-plan.md` 中 2B 的旧工具包。`D:\zhc\.build-tools` 暂不处理，避免影响 Android 构建环境。
+
+| 源路径 | 目标路径 | 大小（字节） | 迁移后源存在 | 迁移后目标存在 |
+| --- | --- | ---: | --- | --- |
+| `E:\SUTPC\全生命周期\Axure9.zip` | `E:\ToolsArchive\design\prototype\Axure9.zip` | 106978658 | 否 | 是 |
+| `E:\学习资料\近期zip\opencv-3.2.0.zip` | `E:\ToolsArchive\dev\opencv\opencv-3.2.0.zip` | 82033498 | 否 | 是 |
+| `E:\学习资料\Cesium资料\第三方小工具\GIF录制录屏工具LICEcap.exe` | `E:\ToolsArchive\media\capture\GIF录制录屏工具LICEcap.exe` | 421888 | 否 | 是 |
+
+迁移总量：`189,434,044` 字节，约 `180.66 MiB`。
+
+复查结论：3 个源路径均已不存在，3 个目标路径均已存在。
