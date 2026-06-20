@@ -23,6 +23,7 @@
 | `E:\学习资料\图像拼接\UnityDownloadAssistant-2017.1.0f3.exe` | Unity 安装器 | 旧安装器，低知识价值 | 旧 Unity 项目复现需求 |
 
 建议：如果你同意，下一轮可以只删除这一组。预计释放空间主要来自 Android Studio 和 XMind/Axure 工具包。
+执行状态：本组已于 2026-06-20 删除完成，明细见 `deleted-files-2026-06-20.md` 的“第一批低风险清理”。
 
 ## 建议迁移到工具归档
 
