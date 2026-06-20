@@ -39,6 +39,11 @@
       "name": "E 学习资料",
       "path": "E:\\学习资料",
       "maxDepth": 2
+    },
+    {
+      "name": "E ToolsArchive",
+      "path": "E:\\ToolsArchive",
+      "maxDepth": 3
     }
   ]
 }
