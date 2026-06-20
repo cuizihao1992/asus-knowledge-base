@@ -20,7 +20,7 @@
 | `D:\zhc\zhc-companion-lite-release.apk` | 是 | 12901 | 是 | 8 | 8 | 0 | 14355 | Android APK 发布产物，体量很小 | 保留并记录版本；不急于删除 |
 | `E:\Data\fbx.rar` | 是 | 274179140 | 否 | - | - | - | - | 可能是 FBX 模型资产 | 暂保留；需用 7z/WinRAR 只列目录 |
 | `E:\Data\gltf.zip` | 是 | 224388770 | 是 | 177 | 156 | 21 | 253424962 | glTF 模型资产包，含 `.gltf`、`.bin`、纹理图 | 保留；纳入模型资产索引 |
-| `E:\学习资料\Cesium资料\Cesium-1.65.zip` | 是 | 54237500 | 是 | 7194 | 6386 | 808 | 142354248 | Cesium 1.65 完整发行包 | 迁移到 `E:\ToolsArchive\gis-3d\cesium`，不删除 |
+| `E:\学习资料\Cesium资料\Cesium-1.65.zip` | 已迁移 | 54237500 | 是 | 7194 | 6386 | 808 | 142354248 | Cesium 1.65 完整发行包 | 已迁移到 `E:\ToolsArchive\gis-3d\cesium\Cesium-1.65.zip` |
 | `E:\学习资料\Cesium资料\SuperMap iEarth(osgb转3Dtiles).rar` | 是 | 53394007 | 否 | - | - | - | - | OSGB 转 3D Tiles 工具可能性高 | 暂保留；需用 7z/WinRAR 只列目录 |
 | `E:\学习资料\Cesium资料\专题_测试数据\dae转gltf工具.rar` | 是 | 42033265 | 否 | - | - | - | - | DAE 转 glTF 工具或测试包 | 暂保留；需用 7z/WinRAR 只列目录 |
 
@@ -53,7 +53,7 @@
 
 ## 后续动作
 
-1. 将 `E:\学习资料\Cesium资料\Cesium-1.65.zip` 迁移到 `E:\ToolsArchive\gis-3d\cesium\Cesium-1.65.zip`。
+1. `E:\学习资料\Cesium资料\Cesium-1.65.zip` 已迁移到 `E:\ToolsArchive\gis-3d\cesium\Cesium-1.65.zip`。
 2. 对 `D:\zhc\zhc-companion-source.zip` 与 `D:\zhc\zhc-companion` 做文件名和内容摘要对比；一致时可列入低风险删除候选。
 3. 对 3 个 RAR 安装 7z/使用 WinRAR 后只列目录，不解压，再更新本表。
 4. 将 `E:\Data\gltf.zip` 和 `E:\Data\fbx.rar` 纳入模型资产索引，不按普通压缩包清理。
