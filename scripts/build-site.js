@@ -187,11 +187,52 @@ function titleFromMarkdown(markdown, fallback) {
   return match ? match[1].trim() : fallback.replace(/\.md$/i, "");
 }
 
+const categoryRules = [
+  { id: "overview", title: "总览与规则", match: (file) => file.startsWith("00-overview/") },
+  { id: "indexes", title: "目录索引", match: (file) => file.startsWith("10-indexes/") },
+  { id: "sutpc", title: "SUTPC 项目", match: (file) => file.startsWith("20-projects/sutpc/") },
+  { id: "code", title: "代码项目", match: (file) => file.startsWith("20-projects/zhc/") },
+  { id: "assets", title: "数据与模型资产", match: (file) => file.startsWith("30-assets/") },
+  { id: "learning", title: "学习资料与术语", match: (file) => file.startsWith("40-learning/") },
+  { id: "cleanup", title: "清理与删除记录", match: (file) => file.startsWith("50-operations/") },
+  { id: "generated", title: "自动生成", match: (file) => file.startsWith("90-generated/") }
+];
+
+function categoryFor(file) {
+  const rule = categoryRules.find((item) => item.match(file));
+  return rule ? { id: rule.id, title: rule.title } : { id: "other", title: "其他" };
+}
+
+function groupedDocs(docs) {
+  const groups = [];
+  const byId = new Map();
+
+  for (const doc of docs) {
+    const category = categoryFor(doc.file);
+    if (!byId.has(category.id)) {
+      const group = { ...category, docs: [] };
+      byId.set(category.id, group);
+      groups.push(group);
+    }
+    byId.get(category.id).docs.push(doc);
+  }
+
+  return groups;
+}
+
 function pageShell({ title, body, navItems, currentHref = "" }) {
   const nav = navItems
-    .map((item) => {
-      const active = item.href === currentHref ? " active" : "";
-      return `<a class="doc-nav-item${active}" href="${item.href}">${escapeHtml(item.title)}</a>`;
+    .map((group) => {
+      const links = group.docs
+        .map((item) => {
+          const active = item.href === currentHref ? " active" : "";
+          return `<a class="doc-nav-item${active}" href="${item.href}">${escapeHtml(item.title)}</a>`;
+        })
+        .join("");
+      return `<section class="doc-nav-group">
+          <h2>${escapeHtml(group.title)}</h2>
+          ${links}
+        </section>`;
     })
     .join("");
 
@@ -266,9 +307,13 @@ function buildDocs() {
     };
   });
 
-  const navItems = docs.map((doc) => ({
-    title: doc.title,
-    href: `${doc.slug}.html`
+  const groups = groupedDocs(docs);
+  const navItems = groups.map((group) => ({
+    ...group,
+    docs: group.docs.map((doc) => ({
+      title: doc.title,
+      href: `${doc.slug}.html`
+    }))
   }));
 
   for (const doc of docs) {
@@ -282,21 +327,28 @@ function buildDocs() {
 
   const indexBody = `<section class="doc-home">
     <h1>文档目录</h1>
-    <p>这些页面由仓库中的 Markdown 文档自动生成。</p>
+    <p>这些页面由仓库中的 Markdown 文档自动生成，按资料整理阶段和主题分组。</p>
     <label class="doc-search">
       <span>搜索</span>
       <input data-doc-search type="search" placeholder="输入标题或文件名" autocomplete="off" />
     </label>
-    <div class="doc-card-grid">
-      ${docs
-        .map(
-          (doc) => `<a class="doc-card" data-doc-card href="${doc.slug}.html">
-            <strong>${escapeHtml(doc.title)}</strong>
-            <span>${escapeHtml(doc.file)}</span>
-          </a>`
-        )
-        .join("")}
-    </div>
+    ${groups
+      .map(
+        (group) => `<section class="doc-section">
+          <h2>${escapeHtml(group.title)}</h2>
+          <div class="doc-card-grid">
+            ${group.docs
+              .map(
+                (doc) => `<a class="doc-card" data-doc-card href="${doc.slug}.html">
+                  <strong>${escapeHtml(doc.title)}</strong>
+                  <span>${escapeHtml(doc.file)}</span>
+                </a>`
+              )
+              .join("")}
+          </div>
+        </section>`
+      )
+      .join("")}
   </section>${clientSearchScript()}`;
 
   fs.writeFileSync(path.join(siteDocsDir, "index.html"), pageShell({ title: "文档目录", body: indexBody, navItems }), "utf8");

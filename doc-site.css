@@ -37,7 +37,21 @@
 
 .doc-nav {
   display: grid;
-  gap: 6px;
+  gap: 16px;
+}
+
+.doc-nav-group {
+  display: grid;
+  gap: 5px;
+}
+
+.doc-nav-group h2 {
+  margin: 0 0 2px;
+  padding: 0 12px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
 }
 
 .doc-nav-item {
@@ -163,6 +177,17 @@
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 12px;
   margin-top: 20px;
+}
+
+.doc-section {
+  margin-top: 28px;
+}
+
+.doc-section h2 {
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+  font-size: 18px;
 }
 
 .doc-search {

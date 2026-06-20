@@ -1,0 +1,44 @@
+{
+  "output": "docs/90-generated/scans/project-index.md",
+  "maxDepth": 2,
+  "largestFilesLimit": 20,
+  "recentFilesLimit": 20,
+  "ignoreDirectories": [
+    ".git",
+    ".hg",
+    ".svn",
+    "node_modules",
+    "__pycache__",
+    ".venv",
+    "venv",
+    "dist",
+    "build",
+    ".next",
+    ".cache",
+    ".gradle",
+    ".idea",
+    ".vscode"
+  ],
+  "roots": [
+    {
+      "name": "D zhc",
+      "path": "D:\\zhc",
+      "maxDepth": 2
+    },
+    {
+      "name": "E SUTPC",
+      "path": "E:\\SUTPC",
+      "maxDepth": 2
+    },
+    {
+      "name": "E Data",
+      "path": "E:\\Data",
+      "maxDepth": 2
+    },
+    {
+      "name": "E 学习资料",
+      "path": "E:\\学习资料",
+      "maxDepth": 2
+    }
+  ]
+}
