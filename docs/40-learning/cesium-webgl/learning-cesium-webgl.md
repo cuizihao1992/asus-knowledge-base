@@ -2,7 +2,7 @@
 
 生成日期：2026-06-19
 
-资料来源：`E:\学习资料\Cesium资料`、`E:\学习资料\webGL`、`E:\学习资料\学习文档` 以及 `E:\学习资料` 根目录中的 Cesium/BIM 文档。本文只基于浅层索引和文件名整理，不移动、不删除、不解压、不上传原始资料。
+资料来源：`E:\学习资料\00-gis-cesium-webgl\Cesium资料`、`E:\学习资料\00-gis-cesium-webgl\webGL`、`E:\学习资料\30-books-papers\学习文档` 以及 `E:\学习资料` 根目录中的 Cesium/BIM 文档。本文只基于浅层索引和文件名整理，不移动、不删除、不解压、不上传原始资料。
 
 ## 总体判断
 
@@ -18,10 +18,10 @@
 
 | 资料组 | 路径 | 主要内容 | 价值判断 |
 | --- | --- | --- | --- |
-| Cesium 主资料 | `E:\学习资料\Cesium资料` | 视频、PDF、示例、工具、测试数据、专栏资料 | 核心保留 |
-| WebGL 专题 | `E:\学习资料\webGL` | WebGL 书籍、Galaxy 示例、WebGL Insights | 优先摘要 |
-| 学习文档 | `E:\学习资料\学习文档` | CesiumLab、WebGL、跨域、地图地形示例 | 优先摘要 |
-| 根目录 Cesium+BIM 文档 | `E:\学习资料\基于Cesium的三维GIS网络服务与BIM集成研究 - 杨李东.docx` | Cesium、三维 GIS、BIM 集成 | 优先摘要候选 |
+| Cesium 主资料 | `E:\学习资料\00-gis-cesium-webgl\Cesium资料` | 视频、PDF、示例、工具、测试数据、专栏资料 | 核心保留 |
+| WebGL 专题 | `E:\学习资料\00-gis-cesium-webgl\webGL` | WebGL 书籍、Galaxy 示例、WebGL Insights | 优先摘要 |
+| 学习文档 | `E:\学习资料\30-books-papers\学习文档` | CesiumLab、WebGL、跨域、地图地形示例 | 优先摘要 |
+| 根目录 Cesium+BIM 文档 | `E:\学习资料\00-gis-cesium-webgl\基于Cesium的三维GIS网络服务与BIM集成研究 - 杨李东.docx` | Cesium、三维 GIS、BIM 集成 | 优先摘要候选 |
 
 ## 内容地图
 
@@ -51,12 +51,12 @@
 
 | 文件 | 路径 | 判断 |
 | --- | --- | --- |
-| `WebGL 编程指南.pdf` | `E:\学习资料\Cesium资料` | 重复出现，保留一个主索引 |
-| `WebGL编程指南.pdf` | `E:\学习资料\学习文档` | 重复候选 |
-| `WebGL Programming Guide.pdf` | `E:\学习资料\webGL` | 英文版/相关版本 |
-| `WebGL.Insights.-.Patrick.Cozzi.pdf` | `E:\学习资料\webGL`、`E:\学习资料\Cesium资料\专栏_vtxf` | 高价值，重复候选 |
-| `3DEngineDesignForVirtualGlobesSection121（level of details）.pdf` | `E:\学习资料\学习文档` | 虚拟地球 LOD 资料 |
-| `OpenGL着色语言.pdf` | `E:\学习资料\Cesium资料\专栏_向上吧，少年` | 着色器基础 |
+| `WebGL 编程指南.pdf` | `E:\学习资料\00-gis-cesium-webgl\Cesium资料` | 重复出现，保留一个主索引 |
+| `WebGL编程指南.pdf` | `E:\学习资料\30-books-papers\学习文档` | 重复候选 |
+| `WebGL Programming Guide.pdf` | `E:\学习资料\00-gis-cesium-webgl\webGL` | 英文版/相关版本 |
+| `WebGL.Insights.-.Patrick.Cozzi.pdf` | `E:\学习资料\00-gis-cesium-webgl\webGL`、`E:\学习资料\00-gis-cesium-webgl\Cesium资料\专栏_vtxf` | 高价值，重复候选 |
+| `3DEngineDesignForVirtualGlobesSection121（level of details）.pdf` | `E:\学习资料\30-books-papers\学习文档` | 虚拟地球 LOD 资料 |
+| `OpenGL着色语言.pdf` | `E:\学习资料\00-gis-cesium-webgl\Cesium资料\专栏_向上吧，少年` | 着色器基础 |
 
 整理价值：
 
@@ -86,10 +86,10 @@
 
 代表目录：
 
-- `E:\学习资料\Cesium资料\专题_演示特效`
-- `E:\学习资料\Cesium资料\专栏_种瓜的`
-- `E:\学习资料\Cesium资料\专栏_向上吧，少年`
-- `E:\学习资料\Cesium资料\专栏_Terrminal`
+- `E:\学习资料\00-gis-cesium-webgl\Cesium资料\专题_演示特效`
+- `E:\学习资料\00-gis-cesium-webgl\Cesium资料\专栏_种瓜的`
+- `E:\学习资料\00-gis-cesium-webgl\Cesium资料\专栏_向上吧，少年`
+- `E:\学习资料\00-gis-cesium-webgl\Cesium资料\专栏_Terrminal`
 
 代表主题：
 

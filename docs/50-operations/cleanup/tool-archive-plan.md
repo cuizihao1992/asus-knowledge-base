@@ -29,12 +29,12 @@
 | `D:\zhc\.build-tools` | 是 | 目录 | 浅层约 459.47 MB | `E:\ToolsArchive\dev\android\.build-tools` | 先保留，确认 `zhc-companion` 是否还要本地构建后再决定是否迁移 | 迁移后可能破坏本地构建脚本或环境变量 |
 | `E:\SUTPC\BIM支撑平台SDK(2022.3.11).zip` | 是 | 文件 | 8.25 MB | `E:\ToolsArchive\sdk\bim\BIM支撑平台SDK(2022.3.11).zip` | 建议迁移 | SDK 有版本留存价值，不建议删除 |
 | `E:\SUTPC\全生命周期\Axure9.zip` | 是 | 文件 | 102.02 MB | `E:\ToolsArchive\design\prototype\Axure9.zip` | 倾向迁移；若确认不用旧 Axure，可删除 | 旧原型文件可能依赖旧版 Axure |
-| `E:\学习资料\近期zip\opencv-3.2.0.zip` | 是 | 文件 | 78.23 MB | `E:\ToolsArchive\dev\opencv\opencv-3.2.0.zip` | 倾向迁移；若确认不用旧环境，可删除 | 旧图像拼接代码可能依赖该版本 |
-| `E:\学习资料\近期zip\platform-tools-latest-windows.zip` | 是 | 文件 | 6.96 MB | `E:\ToolsArchive\dev\android\platform-tools-latest-windows.zip` | 建议迁移 | Android 调试工具可能仍有用 |
-| `E:\学习资料\Cesium资料\红豆地球V1.133 - 免费.7z` | 是 | 文件 | 59.67 MB | `E:\ToolsArchive\gis-3d\earth\红豆地球V1.133 - 免费.7z` | 建议迁移 | GIS 工具可能用于查看旧数据 |
-| `E:\学习资料\Cesium资料\专栏_vtxf\3dtiles-gltf-explorer Setup 1.0.1.exe` | 是 | 文件 | 47.01 MB | `E:\ToolsArchive\gis-3d\conversion\3dtiles-gltf-explorer Setup 1.0.1.exe` | 建议迁移 | 可能用于 3D Tiles/glTF 预览和排错 |
-| `E:\学习资料\Cesium资料\第三方小工具\COLLADA2GLTF-bin.exe` | 是 | 文件 | 5.78 MB | `E:\ToolsArchive\gis-3d\conversion\COLLADA2GLTF-bin.exe` | 建议迁移 | DAE/Collada 转 glTF 场景仍可能需要 |
-| `E:\学习资料\Cesium资料\第三方小工具\GIF录制录屏工具LICEcap.exe` | 是 | 文件 | 411.99 KB | `E:\ToolsArchive\media\capture\GIF录制录屏工具LICEcap.exe` | 可迁移，也可确认后删除 | 工具可替代性高，保留价值一般 |
+| `E:\学习资料\50-archive-zips\近期zip\opencv-3.2.0.zip` | 是 | 文件 | 78.23 MB | `E:\ToolsArchive\dev\opencv\opencv-3.2.0.zip` | 倾向迁移；若确认不用旧环境，可删除 | 旧图像拼接代码可能依赖该版本 |
+| `E:\学习资料\50-archive-zips\近期zip\platform-tools-latest-windows.zip` | 是 | 文件 | 6.96 MB | `E:\ToolsArchive\dev\android\platform-tools-latest-windows.zip` | 建议迁移 | Android 调试工具可能仍有用 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\红豆地球V1.133 - 免费.7z` | 是 | 文件 | 59.67 MB | `E:\ToolsArchive\gis-3d\earth\红豆地球V1.133 - 免费.7z` | 建议迁移 | GIS 工具可能用于查看旧数据 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\专栏_vtxf\3dtiles-gltf-explorer Setup 1.0.1.exe` | 是 | 文件 | 47.01 MB | `E:\ToolsArchive\gis-3d\conversion\3dtiles-gltf-explorer Setup 1.0.1.exe` | 建议迁移 | 可能用于 3D Tiles/glTF 预览和排错 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\第三方小工具\COLLADA2GLTF-bin.exe` | 是 | 文件 | 5.78 MB | `E:\ToolsArchive\gis-3d\conversion\COLLADA2GLTF-bin.exe` | 建议迁移 | DAE/Collada 转 glTF 场景仍可能需要 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\第三方小工具\GIF录制录屏工具LICEcap.exe` | 是 | 文件 | 411.99 KB | `E:\ToolsArchive\media\capture\GIF录制录屏工具LICEcap.exe` | 可迁移，也可确认后删除 | 工具可替代性高，保留价值一般 |
 
 已知文件类合计：`323,303,149` 字节，约 `308.33 MiB`。`D:\zhc\.build-tools` 本次仅做浅层核对，未做完整递归统计。
 

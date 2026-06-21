@@ -53,14 +53,14 @@
 
 | 路径 | 类型 | 判断 |
 | --- | --- | --- |
-| `E:\学习资料\图像拼接\android-studio-bundle-162.4069837-windows.exe` | 约 2.02GB 安装包 | 可迁移/删除候选；确认是否还需旧版 Android Studio |
-| `E:\学习资料\图像拼接\opencv-3.3.0-vc14.exe` | OpenCV 安装包 | 可迁移候选 |
-| `E:\学习资料\Cesium资料\CesiumLab_操作培训\cesiumlabdev.zip` | CesiumLab 工具包 | 先记录，可能有学习价值 |
-| `E:\学习资料\近期zip\55.欧比特卫星.rar` | 卫星资料包 | 先记录，可能有遥感资料价值 |
-| `E:\学习资料\近期zip\opencv-3.2.0.zip` | OpenCV 包 | 可迁移候选 |
-| `E:\学习资料\webGL\WebGL编程指南.rar` | 学习资料压缩包 | 可能有价值，先记录 |
-| `E:\学习资料\Cesium资料\红豆地球V1.133 - 免费.7z` | 工具包 | 可迁移候选 |
-| `E:\学习资料\Cesium资料\Cesium-1.65.zip` | Cesium 旧版包 | 可迁移候选，若已有解压版可对比 |
+| `E:\学习资料\10-remote-sensing-surveying\图像拼接\android-studio-bundle-162.4069837-windows.exe` | 约 2.02GB 安装包 | 可迁移/删除候选；确认是否还需旧版 Android Studio |
+| `E:\学习资料\10-remote-sensing-surveying\图像拼接\opencv-3.3.0-vc14.exe` | OpenCV 安装包 | 可迁移候选 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\CesiumLab_操作培训\cesiumlabdev.zip` | CesiumLab 工具包 | 先记录，可能有学习价值 |
+| `E:\学习资料\50-archive-zips\近期zip\55.欧比特卫星.rar` | 卫星资料包 | 先记录，可能有遥感资料价值 |
+| `E:\学习资料\50-archive-zips\近期zip\opencv-3.2.0.zip` | OpenCV 包 | 可迁移候选 |
+| `E:\学习资料\00-gis-cesium-webgl\webGL\WebGL编程指南.rar` | 学习资料压缩包 | 可能有价值，先记录 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\红豆地球V1.133 - 免费.7z` | 工具包 | 可迁移候选 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\Cesium-1.65.zip` | Cesium 旧版包 | 可迁移候选，若已有解压版可对比 |
 
 判断：学习资料里的安装包和旧工具包可以列入候选，但论文、标准、代码示例和课程资料仍应先索引再判断。
 

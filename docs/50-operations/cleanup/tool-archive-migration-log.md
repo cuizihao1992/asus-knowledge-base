@@ -7,10 +7,10 @@
 | 源路径 | 目标路径 | 大小（字节） | 迁移后源存在 | 迁移后目标存在 |
 | --- | --- | ---: | --- | --- |
 | `E:\SUTPC\BIM支撑平台SDK(2022.3.11).zip` | `E:\ToolsArchive\sdk\bim\BIM支撑平台SDK(2022.3.11).zip` | 8649675 | 否 | 是 |
-| `E:\学习资料\近期zip\platform-tools-latest-windows.zip` | `E:\ToolsArchive\dev\android\platform-tools-latest-windows.zip` | 7293656 | 否 | 是 |
-| `E:\学习资料\Cesium资料\红豆地球V1.133 - 免费.7z` | `E:\ToolsArchive\gis-3d\earth\红豆地球V1.133 - 免费.7z` | 62568147 | 否 | 是 |
-| `E:\学习资料\Cesium资料\专栏_vtxf\3dtiles-gltf-explorer Setup 1.0.1.exe` | `E:\ToolsArchive\gis-3d\conversion\3dtiles-gltf-explorer Setup 1.0.1.exe` | 49297595 | 否 | 是 |
-| `E:\学习资料\Cesium资料\第三方小工具\COLLADA2GLTF-bin.exe` | `E:\ToolsArchive\gis-3d\conversion\COLLADA2GLTF-bin.exe` | 6060032 | 否 | 是 |
+| `E:\学习资料\50-archive-zips\近期zip\platform-tools-latest-windows.zip` | `E:\ToolsArchive\dev\android\platform-tools-latest-windows.zip` | 7293656 | 否 | 是 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\红豆地球V1.133 - 免费.7z` | `E:\ToolsArchive\gis-3d\earth\红豆地球V1.133 - 免费.7z` | 62568147 | 否 | 是 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\专栏_vtxf\3dtiles-gltf-explorer Setup 1.0.1.exe` | `E:\ToolsArchive\gis-3d\conversion\3dtiles-gltf-explorer Setup 1.0.1.exe` | 49297595 | 否 | 是 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\第三方小工具\COLLADA2GLTF-bin.exe` | `E:\ToolsArchive\gis-3d\conversion\COLLADA2GLTF-bin.exe` | 6060032 | 否 | 是 |
 
 迁移总量：`133,869,105` 字节，约 `127.67 MiB`。
 
@@ -23,8 +23,8 @@
 | 源路径 | 目标路径 | 大小（字节） | 迁移后源存在 | 迁移后目标存在 |
 | --- | --- | ---: | --- | --- |
 | `E:\SUTPC\全生命周期\Axure9.zip` | `E:\ToolsArchive\design\prototype\Axure9.zip` | 106978658 | 否 | 是 |
-| `E:\学习资料\近期zip\opencv-3.2.0.zip` | `E:\ToolsArchive\dev\opencv\opencv-3.2.0.zip` | 82033498 | 否 | 是 |
-| `E:\学习资料\Cesium资料\第三方小工具\GIF录制录屏工具LICEcap.exe` | `E:\ToolsArchive\media\capture\GIF录制录屏工具LICEcap.exe` | 421888 | 否 | 是 |
+| `E:\学习资料\50-archive-zips\近期zip\opencv-3.2.0.zip` | `E:\ToolsArchive\dev\opencv\opencv-3.2.0.zip` | 82033498 | 否 | 是 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\第三方小工具\GIF录制录屏工具LICEcap.exe` | `E:\ToolsArchive\media\capture\GIF录制录屏工具LICEcap.exe` | 421888 | 否 | 是 |
 
 迁移总量：`189,434,044` 字节，约 `180.66 MiB`。
 
@@ -35,6 +35,6 @@
 
 | 源路径 | 目标路径 | 大小（字节） | 迁移后源存在 | 迁移后目标存在 |
 | --- | --- | ---: | --- | --- |
-| `E:\学习资料\Cesium资料\Cesium-1.65.zip` | `E:\ToolsArchive\gis-3d\cesium\Cesium-1.65.zip` | 54237500 | 否 | 是 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\Cesium-1.65.zip` | `E:\ToolsArchive\gis-3d\cesium\Cesium-1.65.zip` | 54237500 | 否 | 是 |
 
 迁移总量：`54,237,500` 字节，约 `51.72 MiB`。

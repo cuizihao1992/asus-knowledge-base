@@ -29,9 +29,9 @@
 
 第一批整理入口：
 
-- `E:\学习资料\Cesium资料`
-- `E:\学习资料\JavaScript深度学习`
-- `E:\学习资料\学习文档`
+- `E:\学习资料\00-gis-cesium-webgl\Cesium资料`
+- `E:\学习资料\20-programming-ai\JavaScript深度学习`
+- `E:\学习资料\30-books-papers\学习文档`
 - `E:\BaiduNetdiskDownload\《Python语言程序设计基础第2版-嵩天（PDF 课件 源代码）》`
 
 ## 模块 2：GIS / Cesium / SuperMap
@@ -42,7 +42,7 @@
 - `D:\Cesium-1.48`
 - `E:\Cesium-1.91`
 - `D:\SuperMap`
-- `E:\学习资料\Cesium资料`
+- `E:\学习资料\00-gis-cesium-webgl\Cesium资料`
 
 收录内容：
 

@@ -15,10 +15,10 @@
 | 源路径 | 源文件存在 | 大小（字节） | 修改时间 | 目标路径 | 目标目录存在 | 目标文件存在 | 风险 | 建议 |
 | --- | --- | ---: | --- | --- | --- | --- | --- | --- |
 | `E:\SUTPC\BIM支撑平台SDK(2022.3.11).zip` | 是 | 8649675 | 2022-03-11 13:10:04 | `E:\ToolsArchive\sdk\bim\BIM支撑平台SDK(2022.3.11).zip` | 否 | 否 | SDK 有版本留存价值，迁移后原项目资料区少一个 SDK 入口 | 迁移 |
-| `E:\学习资料\近期zip\platform-tools-latest-windows.zip` | 是 | 7293656 | 2017-04-30 11:16:29 | `E:\ToolsArchive\dev\android\platform-tools-latest-windows.zip` | 否 | 否 | Android 调试工具可能被旧项目引用，但压缩包本身适合归档 | 迁移 |
-| `E:\学习资料\Cesium资料\红豆地球V1.133 - 免费.7z` | 是 | 62568147 | 2020-02-27 17:00:54 | `E:\ToolsArchive\gis-3d\earth\红豆地球V1.133 - 免费.7z` | 否 | 否 | 可能用于查看旧 GIS 数据；不应删除 | 迁移 |
-| `E:\学习资料\Cesium资料\专栏_vtxf\3dtiles-gltf-explorer Setup 1.0.1.exe` | 是 | 49297595 | 2020-02-27 17:00:07 | `E:\ToolsArchive\gis-3d\conversion\3dtiles-gltf-explorer Setup 1.0.1.exe` | 否 | 否 | 可能用于 3D Tiles/glTF 预览和排错 | 迁移 |
-| `E:\学习资料\Cesium资料\第三方小工具\COLLADA2GLTF-bin.exe` | 是 | 6060032 | 2020-02-27 17:00:55 | `E:\ToolsArchive\gis-3d\conversion\COLLADA2GLTF-bin.exe` | 否 | 否 | DAE/Collada 转 glTF 场景仍可能需要 | 迁移 |
+| `E:\学习资料\50-archive-zips\近期zip\platform-tools-latest-windows.zip` | 是 | 7293656 | 2017-04-30 11:16:29 | `E:\ToolsArchive\dev\android\platform-tools-latest-windows.zip` | 否 | 否 | Android 调试工具可能被旧项目引用，但压缩包本身适合归档 | 迁移 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\红豆地球V1.133 - 免费.7z` | 是 | 62568147 | 2020-02-27 17:00:54 | `E:\ToolsArchive\gis-3d\earth\红豆地球V1.133 - 免费.7z` | 否 | 否 | 可能用于查看旧 GIS 数据；不应删除 | 迁移 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\专栏_vtxf\3dtiles-gltf-explorer Setup 1.0.1.exe` | 是 | 49297595 | 2020-02-27 17:00:07 | `E:\ToolsArchive\gis-3d\conversion\3dtiles-gltf-explorer Setup 1.0.1.exe` | 否 | 否 | 可能用于 3D Tiles/glTF 预览和排错 | 迁移 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\第三方小工具\COLLADA2GLTF-bin.exe` | 是 | 6060032 | 2020-02-27 17:00:55 | `E:\ToolsArchive\gis-3d\conversion\COLLADA2GLTF-bin.exe` | 否 | 否 | DAE/Collada 转 glTF 场景仍可能需要 | 迁移 |
 
 ## 目标目录
 
@@ -40,10 +40,10 @@ New-Item -ItemType Directory -Force -Path 'E:\ToolsArchive\gis-3d\earth'
 New-Item -ItemType Directory -Force -Path 'E:\ToolsArchive\gis-3d\conversion'
 
 Move-Item -LiteralPath 'E:\SUTPC\BIM支撑平台SDK(2022.3.11).zip' -Destination 'E:\ToolsArchive\sdk\bim\BIM支撑平台SDK(2022.3.11).zip'
-Move-Item -LiteralPath 'E:\学习资料\近期zip\platform-tools-latest-windows.zip' -Destination 'E:\ToolsArchive\dev\android\platform-tools-latest-windows.zip'
-Move-Item -LiteralPath 'E:\学习资料\Cesium资料\红豆地球V1.133 - 免费.7z' -Destination 'E:\ToolsArchive\gis-3d\earth\红豆地球V1.133 - 免费.7z'
-Move-Item -LiteralPath 'E:\学习资料\Cesium资料\专栏_vtxf\3dtiles-gltf-explorer Setup 1.0.1.exe' -Destination 'E:\ToolsArchive\gis-3d\conversion\3dtiles-gltf-explorer Setup 1.0.1.exe'
-Move-Item -LiteralPath 'E:\学习资料\Cesium资料\第三方小工具\COLLADA2GLTF-bin.exe' -Destination 'E:\ToolsArchive\gis-3d\conversion\COLLADA2GLTF-bin.exe'
+Move-Item -LiteralPath 'E:\学习资料\50-archive-zips\近期zip\platform-tools-latest-windows.zip' -Destination 'E:\ToolsArchive\dev\android\platform-tools-latest-windows.zip'
+Move-Item -LiteralPath 'E:\学习资料\00-gis-cesium-webgl\Cesium资料\红豆地球V1.133 - 免费.7z' -Destination 'E:\ToolsArchive\gis-3d\earth\红豆地球V1.133 - 免费.7z'
+Move-Item -LiteralPath 'E:\学习资料\00-gis-cesium-webgl\Cesium资料\专栏_vtxf\3dtiles-gltf-explorer Setup 1.0.1.exe' -Destination 'E:\ToolsArchive\gis-3d\conversion\3dtiles-gltf-explorer Setup 1.0.1.exe'
+Move-Item -LiteralPath 'E:\学习资料\00-gis-cesium-webgl\Cesium资料\第三方小工具\COLLADA2GLTF-bin.exe' -Destination 'E:\ToolsArchive\gis-3d\conversion\COLLADA2GLTF-bin.exe'
 ```
 
 ## 执行前安全条件

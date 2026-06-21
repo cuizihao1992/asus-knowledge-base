@@ -33,30 +33,30 @@
 
 | 资料 | 数量 | 大小 | SHA256 前缀 | 重复位置 | 建议 |
 | --- | ---: | ---: | --- | --- | --- |
-| `WebGL 编程指南.pdf` | 2 | 约 81.26MB | `C1854BC216525CD2` | `E:\学习资料\Cesium资料\WebGL 编程指南.pdf`；`E:\学习资料\Cesium资料\计算机_图形学\WebGL 编程指南.pdf` | 保留主索引，删除需确认 |
-| `WebGL编程指南.pdf` | 2 | 约 81.26MB | `C1854BC216525CD2` | `E:\学习资料\Cesium资料\计算机_图形学\WebGL编程指南.pdf`；`E:\学习资料\学习文档\WebGL编程指南.pdf` | 与上一项哈希相同，疑似同一书籍多命名 |
-| `WebGL.Insights.-.Patrick.Cozzi.pdf` | 2 | 约 74.91MB | `01CF665AA52DEF7A` | `E:\学习资料\Cesium资料\专栏_vtxf\WebGL.Insights.-.Patrick.Cozzi.pdf`；`E:\学习资料\webGL\WebGL.Insights.-.Patrick.Cozzi.pdf` | 高价值书籍，保留一个主索引 |
-| `3DEngineDesignForVirtualGlobesSection121（level of details）.pdf` | 2 | 约 1.97MB | `30090B27395F7CDE` | `E:\学习资料\Cesium资料\计算机_图形学\...`；`E:\学习资料\学习文档\...` | Cesium/WebGL 资料重复候选 |
-| `CesiumlabHelp.pdf` | 2 | 约 2.87MB | `EC54BFA6443C324F` | `E:\学习资料\Cesium资料\计算机_图形学\CesiumlabHelp.pdf`；`E:\学习资料\学习文档\CesiumlabHelp.pdf` | CesiumLab 帮助文档重复候选 |
-| `CESIUM基础培训代码(cesiumlab提供).zip` | 2 | 约 30.90MB | `7A92956564F3F0EE` | `E:\学习资料\Cesium资料\计算机_图形学\...`；`E:\学习资料\学习文档\...` | 压缩包重复候选，不解压 |
-| `ALOS_HB_RevC_EN.pdf` | 2 | 约 2.28MB | `DA79C878A1FB3CE9` | `E:\学习资料\卫星使用手册\...`；`E:\学习资料\收集资料\卫星使用手册\...` | 卫星手册重复候选 |
-| `PleiadesUserGuide.pdf` | 2 | 约 5.35MB | `D48B6EB25A51907F` | `E:\学习资料\卫星使用手册\...`；`E:\学习资料\收集资料\卫星使用手册\...` | 卫星手册重复候选 |
-| `DigitalGlobe_Core_Imagery_Products_Guide.pdf` | 2 | 约 0.22MB | `41DF005E0833E2B3` | `E:\学习资料\卫星使用手册\...`；`E:\学习资料\收集资料\卫星使用手册\...` | 卫星手册重复候选 |
-| `r439_9_spot_geometry_handbook.pdf` | 2 | 约 4.05MB | `11BE35EFB59F44A5` | `E:\学习资料\卫星使用手册\...`；`E:\学习资料\收集资料\卫星使用手册\...` | SPOT 几何手册重复候选 |
-| `TX-GS-DD-3307_TerraSAR-X_Ground_Segment_Level_1b_Product_Format_Specification.pdf` | 2 | 约 4.07MB | `BC35AF543C474869` | `E:\学习资料\卫星使用手册\...`；`E:\学习资料\收集资料\卫星使用手册\...` | TerraSAR-X 手册重复候选 |
-| `P5_data_user_handbook.pdf` | 2 | 约 4.19MB | `A18BD69940D9076C` | `E:\学习资料\卫星使用手册\...`；`E:\学习资料\收集资料\卫星使用手册\...` | 卫星手册重复候选 |
-| `SISDP-DEM-GENERATION-BHUVAN.pdf` | 2 | 约 0.88MB | `7258CC6B928CBF97` | `E:\学习资料\卫星使用手册\...`；`E:\学习资料\收集资料\卫星使用手册\...` | DEM 生成资料重复候选 |
-| `4_Schott_water_workshop_2012.pdf` | 2 | 约 2.29MB | `510D084BC6BE6F99` | `E:\学习资料\卫星使用手册\...`；`E:\学习资料\收集资料\卫星使用手册\...` | 遥感报告重复候选 |
-| `agri_technical_report_with_table_contents.pdf` | 2 | 约 1.48MB | `B6F34B7A87F3FE80` | `E:\学习资料\卫星使用手册\...`；`E:\学习资料\收集资料\卫星使用手册\...` | 遥感报告重复候选 |
-| `ISSFD23_OD2_1.pdf` | 2 | 约 1.52MB | `6ED11888B0854949` | `E:\学习资料\卫星使用手册\...`；`E:\学习资料\收集资料\卫星使用手册\...` | 技术报告重复候选 |
-| `Srivastava_etal.pdf` | 2 | 约 1.53MB | `7A656044948E2D7C` | `E:\学习资料\卫星使用手册\...`；`E:\学习资料\收集资料\卫星使用手册\...` | 遥感论文/报告重复候选 |
-| `id1262778-paper-001.pdf` | 2 | 约 0.80MB | `2DDEA1AD6AA68DDA` | `E:\学习资料\卫星使用手册\...`；`E:\学习资料\收集资料\卫星使用手册\...` | 遥感论文/报告重复候选 |
-| `CCD distortion calibration without accurate ground control data for pushbroom satellites.pdf` | 2 | 约 1.72MB | `40E83D864012B409` | `E:\学习资料\论文\...pdf`；`E:\学习资料\论文\CCD distortion calibration without accurate ground control data for pushbroom satellites\...pdf` | 研究资料重复候选，谨慎处理 |
-| `人类的性存在（第8版）.pdf` | 2 | 约 135.75MB | `255C64159ADC1475` | `E:\学习资料\书籍\人类的性存在（第8版）.pdf`；`E:\学习资料\书籍\ipad\人类的性存在（第8版）.pdf` | 泛化书籍重复候选 |
-| `Linux命令大全(Linuxidc.com修改版).chm` | 2 | 约 0.56MB | `CBF080BA0182ADB7` | `E:\学习资料\linux命令\...`；`E:\学习资料\收集资料\linux命令大全\...` | 工具手册重复候选 |
-| `Linux命令大全(Linuxidc.com修改版).chw` | 2 | 约 0.03MB | `91CA3FC5B4CD2767` | `E:\学习资料\linux命令\...`；`E:\学习资料\收集资料\linux命令大全\...` | 工具手册重复候选 |
-| `GPU高性能运算之CUDA.pdf` | 2 | 约 14.21MB | `A5743011A30F9A87` | `E:\学习资料\CUDA\cuda编程学习\GPU高性能运算之CUDA.pdf`；`E:\学习资料\书籍\GPU高性能运算之CUDA.pdf` | 技术书重复候选 |
-| `分辨率与比例尺.pdf` | 2 | 约 0.18MB | `F251E98D02E53871` | `E:\学习资料\1：25000，1：50000相关测绘标准\分辨率与比例尺.pdf`；`E:\学习资料\软件操作\ERDAS-envi操作\分辨率与比例尺.pdf` | 测绘/软件操作资料重复候选 |
+| `WebGL 编程指南.pdf` | 2 | 约 81.26MB | `C1854BC216525CD2` | `E:\学习资料\00-gis-cesium-webgl\Cesium资料\WebGL 编程指南.pdf`；`E:\学习资料\00-gis-cesium-webgl\Cesium资料\计算机_图形学\WebGL 编程指南.pdf` | 保留主索引，删除需确认 |
+| `WebGL编程指南.pdf` | 2 | 约 81.26MB | `C1854BC216525CD2` | `E:\学习资料\00-gis-cesium-webgl\Cesium资料\计算机_图形学\WebGL编程指南.pdf`；`E:\学习资料\30-books-papers\学习文档\WebGL编程指南.pdf` | 与上一项哈希相同，疑似同一书籍多命名 |
+| `WebGL.Insights.-.Patrick.Cozzi.pdf` | 2 | 约 74.91MB | `01CF665AA52DEF7A` | `E:\学习资料\00-gis-cesium-webgl\Cesium资料\专栏_vtxf\WebGL.Insights.-.Patrick.Cozzi.pdf`；`E:\学习资料\00-gis-cesium-webgl\webGL\WebGL.Insights.-.Patrick.Cozzi.pdf` | 高价值书籍，保留一个主索引 |
+| `3DEngineDesignForVirtualGlobesSection121（level of details）.pdf` | 2 | 约 1.97MB | `30090B27395F7CDE` | `E:\学习资料\00-gis-cesium-webgl\Cesium资料\计算机_图形学\...`；`E:\学习资料\30-books-papers\学习文档\...` | Cesium/WebGL 资料重复候选 |
+| `CesiumlabHelp.pdf` | 2 | 约 2.87MB | `EC54BFA6443C324F` | `E:\学习资料\00-gis-cesium-webgl\Cesium资料\计算机_图形学\CesiumlabHelp.pdf`；`E:\学习资料\30-books-papers\学习文档\CesiumlabHelp.pdf` | CesiumLab 帮助文档重复候选 |
+| `CESIUM基础培训代码(cesiumlab提供).zip` | 2 | 约 30.90MB | `7A92956564F3F0EE` | `E:\学习资料\00-gis-cesium-webgl\Cesium资料\计算机_图形学\...`；`E:\学习资料\30-books-papers\学习文档\...` | 压缩包重复候选，不解压 |
+| `ALOS_HB_RevC_EN.pdf` | 2 | 约 2.28MB | `DA79C878A1FB3CE9` | `E:\学习资料\10-remote-sensing-surveying\卫星使用手册\...`；`E:\学习资料\90-misc-review\收集资料\卫星使用手册\...` | 卫星手册重复候选 |
+| `PleiadesUserGuide.pdf` | 2 | 约 5.35MB | `D48B6EB25A51907F` | `E:\学习资料\10-remote-sensing-surveying\卫星使用手册\...`；`E:\学习资料\90-misc-review\收集资料\卫星使用手册\...` | 卫星手册重复候选 |
+| `DigitalGlobe_Core_Imagery_Products_Guide.pdf` | 2 | 约 0.22MB | `41DF005E0833E2B3` | `E:\学习资料\10-remote-sensing-surveying\卫星使用手册\...`；`E:\学习资料\90-misc-review\收集资料\卫星使用手册\...` | 卫星手册重复候选 |
+| `r439_9_spot_geometry_handbook.pdf` | 2 | 约 4.05MB | `11BE35EFB59F44A5` | `E:\学习资料\10-remote-sensing-surveying\卫星使用手册\...`；`E:\学习资料\90-misc-review\收集资料\卫星使用手册\...` | SPOT 几何手册重复候选 |
+| `TX-GS-DD-3307_TerraSAR-X_Ground_Segment_Level_1b_Product_Format_Specification.pdf` | 2 | 约 4.07MB | `BC35AF543C474869` | `E:\学习资料\10-remote-sensing-surveying\卫星使用手册\...`；`E:\学习资料\90-misc-review\收集资料\卫星使用手册\...` | TerraSAR-X 手册重复候选 |
+| `P5_data_user_handbook.pdf` | 2 | 约 4.19MB | `A18BD69940D9076C` | `E:\学习资料\10-remote-sensing-surveying\卫星使用手册\...`；`E:\学习资料\90-misc-review\收集资料\卫星使用手册\...` | 卫星手册重复候选 |
+| `SISDP-DEM-GENERATION-BHUVAN.pdf` | 2 | 约 0.88MB | `7258CC6B928CBF97` | `E:\学习资料\10-remote-sensing-surveying\卫星使用手册\...`；`E:\学习资料\90-misc-review\收集资料\卫星使用手册\...` | DEM 生成资料重复候选 |
+| `4_Schott_water_workshop_2012.pdf` | 2 | 约 2.29MB | `510D084BC6BE6F99` | `E:\学习资料\10-remote-sensing-surveying\卫星使用手册\...`；`E:\学习资料\90-misc-review\收集资料\卫星使用手册\...` | 遥感报告重复候选 |
+| `agri_technical_report_with_table_contents.pdf` | 2 | 约 1.48MB | `B6F34B7A87F3FE80` | `E:\学习资料\10-remote-sensing-surveying\卫星使用手册\...`；`E:\学习资料\90-misc-review\收集资料\卫星使用手册\...` | 遥感报告重复候选 |
+| `ISSFD23_OD2_1.pdf` | 2 | 约 1.52MB | `6ED11888B0854949` | `E:\学习资料\10-remote-sensing-surveying\卫星使用手册\...`；`E:\学习资料\90-misc-review\收集资料\卫星使用手册\...` | 技术报告重复候选 |
+| `Srivastava_etal.pdf` | 2 | 约 1.53MB | `7A656044948E2D7C` | `E:\学习资料\10-remote-sensing-surveying\卫星使用手册\...`；`E:\学习资料\90-misc-review\收集资料\卫星使用手册\...` | 遥感论文/报告重复候选 |
+| `id1262778-paper-001.pdf` | 2 | 约 0.80MB | `2DDEA1AD6AA68DDA` | `E:\学习资料\10-remote-sensing-surveying\卫星使用手册\...`；`E:\学习资料\90-misc-review\收集资料\卫星使用手册\...` | 遥感论文/报告重复候选 |
+| `CCD distortion calibration without accurate ground control data for pushbroom satellites.pdf` | 2 | 约 1.72MB | `40E83D864012B409` | `E:\学习资料\30-books-papers\论文\...pdf`；`E:\学习资料\30-books-papers\论文\CCD distortion calibration without accurate ground control data for pushbroom satellites\...pdf` | 研究资料重复候选，谨慎处理 |
+| `人类的性存在（第8版）.pdf` | 2 | 约 135.75MB | `255C64159ADC1475` | `E:\学习资料\30-books-papers\书籍\人类的性存在（第8版）.pdf`；`E:\学习资料\30-books-papers\书籍\ipad\人类的性存在（第8版）.pdf` | 泛化书籍重复候选 |
+| `Linux命令大全(Linuxidc.com修改版).chm` | 2 | 约 0.56MB | `CBF080BA0182ADB7` | `E:\学习资料\20-programming-ai\linux命令\...`；`E:\学习资料\90-misc-review\收集资料\linux命令大全\...` | 工具手册重复候选 |
+| `Linux命令大全(Linuxidc.com修改版).chw` | 2 | 约 0.03MB | `91CA3FC5B4CD2767` | `E:\学习资料\20-programming-ai\linux命令\...`；`E:\学习资料\90-misc-review\收集资料\linux命令大全\...` | 工具手册重复候选 |
+| `GPU高性能运算之CUDA.pdf` | 2 | 约 14.21MB | `A5743011A30F9A87` | `E:\学习资料\20-programming-ai\CUDA\cuda编程学习\GPU高性能运算之CUDA.pdf`；`E:\学习资料\30-books-papers\书籍\GPU高性能运算之CUDA.pdf` | 技术书重复候选 |
+| `分辨率与比例尺.pdf` | 2 | 约 0.18MB | `F251E98D02E53871` | `E:\学习资料\10-remote-sensing-surveying\测绘标准\1：25000，1：50000相关测绘标准\分辨率与比例尺.pdf`；`E:\学习资料\40-tools-operations\软件操作\ERDAS-envi操作\分辨率与比例尺.pdf` | 测绘/软件操作资料重复候选 |
 
 ## 目录级重复风险
 
@@ -64,11 +64,11 @@
 
 | 目录/资料组 | 重复特征 | 建议 |
 | --- | --- | --- |
-| `E:\学习资料\图像拼接\CImg-master` 与 `CImg_latest` | CImg 头文件、插件、示例文件大量重复 | 先确认版本关系，再决定是否归档 |
-| `E:\学习资料\图像拼接\ImageStitching-master` | 内部包含 CImg 相关副本 | 不按单文件删除，保留工程完整性 |
-| `E:\学习资料\CUDA\SiftGPU` 与 `SiftGPU-master` | 源码、数据、说明、库文件重复 | 先确认哪个目录可运行 |
-| `E:\学习资料\卫星使用手册` 与 `E:\学习资料\收集资料\卫星使用手册` | 12 个 PDF 完整重复 | 可作为优先人工确认对象 |
-| `E:\学习资料\Cesium资料` 与 `E:\学习资料\学习文档` | WebGL、CesiumLab 文档和培训代码重复 | 可保留 `学习文档` 为精简索引，或保留 Cesium 主目录，需确认 |
+| `E:\学习资料\10-remote-sensing-surveying\图像拼接\CImg-master` 与 `CImg_latest` | CImg 头文件、插件、示例文件大量重复 | 先确认版本关系，再决定是否归档 |
+| `E:\学习资料\10-remote-sensing-surveying\图像拼接\ImageStitching-master` | 内部包含 CImg 相关副本 | 不按单文件删除，保留工程完整性 |
+| `E:\学习资料\20-programming-ai\CUDA\SiftGPU` 与 `SiftGPU-master` | 源码、数据、说明、库文件重复 | 先确认哪个目录可运行 |
+| `E:\学习资料\10-remote-sensing-surveying\卫星使用手册` 与 `E:\学习资料\90-misc-review\收集资料\卫星使用手册` | 12 个 PDF 完整重复 | 可作为优先人工确认对象 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料` 与 `E:\学习资料\30-books-papers\学习文档` | WebGL、CesiumLab 文档和培训代码重复 | 可保留 `学习文档` 为精简索引，或保留 Cesium 主目录，需确认 |
 
 ## 可优先确认的删除候选
 

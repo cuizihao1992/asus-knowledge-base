@@ -19,27 +19,27 @@
 
 | 目录/文件 | 类型 | 路径 | 最近更新时间 | 初步判断 |
 | --- | --- | --- | --- | --- |
-| Cesium资料 | Cesium/WebGL 视频、PDF、示例 | `E:\学习资料\Cesium资料` | 2020-02-27 | 高价值，和 GIS/BIM/三维可视化强相关 |
-| 图像拼接 | 图像处理、卫星影像、代码和安装包 | `E:\学习资料\图像拼接` | 2019-01-03 | 高价值，但混有大安装包 |
-| 书籍 | PDF/EPUB/PDZ 电子书 | `E:\学习资料\书籍` | 2018-10-24 | 保留索引，存在重复和泛化书籍 |
-| 年终中总结 | 个人/团队阶段总结 | `E:\学习资料\年终中总结` | 2018-10-31 | 有个人成长和项目脉络价值 |
-| 近期zip | 历史压缩包和下载包 | `E:\学习资料\近期zip` | 2017-12-06 | 待确认，不解压 |
-| 收集资料 | 测绘、卫星、坐标转换、工具资料 | `E:\学习资料\收集资料` | 2018-04-07 | 专业资料，建议保留索引 |
-| webGL | WebGL 书籍、示例和压缩包 | `E:\学习资料\webGL` | 2018-10-24 | 可和 Cesium 合并成专题 |
-| 软件操作 | Eclipse、ERDAS/ENVI、MATLAB、VS 操作资料 | `E:\学习资料\软件操作` | 2018-04-07 | 工具类资料，择机摘要 |
-| CUDA | CUDA/GPU 计算资料和示例 | `E:\学习资料\CUDA` | 2017-12-06 | 技术资料，可归入 AI/高性能计算 |
-| 学习文档 | Cesium/WebGL/跨域等文档 | `E:\学习资料\学习文档` | 2019-06-03 | 高价值，和 Cesium 资料重复关联 |
-| 1：25000，1：50000相关测绘标准 | 测绘标准 PDF/文档 | `E:\学习资料\1：25000，1：50000相关测绘标准` | 2018-04-07 | 专业标准，保留索引 |
-| 硕士毕设开题 | 开题报告、PPT、论文资料 | `E:\学习资料\硕士毕设开题` | 2018-06-02 | 个人研究脉络，优先摘要 |
-| JavaScript深度学习 | JS 深度学习资料和代码 | `E:\学习资料\JavaScript深度学习` | 2021-07-10 | 可作为 AI 学习专题 |
-| 论文 | 图像配准、相机畸变、遥感几何论文 | `E:\学习资料\论文` | 2018-10-24 | 高价值，适合论文清单 |
-| 未分类 | PDF/CAJ 杂项论文 | `E:\学习资料\未分类` | 2018-04-04 | 待分类，先保留 |
-| JavaScript | JS 电子书 | `E:\学习资料\JavaScript` | 2018-10-24 | 通用技术资料 |
-| 卫星使用手册 | 卫星产品和影像使用手册 | `E:\学习资料\卫星使用手册` | 2018-04-07 | 遥感资料，保留索引 |
-| 黄师兄的论文 | 遥感几何模型论文文档 | `E:\学习资料\黄师兄的论文` | 2018-04-07 | 小而明确，优先摘要候选 |
-| RUNSAC | RANSAC 论文和代码 | `E:\学习资料\RUNSAC` | 2017-12-07 | 算法专题，可归入图像配准 |
-| linux命令 | CHM 帮助手册 | `E:\学习资料\linux命令` | 2017-12-06 | 工具资料，低优先级 |
-| 脚本 | 批处理和文本脚本 | `E:\学习资料\脚本` | 2017-12-06 | 低体量，待确认 |
+| Cesium资料 | Cesium/WebGL 视频、PDF、示例 | `E:\学习资料\00-gis-cesium-webgl\Cesium资料` | 2020-02-27 | 高价值，和 GIS/BIM/三维可视化强相关 |
+| 图像拼接 | 图像处理、卫星影像、代码和安装包 | `E:\学习资料\10-remote-sensing-surveying\图像拼接` | 2019-01-03 | 高价值，但混有大安装包 |
+| 书籍 | PDF/EPUB/PDZ 电子书 | `E:\学习资料\30-books-papers\书籍` | 2018-10-24 | 保留索引，存在重复和泛化书籍 |
+| 年终中总结 | 个人/团队阶段总结 | `E:\学习资料\90-misc-review\年终中总结` | 2018-10-31 | 有个人成长和项目脉络价值 |
+| 近期zip | 历史压缩包和下载包 | `E:\学习资料\50-archive-zips\近期zip` | 2017-12-06 | 待确认，不解压 |
+| 收集资料 | 测绘、卫星、坐标转换、工具资料 | `E:\学习资料\90-misc-review\收集资料` | 2018-04-07 | 专业资料，建议保留索引 |
+| webGL | WebGL 书籍、示例和压缩包 | `E:\学习资料\00-gis-cesium-webgl\webGL` | 2018-10-24 | 可和 Cesium 合并成专题 |
+| 软件操作 | Eclipse、ERDAS/ENVI、MATLAB、VS 操作资料 | `E:\学习资料\40-tools-operations\软件操作` | 2018-04-07 | 工具类资料，择机摘要 |
+| CUDA | CUDA/GPU 计算资料和示例 | `E:\学习资料\20-programming-ai\CUDA` | 2017-12-06 | 技术资料，可归入 AI/高性能计算 |
+| 学习文档 | Cesium/WebGL/跨域等文档 | `E:\学习资料\30-books-papers\学习文档` | 2019-06-03 | 高价值，和 Cesium 资料重复关联 |
+| 1：25000，1：50000相关测绘标准 | 测绘标准 PDF/文档 | `E:\学习资料\10-remote-sensing-surveying\测绘标准\1：25000，1：50000相关测绘标准` | 2018-04-07 | 专业标准，保留索引 |
+| 硕士毕设开题 | 开题报告、PPT、论文资料 | `E:\学习资料\10-remote-sensing-surveying\硕士毕设开题` | 2018-06-02 | 个人研究脉络，优先摘要 |
+| JavaScript深度学习 | JS 深度学习资料和代码 | `E:\学习资料\20-programming-ai\JavaScript深度学习` | 2021-07-10 | 可作为 AI 学习专题 |
+| 论文 | 图像配准、相机畸变、遥感几何论文 | `E:\学习资料\30-books-papers\论文` | 2018-10-24 | 高价值，适合论文清单 |
+| 未分类 | PDF/CAJ 杂项论文 | `E:\学习资料\90-misc-review\未分类` | 2018-04-04 | 待分类，先保留 |
+| JavaScript | JS 电子书 | `E:\学习资料\20-programming-ai\JavaScript` | 2018-10-24 | 通用技术资料 |
+| 卫星使用手册 | 卫星产品和影像使用手册 | `E:\学习资料\10-remote-sensing-surveying\卫星使用手册` | 2018-04-07 | 遥感资料，保留索引 |
+| 黄师兄的论文 | 遥感几何模型论文文档 | `E:\学习资料\10-remote-sensing-surveying\黄师兄的论文` | 2018-04-07 | 小而明确，优先摘要候选 |
+| RUNSAC | RANSAC 论文和代码 | `E:\学习资料\10-remote-sensing-surveying\RUNSAC` | 2017-12-07 | 算法专题，可归入图像配准 |
+| linux命令 | CHM 帮助手册 | `E:\学习资料\20-programming-ai\linux命令` | 2017-12-06 | 工具资料，低优先级 |
+| 脚本 | 批处理和文本脚本 | `E:\学习资料\20-programming-ai\脚本` | 2017-12-06 | 低体量，待确认 |
 | 根目录文档 | Cesium/BIM、Python、遥感、毕设等文档 | `E:\学习资料\*` | 2015-2020 | 多个高价值单文件 |
 
 ## 浅层目录体量
@@ -48,27 +48,27 @@
 
 | 目录 | 浅层文件数 | 浅层体量 | 主要类型 | 判断 |
 | --- | ---: | ---: | --- | --- |
-| `E:\学习资料\Cesium资料` | 270 | 约 3.96GB | `.mp4`、`.pdf`、`.wmv`、`.gif`、`.zip` | 三维 GIS 学习核心资料 |
-| `E:\学习资料\图像拼接` | 198 | 约 2.67GB | `.cpp`、`.h`、`.pdf`、`.JPG`、`.m` | 遥感/图像处理核心资料，含安装包 |
-| `E:\学习资料\书籍` | 83 | 约 1.77GB | `.pdf`、`.epub`、`.jpg`、`.txt`、`.pdz` | 电子书集合，需去重评估 |
-| `E:\学习资料\年终中总结` | 95 | 约 650MB | `.pptx`、`.ppt`、`.docx`、`.xlsx`、`.png` | 历史总结，适合沉淀经验 |
-| `E:\学习资料\近期zip` | 34 | 约 624MB | `.zip`、`.rar`、`.wdb`、`.exe` | 压缩包池，不解压 |
-| `E:\学习资料\收集资料` | 218 | 约 234MB | `.for`、`.pdf`、`.png`、`.docx`、`.jpg` | 测绘/遥感工具资料 |
-| `E:\学习资料\webGL` | 13 | 约 175MB | `.pdf`、`.js`、`.rar`、`.html`、`.css` | WebGL 专题资料 |
-| `E:\学习资料\软件操作` | 73 | 约 161MB | `.pdf`、`.docx`、`.m`、`.png`、`.doc` | 工具操作文档 |
-| `E:\学习资料\CUDA` | 141 | 约 131MB | `.zip`、`.pdf`、`.txt`、`.jpg`、`.lib` | GPU/CUDA 学习资料 |
-| `E:\学习资料\学习文档` | 8 | 约 122MB | `.pdf`、`.html`、`.txt`、`.zip` | Cesium/WebGL 精简资料 |
-| `E:\学习资料\1：25000，1：50000相关测绘标准` | 25 | 约 98MB | `.pdf`、`.rar`、`.doc`、`.db` | 测绘标准资料 |
-| `E:\学习资料\硕士毕设开题` | 58 | 约 74MB | `.pdf`、`.pptx`、`.doc`、`.vsdx`、`.docx` | 个人研究资料 |
-| `E:\学习资料\JavaScript深度学习` | 49 | 约 67MB | `.jpg`、`.csv`、`.zip`、`.db`、`.pdf` | JS/AI 学习专题 |
-| `E:\学习资料\论文` | 16 | 约 54MB | `.pdf`、`.docx`、`.caj` | 遥感/图像论文 |
-| `E:\学习资料\未分类` | 15 | 约 46MB | `.pdf`、`.caj` | 待分类论文资料 |
-| `E:\学习资料\JavaScript` | 1 | 约 42MB | `.pdf` | JS 电子书 |
-| `E:\学习资料\卫星使用手册` | 12 | 约 29MB | `.pdf` | 卫星产品手册 |
-| `E:\学习资料\黄师兄的论文` | 3 | 约 11MB | `.docx` | 遥感几何模型论文 |
-| `E:\学习资料\RUNSAC` | 5 | 约 10MB | `.pdf`、`.py`、`.ipynb` | RANSAC 算法资料 |
-| `E:\学习资料\linux命令` | 2 | 约 1MB | `.chm`、`.chw` | 工具手册 |
-| `E:\学习资料\脚本` | 124 | 约 0.02MB | `.txt`、`.bat` | 小脚本，待确认 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料` | 270 | 约 3.96GB | `.mp4`、`.pdf`、`.wmv`、`.gif`、`.zip` | 三维 GIS 学习核心资料 |
+| `E:\学习资料\10-remote-sensing-surveying\图像拼接` | 198 | 约 2.67GB | `.cpp`、`.h`、`.pdf`、`.JPG`、`.m` | 遥感/图像处理核心资料，含安装包 |
+| `E:\学习资料\30-books-papers\书籍` | 83 | 约 1.77GB | `.pdf`、`.epub`、`.jpg`、`.txt`、`.pdz` | 电子书集合，需去重评估 |
+| `E:\学习资料\90-misc-review\年终中总结` | 95 | 约 650MB | `.pptx`、`.ppt`、`.docx`、`.xlsx`、`.png` | 历史总结，适合沉淀经验 |
+| `E:\学习资料\50-archive-zips\近期zip` | 34 | 约 624MB | `.zip`、`.rar`、`.wdb`、`.exe` | 压缩包池，不解压 |
+| `E:\学习资料\90-misc-review\收集资料` | 218 | 约 234MB | `.for`、`.pdf`、`.png`、`.docx`、`.jpg` | 测绘/遥感工具资料 |
+| `E:\学习资料\00-gis-cesium-webgl\webGL` | 13 | 约 175MB | `.pdf`、`.js`、`.rar`、`.html`、`.css` | WebGL 专题资料 |
+| `E:\学习资料\40-tools-operations\软件操作` | 73 | 约 161MB | `.pdf`、`.docx`、`.m`、`.png`、`.doc` | 工具操作文档 |
+| `E:\学习资料\20-programming-ai\CUDA` | 141 | 约 131MB | `.zip`、`.pdf`、`.txt`、`.jpg`、`.lib` | GPU/CUDA 学习资料 |
+| `E:\学习资料\30-books-papers\学习文档` | 8 | 约 122MB | `.pdf`、`.html`、`.txt`、`.zip` | Cesium/WebGL 精简资料 |
+| `E:\学习资料\10-remote-sensing-surveying\测绘标准\1：25000，1：50000相关测绘标准` | 25 | 约 98MB | `.pdf`、`.rar`、`.doc`、`.db` | 测绘标准资料 |
+| `E:\学习资料\10-remote-sensing-surveying\硕士毕设开题` | 58 | 约 74MB | `.pdf`、`.pptx`、`.doc`、`.vsdx`、`.docx` | 个人研究资料 |
+| `E:\学习资料\20-programming-ai\JavaScript深度学习` | 49 | 约 67MB | `.jpg`、`.csv`、`.zip`、`.db`、`.pdf` | JS/AI 学习专题 |
+| `E:\学习资料\30-books-papers\论文` | 16 | 约 54MB | `.pdf`、`.docx`、`.caj` | 遥感/图像论文 |
+| `E:\学习资料\90-misc-review\未分类` | 15 | 约 46MB | `.pdf`、`.caj` | 待分类论文资料 |
+| `E:\学习资料\20-programming-ai\JavaScript` | 1 | 约 42MB | `.pdf` | JS 电子书 |
+| `E:\学习资料\10-remote-sensing-surveying\卫星使用手册` | 12 | 约 29MB | `.pdf` | 卫星产品手册 |
+| `E:\学习资料\10-remote-sensing-surveying\黄师兄的论文` | 3 | 约 11MB | `.docx` | 遥感几何模型论文 |
+| `E:\学习资料\10-remote-sensing-surveying\RUNSAC` | 5 | 约 10MB | `.pdf`、`.py`、`.ipynb` | RANSAC 算法资料 |
+| `E:\学习资料\20-programming-ai\linux命令` | 2 | 约 1MB | `.chm`、`.chw` | 工具手册 |
+| `E:\学习资料\20-programming-ai\脚本` | 124 | 约 0.02MB | `.txt`、`.bat` | 小脚本，待确认 |
 
 ## 文件类型分布
 
@@ -120,10 +120,10 @@
 
 相关路径：
 
-- `E:\学习资料\Cesium资料`
-- `E:\学习资料\webGL`
-- `E:\学习资料\学习文档`
-- `E:\学习资料\基于Cesium的三维GIS网络服务与BIM集成研究 - 杨李东.docx`
+- `E:\学习资料\00-gis-cesium-webgl\Cesium资料`
+- `E:\学习资料\00-gis-cesium-webgl\webGL`
+- `E:\学习资料\30-books-papers\学习文档`
+- `E:\学习资料\00-gis-cesium-webgl\基于Cesium的三维GIS网络服务与BIM集成研究 - 杨李东.docx`
 
 代表内容：
 
@@ -141,11 +141,11 @@
 
 相关路径：
 
-- `E:\学习资料\图像拼接`
-- `E:\学习资料\论文`
-- `E:\学习资料\未分类`
-- `E:\学习资料\RUNSAC`
-- `E:\学习资料\黄师兄的论文`
+- `E:\学习资料\10-remote-sensing-surveying\图像拼接`
+- `E:\学习资料\30-books-papers\论文`
+- `E:\学习资料\90-misc-review\未分类`
+- `E:\学习资料\10-remote-sensing-surveying\RUNSAC`
+- `E:\学习资料\10-remote-sensing-surveying\黄师兄的论文`
 
 代表内容：
 
@@ -163,9 +163,9 @@
 
 相关路径：
 
-- `E:\学习资料\1：25000，1：50000相关测绘标准`
-- `E:\学习资料\卫星使用手册`
-- `E:\学习资料\收集资料\卫星使用手册`
+- `E:\学习资料\10-remote-sensing-surveying\测绘标准\1：25000，1：50000相关测绘标准`
+- `E:\学习资料\10-remote-sensing-surveying\卫星使用手册`
+- `E:\学习资料\90-misc-review\收集资料\卫星使用手册`
 
 代表内容：
 
@@ -183,10 +183,10 @@
 
 相关路径：
 
-- `E:\学习资料\硕士毕设开题`
-- `E:\学习资料\论文`
-- `E:\学习资料\黄师兄的论文`
-- `E:\学习资料\崔子豪本科毕设论文.docx`
+- `E:\学习资料\10-remote-sensing-surveying\硕士毕设开题`
+- `E:\学习资料\30-books-papers\论文`
+- `E:\学习资料\10-remote-sensing-surveying\黄师兄的论文`
+- `E:\学习资料\30-books-papers\崔子豪本科毕设论文.docx`
 
 代表内容：
 
@@ -202,7 +202,7 @@
 
 ### 年终中总结
 
-路径：`E:\学习资料\年终中总结`
+路径：`E:\学习资料\90-misc-review\年终中总结`
 
 代表内容：
 
@@ -219,11 +219,11 @@
 
 相关路径：
 
-- `E:\学习资料\书籍`
-- `E:\学习资料\JavaScript`
-- `E:\学习资料\CUDA`
-- `E:\学习资料\软件操作`
-- `E:\学习资料\linux命令`
+- `E:\学习资料\30-books-papers\书籍`
+- `E:\学习资料\20-programming-ai\JavaScript`
+- `E:\学习资料\20-programming-ai\CUDA`
+- `E:\学习资料\40-tools-operations\软件操作`
+- `E:\学习资料\20-programming-ai\linux命令`
 
 整理建议：
 
@@ -237,18 +237,18 @@
 
 | 文件 | 大小级别 | 类型 | 处理建议 |
 | --- | ---: | --- | --- |
-| `E:\学习资料\图像拼接\android-studio-bundle-162.4069837-windows.exe` | 约 1.93GB | 安装包 | 可删除候选，需确认是否仍需离线安装 |
-| `E:\学习资料\Cesium资料\CesiumLab_操作培训\cesiumlabdev.zip` | 约 363MB | 压缩包 | 只记录，不解压 |
-| `E:\学习资料\Cesium资料\CesiumLab_操作培训\cesiumlab(v1.3.11)处理max模型.mp4` | 约 303MB | 视频 | 视频资产索引 |
-| `E:\学习资料\近期zip\55.欧比特卫星.rar` | 约 205MB | 压缩包 | 待确认，不解压 |
-| `E:\学习资料\书籍\c++书\Primer c++(第五版）.pdf` | 约 198MB | PDF | 保留索引，检查是否重复 |
-| `E:\学习资料\书籍\佛道学 2017-01-31 12.57.20_170212125350.pdf` | 约 181MB | PDF | 泛化书籍，归档保留 |
-| `E:\学习资料\年终中总结\2015中期总结报告.rar` | 约 175MB | 压缩包 | 待确认，不解压 |
-| `E:\学习资料\Cesium资料\CesiumLab_操作培训\cesiumlab(v1.3.13)处理ifc以及第一人称漫游.mp4` | 约 165MB | 视频 | 视频资产索引 |
-| `E:\学习资料\图像拼接\Geometric_Cross_Calibration_for_Pushbroom_Satellites-20170831.docx` | 约 163MB | Word 文档 | 高价值，优先摘要候选 |
-| `E:\学习资料\图像拼接\opencv-3.3.0-vc14.exe` | 约 158MB | 安装包 | 可删除候选，需确认 |
-| `E:\学习资料\学习文档\WebGL编程指南.pdf` 等多处副本 | 单个约 81MB | PDF | 重复候选，先列清单 |
-| `E:\学习资料\Cesium资料\专栏_vtxf\WebGL.Insights.-.Patrick.Cozzi.pdf` 与 `E:\学习资料\webGL\WebGL.Insights.-.Patrick.Cozzi.pdf` | 单个约 75MB | PDF | 重复候选，先列清单 |
+| `E:\学习资料\10-remote-sensing-surveying\图像拼接\android-studio-bundle-162.4069837-windows.exe` | 约 1.93GB | 安装包 | 可删除候选，需确认是否仍需离线安装 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\CesiumLab_操作培训\cesiumlabdev.zip` | 约 363MB | 压缩包 | 只记录，不解压 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\CesiumLab_操作培训\cesiumlab(v1.3.11)处理max模型.mp4` | 约 303MB | 视频 | 视频资产索引 |
+| `E:\学习资料\50-archive-zips\近期zip\55.欧比特卫星.rar` | 约 205MB | 压缩包 | 待确认，不解压 |
+| `E:\学习资料\30-books-papers\书籍\c++书\Primer c++(第五版）.pdf` | 约 198MB | PDF | 保留索引，检查是否重复 |
+| `E:\学习资料\30-books-papers\书籍\佛道学 2017-01-31 12.57.20_170212125350.pdf` | 约 181MB | PDF | 泛化书籍，归档保留 |
+| `E:\学习资料\90-misc-review\年终中总结\2015中期总结报告.rar` | 约 175MB | 压缩包 | 待确认，不解压 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\CesiumLab_操作培训\cesiumlab(v1.3.13)处理ifc以及第一人称漫游.mp4` | 约 165MB | 视频 | 视频资产索引 |
+| `E:\学习资料\10-remote-sensing-surveying\图像拼接\Geometric_Cross_Calibration_for_Pushbroom_Satellites-20170831.docx` | 约 163MB | Word 文档 | 高价值，优先摘要候选 |
+| `E:\学习资料\10-remote-sensing-surveying\图像拼接\opencv-3.3.0-vc14.exe` | 约 158MB | 安装包 | 可删除候选，需确认 |
+| `E:\学习资料\30-books-papers\学习文档\WebGL编程指南.pdf` 等多处副本 | 单个约 81MB | PDF | 重复候选，先列清单 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\专栏_vtxf\WebGL.Insights.-.Patrick.Cozzi.pdf` 与 `E:\学习资料\00-gis-cesium-webgl\webGL\WebGL.Insights.-.Patrick.Cozzi.pdf` | 单个约 75MB | PDF | 重复候选，先列清单 |
 
 ## 可删除候选
 

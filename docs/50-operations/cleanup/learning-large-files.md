@@ -31,29 +31,29 @@
 
 | 文件 | 大小级别 | 类型 | 初步判断 |
 | --- | ---: | --- | --- |
-| `E:\学习资料\图像拼接\android-studio-bundle-162.4069837-windows.exe` | 约 1.93GB | 安装包 | 可删除候选，需确认是否仍需旧 Android Studio |
-| `E:\学习资料\Cesium资料\CesiumLab_操作培训\cesiumlabdev.zip` | 约 363MB | ZIP | CesiumLab 资料包，只记录 |
-| `E:\学习资料\Cesium资料\CesiumLab_操作培训\cesiumlab(v1.3.11)处理max模型.mp4` | 约 303MB | 视频 | CesiumLab 教程视频，保留索引 |
-| `E:\学习资料\近期zip\55.欧比特卫星.rar` | 约 205MB | RAR | 遥感/卫星相关，待确认，不解压 |
-| `E:\学习资料\书籍\c++书\Primer c++(第五版）.pdf` | 约 198MB | PDF | 技术书，保留索引 |
-| `E:\学习资料\书籍\佛道学 2017-01-31 12.57.20_170212125350.pdf` | 约 181MB | PDF | 泛化书籍，归档保留/待确认 |
-| `E:\学习资料\年终中总结\2015中期总结报告.rar` | 约 175MB | RAR | 历史总结包，待确认，不解压 |
-| `E:\学习资料\Cesium资料\CesiumLab_操作培训\cesiumlab(v1.3.13)处理ifc以及第一人称漫游.mp4` | 约 165MB | 视频 | CesiumLab 教程视频，保留索引 |
-| `E:\学习资料\书籍\LINUX命令、编辑器与SHELL编程.pdf` | 约 163MB | PDF | 工具书，归档保留 |
-| `E:\学习资料\图像拼接\Geometric_Cross_Calibration_for_Pushbroom_Satellites-20170831——czh.docx` | 约 163MB | Word | 高价值研究文档，保留 |
-| `E:\学习资料\图像拼接\Geometric_Cross_Calibration_for_Pushbroom_Satellites-20170831.docx` | 约 163MB | Word | 高价值研究文档，保留 |
-| `E:\学习资料\图像拼接\opencv-3.3.0-vc14.exe` | 约 158MB | 安装包 | 可删除候选，需确认 |
-| `E:\学习资料\Cesium资料\CesiumLab_操作培训\超大范围模型切片.mp4` | 约 137MB | 视频 | CesiumLab 教程视频，保留索引 |
-| `E:\学习资料\书籍\人类的性存在（第8版）.pdf` | 约 136MB | PDF | 泛化书籍，重复候选 |
-| `E:\学习资料\书籍\ipad\人类的性存在（第8版）.pdf` | 约 136MB | PDF | 泛化书籍，重复候选 |
-| `E:\学习资料\年终中总结\2017年中\20170722-年中总结\2017赵旭辉 年中总结.pptx` | 约 112MB | PPTX | 历史总结，保留索引 |
-| `E:\学习资料\近期zip\航遥-最终评审.zip` | 约 83MB | ZIP | 遥感相关压缩包，待确认 |
-| `E:\学习资料\Cesium资料\WebGL 编程指南.pdf` | 约 81MB | PDF | WebGL 资料，重复候选 |
-| `E:\学习资料\学习文档\WebGL编程指南.pdf` | 约 81MB | PDF | WebGL 资料，重复候选 |
-| `E:\学习资料\Cesium资料\专栏_vtxf\Cesium源码包使用指南.mp4` | 约 81MB | 视频 | Cesium 教程，保留索引 |
-| `E:\学习资料\近期zip\opencv-3.2.0.zip` | 约 78MB | ZIP | 旧 OpenCV 包，待确认 |
-| `E:\学习资料\webGL\WebGL.Insights.-.Patrick.Cozzi.pdf` | 约 75MB | PDF | 高价值 WebGL 资料，重复候选 |
-| `E:\学习资料\Cesium资料\专栏_vtxf\WebGL.Insights.-.Patrick.Cozzi.pdf` | 约 75MB | PDF | 高价值 WebGL 资料，重复候选 |
+| `E:\学习资料\10-remote-sensing-surveying\图像拼接\android-studio-bundle-162.4069837-windows.exe` | 约 1.93GB | 安装包 | 可删除候选，需确认是否仍需旧 Android Studio |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\CesiumLab_操作培训\cesiumlabdev.zip` | 约 363MB | ZIP | CesiumLab 资料包，只记录 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\CesiumLab_操作培训\cesiumlab(v1.3.11)处理max模型.mp4` | 约 303MB | 视频 | CesiumLab 教程视频，保留索引 |
+| `E:\学习资料\50-archive-zips\近期zip\55.欧比特卫星.rar` | 约 205MB | RAR | 遥感/卫星相关，待确认，不解压 |
+| `E:\学习资料\30-books-papers\书籍\c++书\Primer c++(第五版）.pdf` | 约 198MB | PDF | 技术书，保留索引 |
+| `E:\学习资料\30-books-papers\书籍\佛道学 2017-01-31 12.57.20_170212125350.pdf` | 约 181MB | PDF | 泛化书籍，归档保留/待确认 |
+| `E:\学习资料\90-misc-review\年终中总结\2015中期总结报告.rar` | 约 175MB | RAR | 历史总结包，待确认，不解压 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\CesiumLab_操作培训\cesiumlab(v1.3.13)处理ifc以及第一人称漫游.mp4` | 约 165MB | 视频 | CesiumLab 教程视频，保留索引 |
+| `E:\学习资料\30-books-papers\书籍\LINUX命令、编辑器与SHELL编程.pdf` | 约 163MB | PDF | 工具书，归档保留 |
+| `E:\学习资料\10-remote-sensing-surveying\图像拼接\Geometric_Cross_Calibration_for_Pushbroom_Satellites-20170831——czh.docx` | 约 163MB | Word | 高价值研究文档，保留 |
+| `E:\学习资料\10-remote-sensing-surveying\图像拼接\Geometric_Cross_Calibration_for_Pushbroom_Satellites-20170831.docx` | 约 163MB | Word | 高价值研究文档，保留 |
+| `E:\学习资料\10-remote-sensing-surveying\图像拼接\opencv-3.3.0-vc14.exe` | 约 158MB | 安装包 | 可删除候选，需确认 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\CesiumLab_操作培训\超大范围模型切片.mp4` | 约 137MB | 视频 | CesiumLab 教程视频，保留索引 |
+| `E:\学习资料\30-books-papers\书籍\人类的性存在（第8版）.pdf` | 约 136MB | PDF | 泛化书籍，重复候选 |
+| `E:\学习资料\30-books-papers\书籍\ipad\人类的性存在（第8版）.pdf` | 约 136MB | PDF | 泛化书籍，重复候选 |
+| `E:\学习资料\90-misc-review\年终中总结\2017年中\20170722-年中总结\2017赵旭辉 年中总结.pptx` | 约 112MB | PPTX | 历史总结，保留索引 |
+| `E:\学习资料\50-archive-zips\近期zip\航遥-最终评审.zip` | 约 83MB | ZIP | 遥感相关压缩包，待确认 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\WebGL 编程指南.pdf` | 约 81MB | PDF | WebGL 资料，重复候选 |
+| `E:\学习资料\30-books-papers\学习文档\WebGL编程指南.pdf` | 约 81MB | PDF | WebGL 资料，重复候选 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\专栏_vtxf\Cesium源码包使用指南.mp4` | 约 81MB | 视频 | Cesium 教程，保留索引 |
+| `E:\学习资料\50-archive-zips\近期zip\opencv-3.2.0.zip` | 约 78MB | ZIP | 旧 OpenCV 包，待确认 |
+| `E:\学习资料\00-gis-cesium-webgl\webGL\WebGL.Insights.-.Patrick.Cozzi.pdf` | 约 75MB | PDF | 高价值 WebGL 资料，重复候选 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\专栏_vtxf\WebGL.Insights.-.Patrick.Cozzi.pdf` | 约 75MB | PDF | 高价值 WebGL 资料，重复候选 |
 
 ## 安装包候选
 
@@ -74,28 +74,28 @@
 
 | 文件 | 初步主题 | 建议 |
 | --- | --- | --- |
-| `E:\学习资料\Cesium资料\CesiumLab_操作培训\cesiumlabdev.zip` | CesiumLab 开发/资料包 | 不解压，保留索引 |
-| `E:\学习资料\近期zip\55.欧比特卫星.rar` | 卫星/遥感资料 | 不解压，待确认 |
-| `E:\学习资料\年终中总结\2015中期总结报告.rar` | 历史总结 | 不解压，待确认 |
-| `E:\学习资料\近期zip\航遥-最终评审.zip` | 航遥资料 | 不解压，待确认 |
-| `E:\学习资料\近期zip\opencv-3.2.0.zip` | 旧 OpenCV 包 | 可删除候选，需确认 |
-| `E:\学习资料\webGL\WebGL编程指南.rar` | WebGL 资料包 | 重复候选，需确认 |
-| `E:\学习资料\Cesium资料\红豆地球V1.133 - 免费.7z` | 地球/三维工具 | 工具索引，待确认 |
-| `E:\学习资料\Cesium资料\SuperMap iEarth(osgb转3Dtiles).rar` | OSGB 转 3D Tiles 工具 | 工具索引，暂保留 |
-| `E:\学习资料\Cesium资料\专题_测试数据\dae转gltf工具.rar` | DAE 转 glTF 工具 | 工具索引，暂保留 |
-| `E:\学习资料\近期zip\DownloadTiles_v2.0.zip` | 下载瓦片工具 | 工具索引，待确认 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\CesiumLab_操作培训\cesiumlabdev.zip` | CesiumLab 开发/资料包 | 不解压，保留索引 |
+| `E:\学习资料\50-archive-zips\近期zip\55.欧比特卫星.rar` | 卫星/遥感资料 | 不解压，待确认 |
+| `E:\学习资料\90-misc-review\年终中总结\2015中期总结报告.rar` | 历史总结 | 不解压，待确认 |
+| `E:\学习资料\50-archive-zips\近期zip\航遥-最终评审.zip` | 航遥资料 | 不解压，待确认 |
+| `E:\学习资料\50-archive-zips\近期zip\opencv-3.2.0.zip` | 旧 OpenCV 包 | 可删除候选，需确认 |
+| `E:\学习资料\00-gis-cesium-webgl\webGL\WebGL编程指南.rar` | WebGL 资料包 | 重复候选，需确认 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\红豆地球V1.133 - 免费.7z` | 地球/三维工具 | 工具索引，待确认 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\SuperMap iEarth(osgb转3Dtiles).rar` | OSGB 转 3D Tiles 工具 | 工具索引，暂保留 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\专题_测试数据\dae转gltf工具.rar` | DAE 转 glTF 工具 | 工具索引，暂保留 |
+| `E:\学习资料\50-archive-zips\近期zip\DownloadTiles_v2.0.zip` | 下载瓦片工具 | 工具索引，待确认 |
 
 ## 下载残留候选
 
 | 文件 | 类型 | 建议 |
 | --- | --- | --- |
-| `E:\学习资料\Cesium资料\CesiumLab_操作培训\cesiumlab(v.1.3.14)故宫模型切片.mp4.qqdownload` | QQ 下载残留 | 可删除候选，需确认 |
-| `E:\学习资料\Cesium资料\CesiumLab_操作培训\超大范围模型切片.mp4.qqdownload` | QQ 下载残留 | 可删除候选，需确认 |
-| `E:\学习资料\Cesium资料\专栏_种瓜的\VID_20191112_220127.mp4.qqdownload` | QQ 下载残留 | 可删除候选，需确认 |
-| `E:\学习资料\Cesium资料\专栏_向上吧，少年\加载体数据.wmv.qqdownload` | QQ 下载残留 | 可删除候选，需确认 |
-| `E:\学习资料\Cesium资料\专栏_vtxf\框选.mp4.qqdownload` | QQ 下载残留 | 可删除候选，需确认 |
-| `E:\学习资料\图像拼接\未确认 300932.crdownload` | Chrome 下载残留 | 可删除候选，需确认 |
-| `E:\学习资料\图像拼接\未确认 638067.crdownload` | Chrome 下载残留 | 可删除候选，需确认 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\CesiumLab_操作培训\cesiumlab(v.1.3.14)故宫模型切片.mp4.qqdownload` | QQ 下载残留 | 可删除候选，需确认 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\CesiumLab_操作培训\超大范围模型切片.mp4.qqdownload` | QQ 下载残留 | 可删除候选，需确认 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\专栏_种瓜的\VID_20191112_220127.mp4.qqdownload` | QQ 下载残留 | 可删除候选，需确认 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\专栏_向上吧，少年\加载体数据.wmv.qqdownload` | QQ 下载残留 | 可删除候选，需确认 |
+| `E:\学习资料\00-gis-cesium-webgl\Cesium资料\专栏_vtxf\框选.mp4.qqdownload` | QQ 下载残留 | 可删除候选，需确认 |
+| `E:\学习资料\10-remote-sensing-surveying\图像拼接\未确认 300932.crdownload` | Chrome 下载残留 | 可删除候选，需确认 |
+| `E:\学习资料\10-remote-sensing-surveying\图像拼接\未确认 638067.crdownload` | Chrome 下载残留 | 可删除候选，需确认 |
 
 ## 重复候选
 

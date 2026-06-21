@@ -90,8 +90,8 @@
 
 建议顺序：
 
-1. `E:\学习资料\Cesium资料`
-2. `E:\学习资料\JavaScript深度学习`
+1. `E:\学习资料\00-gis-cesium-webgl\Cesium资料`
+2. `E:\学习资料\20-programming-ai\JavaScript深度学习`
 3. `E:\BaiduNetdiskDownload` 中 Python、BIM、前端课程资料
 
 输出建议：
