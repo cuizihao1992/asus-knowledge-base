@@ -14,9 +14,9 @@
 
 | 路径 | 类型 | 理由 | 风险 |
 | --- | --- | --- | --- |
-| `E:\SUTPC\全生命周期\Xmind破解包.zip` | 破解包压缩包 | 非项目资料；低知识价值；不适合长期保留在项目资料区 | 可能包含当时使用工具 |
-| `E:\SUTPC\全生命周期\Xmind破解包` | 破解包目录 | 非项目资料；和业务文档无关 | 目录中可能混有安装说明 |
-| `E:\SUTPC\全生命周期\Axure9\AxureRP-Setup-Beta.exe` | 安装程序 | 旧版安装包；不属于项目知识正文 | 如果仍需旧版 Axure，则不删 |
+| `E:\SUTPC\00-lifecycle-project\全生命周期\Xmind破解包.zip` | 破解包压缩包 | 非项目资料；低知识价值；不适合长期保留在项目资料区 | 可能包含当时使用工具 |
+| `E:\SUTPC\00-lifecycle-project\全生命周期\Xmind破解包` | 破解包目录 | 非项目资料；和业务文档无关 | 目录中可能混有安装说明 |
+| `E:\SUTPC\00-lifecycle-project\全生命周期\Axure9\AxureRP-Setup-Beta.exe` | 安装程序 | 旧版安装包；不属于项目知识正文 | 如果仍需旧版 Axure，则不删 |
 | `E:\学习资料\10-remote-sensing-surveying\图像拼接\android-studio-bundle-162.4069837-windows.exe` | 旧 Android Studio 安装包 | 体量约 2GB；旧版本；可重新获取替代版本 | 如果要复现旧 Android 环境，需保留 |
 | `E:\学习资料\10-remote-sensing-surveying\图像拼接\opencv-3.3.0-vc14.exe` | OpenCV 安装包 | 旧安装程序；不是学习正文 | 如要复现旧 VC14 环境，需保留 |
 | `E:\学习资料\10-remote-sensing-surveying\图像拼接\vs_community__1685022915.1504234835.exe` | Visual Studio 安装器 | 旧在线安装器，通常可重新下载 | 旧环境复现需求 |
@@ -33,7 +33,7 @@
 | --- | --- | --- |
 | `D:\zhc\.build-tools` | Android/JDK/Gradle 构建工具缓存 | 如果 `zhc-companion` 还要构建 Android，先保留；否则迁移到统一工具目录 |
 | `E:\SUTPC\BIM支撑平台SDK(2022.3.11).zip` | SDK 包 | 保留版本记录；可迁移到 SDK/工具归档 |
-| `E:\SUTPC\全生命周期\Axure9.zip` | Axure 安装包 | 如果确认不需要旧版 Axure，可删除；否则迁移 |
+| `E:\SUTPC\00-lifecycle-project\全生命周期\Axure9.zip` | Axure 安装包 | 如果确认不需要旧版 Axure，可删除；否则迁移 |
 | `E:\学习资料\50-archive-zips\近期zip\opencv-3.2.0.zip` | OpenCV 包 | 迁移到开发工具归档或删除 |
 | `E:\学习资料\50-archive-zips\近期zip\platform-tools-latest-windows.zip` | Android platform tools | 迁移到工具归档 |
 | `E:\学习资料\00-gis-cesium-webgl\Cesium资料\红豆地球V1.133 - 免费.7z` | GIS/地球工具 | 迁移到 GIS 工具归档，先不删 |
@@ -54,8 +54,8 @@
 | `E:\Data\20-3d-scenes\shenchaozong\深超总\手工模型3dtiles集合-202203.rar` | 三维模型瓦片包 | 与三维场景资产有关 |
 | `E:\Data\30-projects\tunnels\大坪山\大坪山隧道数据.zip` | 隧道数据包 | 与隧道/BIM/GIS 项目相关 |
 | `E:\Data\30-projects\integrated-platform\一体化\一体化项目项目模型-提BIM支持平台.rar` | 模型包 | 与一体化 BIM 支撑平台资料相关 |
-| `E:\SUTPC\Brancher_004-backup.zip` | 大型项目备份包 | 体量极大但可能含 UE/原型工程，不解压不删除 |
-| `E:\SUTPC\Brancher_004-backup` | 项目备份目录 | 与上面的备份包可能对应，先只记录 |
+| `E:\SUTPC\90-backups\Brancher_004-backup.zip` | 大型项目备份包 | 体量极大但可能含 UE/原型工程，不解压不删除 |
+| `E:\SUTPC\90-backups\Brancher_004-backup` | 项目备份目录 | 与上面的备份包可能对应，先只记录 |
 | `E:\学习资料\00-gis-cesium-webgl\webGL\WebGL编程指南.rar` | 学习资料 | WebGL 学习主线相关 |
 | `E:\学习资料\50-archive-zips\近期zip\55.欧比特卫星.rar` | 卫星资料包 | 遥感资料主线相关 |
 | `E:\学习资料\00-gis-cesium-webgl\Cesium资料\CesiumLab_操作培训\cesiumlabdev.zip` | CesiumLab 资料 | Cesium/GIS 学习主线相关 |

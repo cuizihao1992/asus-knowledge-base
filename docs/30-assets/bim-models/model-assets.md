@@ -109,10 +109,10 @@
 
 建议后续重点关联的原始资料：
 
-- `E:\SUTPC\全生命周期\GISBIM功能梳理.xlsx`
-- `E:\SUTPC\全生命周期\BIM集成方案\全生命周期监管系统BIM数据集成方案.docx`
-- `E:\SUTPC\BIM支撑平台Web SDK开发文档(2022.3.11).pdf`
-- `E:\SUTPC\全生命周期\深圳市交通运输一体化智慧平台BIM支撑平台汇报-调研用.pptx`
+- `E:\SUTPC\00-lifecycle-project\全生命周期\GISBIM功能梳理.xlsx`
+- `E:\SUTPC\00-lifecycle-project\全生命周期\BIM集成方案\全生命周期监管系统BIM数据集成方案.docx`
+- `E:\SUTPC\10-bim-sdk-docs\BIM支撑平台Web SDK开发文档(2022.3.11).pdf`
+- `E:\SUTPC\00-lifecycle-project\全生命周期\深圳市交通运输一体化智慧平台BIM支撑平台汇报-调研用.pptx`
 - `E:\Data\30-projects\integrated-platform\一体化\一体化项目项目模型-提BIM支持平台`
 
 ## 后续整理建议

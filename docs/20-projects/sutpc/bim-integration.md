@@ -2,7 +2,7 @@
 
 生成日期：2026-06-20
 
-资料来源：`E:\SUTPC\全生命周期\BIM集成方案\全生命周期监管系统BIM数据集成方案.docx`、`docs/summaries/sutpc-lifecycle-requirements.md`、`docs/generated/sutpc-gis-data-requirements.md`、`docs/assets/model-assets.md`。本文只整理集成流程和技术要点，不移动、删除、解压或上传原始资料。
+资料来源：`E:\SUTPC\00-lifecycle-project\全生命周期\BIM集成方案\全生命周期监管系统BIM数据集成方案.docx`、`docs/summaries/sutpc-lifecycle-requirements.md`、`docs/generated/sutpc-gis-data-requirements.md`、`docs/assets/model-assets.md`。本文只整理集成流程和技术要点，不移动、删除、解压或上传原始资料。
 
 ## 一句话概括
 

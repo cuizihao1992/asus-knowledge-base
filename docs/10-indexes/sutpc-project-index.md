@@ -12,18 +12,18 @@
 
 | 名称 | 类型 | 路径 | 最近更新时间 | 初步判断 |
 | --- | --- | --- | --- | --- |
-| 全生命周期 | 项目资料目录 | `E:\SUTPC\全生命周期` | 2022-11-02 | 核心资料，优先整理 |
-| Brancher_004-backup | 备份目录 | `E:\SUTPC\Brancher_004-backup` | 2022-03-16 | 先索引，不深挖 |
-| Brancher_004-backup.zip | 大型备份包 | `E:\SUTPC\Brancher_004-backup.zip` | 2022-03-04 | 约 22GB，只记录不入库 |
+| 全生命周期 | 项目资料目录 | `E:\SUTPC\00-lifecycle-project\全生命周期` | 2022-11-02 | 核心资料，优先整理 |
+| Brancher_004-backup | 备份目录 | `E:\SUTPC\90-backups\Brancher_004-backup` | 2022-03-16 | 先索引，不深挖 |
+| Brancher_004-backup.zip | 大型备份包 | `E:\SUTPC\90-backups\Brancher_004-backup.zip` | 2022-03-04 | 约 22GB，只记录不入库 |
 | BIM支撑平台SDK(2022.3.11).zip | SDK 压缩包 | `E:\SUTPC\BIM支撑平台SDK(2022.3.11).zip` | 2022-03-11 | 记录来源和版本 |
-| BIM支撑平台Web SDK开发文档(2022.3.11).pdf | SDK 文档 | `E:\SUTPC\BIM支撑平台Web SDK开发文档(2022.3.11).pdf` | 2022-03-11 | 高价值，适合摘要 |
-| Bim系统Cesium&UE渲染效果图.pptx | 汇报/效果图 | `E:\SUTPC\Bim系统Cesium&UE渲染效果图.pptx` | 2022-04-07 | 高价值，GIS/BIM 展示 |
-| 智慧投资项目汇报材料-20220327-v1.2(1).pptx | 项目汇报 | `E:\SUTPC\智慧投资项目汇报材料-20220327-v1.2(1).pptx` | 2022-03-27 | 高价值，项目背景 |
-| 原型PPT.pptx | 原型说明 | `E:\SUTPC\原型PPT.pptx` | 2022-03-24 | 高价值，需求/交互参考 |
-| BIM功能业务流程图.vsdx | 流程图 | `E:\SUTPC\BIM功能业务流程图.vsdx` | 2022-03-17 | 高价值，业务流程 |
-| 遥感在交通行业的应用分析的.pptx | 遥感应用资料 | `E:\SUTPC\遥感在交通行业的应用分析的.pptx` | 2021-11-11 | 可归入遥感/GIS专题 |
-| 高分遥感应用.docx | 遥感应用资料 | `E:\SUTPC\高分遥感应用.docx` | 2021-11-11 | 可归入遥感/GIS专题 |
-| BIGEMAP功能及效果展示vvv.pptx | GIS 工具展示 | `E:\SUTPC\BIGEMAP功能及效果展示vvv.pptx` | 2019-11-28 | 可归入 GIS 工具资料 |
+| BIM支撑平台Web SDK开发文档(2022.3.11).pdf | SDK 文档 | `E:\SUTPC\10-bim-sdk-docs\BIM支撑平台Web SDK开发文档(2022.3.11).pdf` | 2022-03-11 | 高价值，适合摘要 |
+| Bim系统Cesium&UE渲染效果图.pptx | 汇报/效果图 | `E:\SUTPC\10-bim-sdk-docs\Bim系统Cesium&UE渲染效果图.pptx` | 2022-04-07 | 高价值，GIS/BIM 展示 |
+| 智慧投资项目汇报材料-20220327-v1.2(1).pptx | 项目汇报 | `E:\SUTPC\20-presentations\智慧投资项目汇报材料-20220327-v1.2(1).pptx` | 2022-03-27 | 高价值，项目背景 |
+| 原型PPT.pptx | 原型说明 | `E:\SUTPC\20-presentations\原型PPT.pptx` | 2022-03-24 | 高价值，需求/交互参考 |
+| BIM功能业务流程图.vsdx | 流程图 | `E:\SUTPC\10-bim-sdk-docs\BIM功能业务流程图.vsdx` | 2022-03-17 | 高价值，业务流程 |
+| 遥感在交通行业的应用分析的.pptx | 遥感应用资料 | `E:\SUTPC\30-remote-sensing\遥感在交通行业的应用分析的.pptx` | 2021-11-11 | 可归入遥感/GIS专题 |
+| 高分遥感应用.docx | 遥感应用资料 | `E:\SUTPC\30-remote-sensing\高分遥感应用.docx` | 2021-11-11 | 可归入遥感/GIS专题 |
+| BIGEMAP功能及效果展示vvv.pptx | GIS 工具展示 | `E:\SUTPC\20-presentations\BIGEMAP功能及效果展示vvv.pptx` | 2019-11-28 | 可归入 GIS 工具资料 |
 
 ## 文件类型分布
 
@@ -44,17 +44,17 @@
 
 | 目录 | 浅层文件数 | 浅层体量 | 判断 |
 | --- | ---: | ---: | --- |
-| `E:\SUTPC\全生命周期` | 50 | 约 0.83GB | 核心项目资料 |
-| `E:\SUTPC\全生命周期\Xmind破解包` | 10 | 约 0.21GB | 工具包，不入正文 |
-| `E:\SUTPC\全生命周期\Axure9` | 4 | 约 0.10GB | 工具安装目录，不入正文 |
-| `E:\SUTPC\全生命周期\BIM集成方案` | 10 | 约 0.08GB | 高价值方案资料 |
-| `E:\SUTPC\全生命周期\bk` | 7 | 约 0.02GB | 备份资料，按需整理 |
-| `E:\SUTPC\全生命周期\GIS` | 3 | 体量很小 | GIS 数据需求资料 |
-| `E:\SUTPC\Brancher_004-backup` | 2 | 体量很小 | 与 22GB 备份包关联，先记录 |
+| `E:\SUTPC\00-lifecycle-project\全生命周期` | 50 | 约 0.83GB | 核心项目资料 |
+| `E:\SUTPC\00-lifecycle-project\全生命周期\Xmind破解包` | 10 | 约 0.21GB | 工具包，不入正文 |
+| `E:\SUTPC\00-lifecycle-project\全生命周期\Axure9` | 4 | 约 0.10GB | 工具安装目录，不入正文 |
+| `E:\SUTPC\00-lifecycle-project\全生命周期\BIM集成方案` | 10 | 约 0.08GB | 高价值方案资料 |
+| `E:\SUTPC\00-lifecycle-project\全生命周期\bk` | 7 | 约 0.02GB | 备份资料，按需整理 |
+| `E:\SUTPC\00-lifecycle-project\全生命周期\GIS` | 3 | 体量很小 | GIS 数据需求资料 |
+| `E:\SUTPC\90-backups\Brancher_004-backup` | 2 | 体量很小 | 与 22GB 备份包关联，先记录 |
 
 ## 核心子目录：全生命周期
 
-路径：`E:\SUTPC\全生命周期`
+路径：`E:\SUTPC\00-lifecycle-project\全生命周期`
 
 ### 初步概述
 
@@ -78,7 +78,7 @@
 
 ### GIS 子目录
 
-路径：`E:\SUTPC\全生命周期\GIS`
+路径：`E:\SUTPC\00-lifecycle-project\全生命周期\GIS`
 
 高价值文件：
 
@@ -91,7 +91,7 @@
 
 ### BIM 集成方案子目录
 
-路径：`E:\SUTPC\全生命周期\BIM集成方案`
+路径：`E:\SUTPC\00-lifecycle-project\全生命周期\BIM集成方案`
 
 高价值文件：
 
@@ -105,7 +105,7 @@
 
 ### bk 子目录
 
-路径：`E:\SUTPC\全生命周期\bk`
+路径：`E:\SUTPC\00-lifecycle-project\全生命周期\bk`
 
 主要是 XMind 备份或早期版本，如设施板块大屏指标看板、建设阶段-项目级-构件级等。建议先只做索引，不急着摘要全部版本。
 

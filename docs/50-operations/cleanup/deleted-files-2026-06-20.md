@@ -105,9 +105,9 @@
 
 | 已删除路径 | 类型 | 大小（字节） | 原因 |
 | --- | --- | ---: | --- |
-| `E:\SUTPC\全生命周期\Xmind破解包.zip` | 文件 | 286214727 | 破解包压缩包，非项目知识资产 |
-| `E:\SUTPC\全生命周期\Xmind破解包` | 目录 | 399279942 | 破解包目录，非项目知识资产 |
-| `E:\SUTPC\全生命周期\Axure9\AxureRP-Setup-Beta.exe` | 文件 | 107082800 | 旧版 Axure 安装程序 |
+| `E:\SUTPC\00-lifecycle-project\全生命周期\Xmind破解包.zip` | 文件 | 286214727 | 破解包压缩包，非项目知识资产 |
+| `E:\SUTPC\00-lifecycle-project\全生命周期\Xmind破解包` | 目录 | 399279942 | 破解包目录，非项目知识资产 |
+| `E:\SUTPC\00-lifecycle-project\全生命周期\Axure9\AxureRP-Setup-Beta.exe` | 文件 | 107082800 | 旧版 Axure 安装程序 |
 | `E:\学习资料\10-remote-sensing-surveying\图像拼接\android-studio-bundle-162.4069837-windows.exe` | 文件 | 2020009280 | 旧 Android Studio 安装包，体量大，可用新版替代 |
 | `E:\学习资料\10-remote-sensing-surveying\图像拼接\opencv-3.3.0-vc14.exe` | 文件 | 165414734 | 旧 OpenCV 安装包，不是学习正文 |
 | `E:\学习资料\10-remote-sensing-surveying\图像拼接\vs_community__1685022915.1504234835.exe` | 文件 | 1069968 | 旧 Visual Studio 在线安装器 |

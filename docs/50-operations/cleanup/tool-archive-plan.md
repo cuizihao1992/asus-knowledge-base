@@ -28,7 +28,7 @@
 | --- | --- | --- | ---: | --- | --- | --- |
 | `D:\zhc\.build-tools` | 是 | 目录 | 浅层约 459.47 MB | `E:\ToolsArchive\dev\android\.build-tools` | 先保留，确认 `zhc-companion` 是否还要本地构建后再决定是否迁移 | 迁移后可能破坏本地构建脚本或环境变量 |
 | `E:\SUTPC\BIM支撑平台SDK(2022.3.11).zip` | 是 | 文件 | 8.25 MB | `E:\ToolsArchive\sdk\bim\BIM支撑平台SDK(2022.3.11).zip` | 建议迁移 | SDK 有版本留存价值，不建议删除 |
-| `E:\SUTPC\全生命周期\Axure9.zip` | 是 | 文件 | 102.02 MB | `E:\ToolsArchive\design\prototype\Axure9.zip` | 倾向迁移；若确认不用旧 Axure，可删除 | 旧原型文件可能依赖旧版 Axure |
+| `E:\SUTPC\00-lifecycle-project\全生命周期\Axure9.zip` | 是 | 文件 | 102.02 MB | `E:\ToolsArchive\design\prototype\Axure9.zip` | 倾向迁移；若确认不用旧 Axure，可删除 | 旧原型文件可能依赖旧版 Axure |
 | `E:\学习资料\50-archive-zips\近期zip\opencv-3.2.0.zip` | 是 | 文件 | 78.23 MB | `E:\ToolsArchive\dev\opencv\opencv-3.2.0.zip` | 倾向迁移；若确认不用旧环境，可删除 | 旧图像拼接代码可能依赖该版本 |
 | `E:\学习资料\50-archive-zips\近期zip\platform-tools-latest-windows.zip` | 是 | 文件 | 6.96 MB | `E:\ToolsArchive\dev\android\platform-tools-latest-windows.zip` | 建议迁移 | Android 调试工具可能仍有用 |
 | `E:\学习资料\00-gis-cesium-webgl\Cesium资料\红豆地球V1.133 - 免费.7z` | 是 | 文件 | 59.67 MB | `E:\ToolsArchive\gis-3d\earth\红豆地球V1.133 - 免费.7z` | 建议迁移 | GIS 工具可能用于查看旧数据 |

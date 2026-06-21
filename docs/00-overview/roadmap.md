@@ -43,10 +43,10 @@
 
 建议先摘要：
 
-- `E:\SUTPC\全生命周期\【20220411】深圳市交通运输一体化智慧平台一期项目设施全生命周期监管子系统需求规格说明书v1.0.docx`
-- `E:\SUTPC\全生命周期\GISBIM功能梳理.xlsx`
-- `E:\SUTPC\全生命周期\BIM集成方案\全生命周期监管系统BIM数据集成方案.docx`
-- `E:\SUTPC\BIM支撑平台Web SDK开发文档(2022.3.11).pdf`
+- `E:\SUTPC\00-lifecycle-project\全生命周期\【20220411】深圳市交通运输一体化智慧平台一期项目设施全生命周期监管子系统需求规格说明书v1.0.docx`
+- `E:\SUTPC\00-lifecycle-project\全生命周期\GISBIM功能梳理.xlsx`
+- `E:\SUTPC\00-lifecycle-project\全生命周期\BIM集成方案\全生命周期监管系统BIM数据集成方案.docx`
+- `E:\SUTPC\10-bim-sdk-docs\BIM支撑平台Web SDK开发文档(2022.3.11).pdf`
 
 输出建议：
 

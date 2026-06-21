@@ -2,7 +2,7 @@
 
 生成日期：2026-06-20
 
-资料来源：`E:\SUTPC\全生命周期\GIS\gis数据需求.xlsx`、`E:\SUTPC\全生命周期\GIS\附件1 一体化项目-可视化平台GIS数据获取需求 - 填报模板...xlsx`、`E:\SUTPC\全生命周期\全生命周期项目大屏地图交互.xlsx`、`docs/summaries/sutpc-lifecycle-requirements.md`、`docs/05-data-assets-index.md`。
+资料来源：`E:\SUTPC\00-lifecycle-project\全生命周期\GIS\gis数据需求.xlsx`、`E:\SUTPC\00-lifecycle-project\全生命周期\GIS\附件1 一体化项目-可视化平台GIS数据获取需求 - 填报模板...xlsx`、`E:\SUTPC\00-lifecycle-project\全生命周期\全生命周期项目大屏地图交互.xlsx`、`docs/summaries/sutpc-lifecycle-requirements.md`、`docs/05-data-assets-index.md`。
 
 本文只整理数据需求，不移动、删除、解压或上传原始资料。
 

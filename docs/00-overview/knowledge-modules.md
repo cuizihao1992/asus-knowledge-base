@@ -97,8 +97,8 @@
 
 第一批整理入口：
 
-- `E:\SUTPC\全生命周期`
-- `E:\SUTPC\Bim系统Cesium&UE渲染效果图.pptx`
+- `E:\SUTPC\00-lifecycle-project\全生命周期`
+- `E:\SUTPC\10-bim-sdk-docs\Bim系统Cesium&UE渲染效果图.pptx`
 - `E:\Data\30-projects\integrated-platform\一体化`
 - `E:\Data\30-projects\tunnels\大坪山`
 - `E:\Data\30-projects\tunnels\大帽山`

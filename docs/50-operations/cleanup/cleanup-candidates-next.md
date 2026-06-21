@@ -25,13 +25,13 @@
 
 | 路径 | 类型 | 判断 |
 | --- | --- | --- |
-| `E:\SUTPC\Brancher_004-backup.zip` | 约 22GB 备份包 | 只记录候选；体量极大，不解压、不删除 |
-| `E:\SUTPC\Brancher_004-backup` | 备份目录 | 只记录候选；需要确认是否与 zip 对应 |
+| `E:\SUTPC\90-backups\Brancher_004-backup.zip` | 约 22GB 备份包 | 只记录候选；体量极大，不解压、不删除 |
+| `E:\SUTPC\90-backups\Brancher_004-backup` | 备份目录 | 只记录候选；需要确认是否与 zip 对应 |
 | `E:\SUTPC\BIM支撑平台SDK(2022.3.11).zip` | SDK 包 | 可迁移候选；保留版本和开发文档关联 |
-| `E:\SUTPC\全生命周期\Axure9.zip` | 工具安装包 | 可迁移候选；不属于项目知识正文 |
-| `E:\SUTPC\全生命周期\Axure9\AxureRP-Setup-Beta.exe` | 安装程序 | 可迁移候选 |
-| `E:\SUTPC\全生命周期\Xmind破解包.zip` | 工具/破解包 | 高风险低知识价值；仅列候选，确认后再处理 |
-| `E:\SUTPC\全生命周期\Xmind破解包` | 工具/破解目录 | 高风险低知识价值；不入知识库正文 |
+| `E:\SUTPC\00-lifecycle-project\全生命周期\Axure9.zip` | 工具安装包 | 可迁移候选；不属于项目知识正文 |
+| `E:\SUTPC\00-lifecycle-project\全生命周期\Axure9\AxureRP-Setup-Beta.exe` | 安装程序 | 可迁移候选 |
+| `E:\SUTPC\00-lifecycle-project\全生命周期\Xmind破解包.zip` | 工具/破解包 | 高风险低知识价值；仅列候选，确认后再处理 |
+| `E:\SUTPC\00-lifecycle-project\全生命周期\Xmind破解包` | 工具/破解目录 | 高风险低知识价值；不入知识库正文 |
 
 保留提醒：`*.xmind` 项目脑图本身可能有业务价值，不应和 XMind 工具/破解包混为一类。
 
