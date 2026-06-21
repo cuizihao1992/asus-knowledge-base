@@ -27,18 +27,18 @@
 
 | 术语 | 中文说明 | 工作解释 | 本地关联 |
 | --- | --- | --- | --- |
-| `FBX` | 三维模型交换格式 | 常用于 Revit、3ds Max、Blender 等工具之间传递模型。适合做预览和转换，但不一定保留完整 BIM 语义。 | `E:\Data\全生命周期BIM` 三个模型 |
+| `FBX` | 三维模型交换格式 | 常用于 Revit、3ds Max、Blender 等工具之间传递模型。适合做预览和转换，但不一定保留完整 BIM 语义。 | `E:\Data\10-models\bim\全生命周期BIM` 三个模型 |
 | `RVT` | Revit 原生模型 | 保存 Revit 工程模型和 BIM 信息，语义通常比 FBX 更完整。 | SUTPC BIM 集成方案提到 Revit 系列 |
 | `IFC` | 开放 BIM 交换标准 | 面向建筑工程信息交换，适合跨平台保留构件和属性语义。 | BIM 支撑平台输入格式 |
-| `OBJ` | 通用三维几何格式 | 简单、通用，通常配合 `.mtl` 材质文件；BIM 属性保留能力弱。 | `E:\Data\大帽山`、三维模型资料 |
+| `OBJ` | 通用三维几何格式 | 简单、通用，通常配合 `.mtl` 材质文件；BIM 属性保留能力弱。 | `E:\Data\30-projects\tunnels\大帽山`、三维模型资料 |
 | `glTF` | 面向实时渲染的三维资产格式 | 适合 Web、Cesium、Three.js、游戏引擎加载。更偏展示，不是完整 BIM 数据库。 | 模型可发布性建议转换格式 |
 | `GLB` | 二进制 glTF | 把 glTF JSON、二进制几何、贴图等打包成单文件，便于 Web 分发。 | Cesium/WebGL 学习资料可用 |
-| `3D Tiles` | 大规模三维瓦片规范 | 用瓦片树、包围体和几何误差组织大规模三维数据，按视角和距离分级加载。 | `E:\Data\建筑物`、`大帽山`、SUTPC GIS 需求 |
-| `tileset.json` | 3D Tiles 入口文件 | 描述瓦片树、包围体、几何误差、子瓦片路径和资源关系。 | `E:\Data\建筑物` |
+| `3D Tiles` | 大规模三维瓦片规范 | 用瓦片树、包围体和几何误差组织大规模三维数据，按视角和距离分级加载。 | `E:\Data\20-3d-scenes\buildings\建筑物`、`大帽山`、SUTPC GIS 需求 |
+| `tileset.json` | 3D Tiles 入口文件 | 描述瓦片树、包围体、几何误差、子瓦片路径和资源关系。 | `E:\Data\20-3d-scenes\buildings\建筑物` |
 | `B3DM` | Batched 3D Model | 3D Tiles 中用于批量三维模型的瓦片格式，常封装 glTF 和批量属性。 | 3D Tiles 目录 |
 | `I3DM` | Instanced 3D Model | 3D Tiles 中用于大量重复实例的瓦片格式，如树木、灯杆、设施点。 | 后续设施单体化可参考 |
 | `PNTS` | Point Cloud Tile | 3D Tiles 中用于点云瓦片的数据格式。 | 三维激光/点云资料 |
-| `CMPT` | Composite Tile | 3D Tiles 复合瓦片，可把多个瓦片封装在一起。 | `E:\Data\大帽山` |
+| `CMPT` | Composite Tile | 3D Tiles 复合瓦片，可把多个瓦片封装在一起。 | `E:\Data\30-projects\tunnels\大帽山` |
 | `S3M` | SuperMap 三维模型缓存格式 | SuperMap 生态常用三维服务格式，适合 T-GIS/SuperMap 场景。 | SUTPC BIM 集成方案明确提到 |
 | `S3MX` | S3M 相关扩展格式 | SuperMap 三维数据交换/缓存相关格式，具体语义要看平台工具链。 | BIM 支撑平台新增输出能力 |
 | `UDB` | SuperMap 数据库格式 | SuperMap 传统数据源格式之一，用于存储 GIS 数据。 | BIM 集成方案提到输出能力 |
@@ -107,13 +107,13 @@
 
 | 本地资产 | 当前格式 | 建议发布方向 | 说明 |
 | --- | --- | --- | --- |
-| `E:\Data\全生命周期BIM\桥梁_北环上步立交-LL主线.fbx` | `FBX` | `glTF` / `3D Tiles` / `S3M` | 小体量，适合先做转换样例 |
-| `E:\Data\全生命周期BIM\边坡_龙景立交D匝道边坡LGBP0026.fbx` | `FBX` | `glTF` / `3D Tiles` / `S3M` | 含设施编码线索，适合业务关联 |
-| `E:\Data\全生命周期BIM\隧道_塘朗山隧道.fbx` | `FBX` | `3D Tiles` / `S3M` | 体量较大，先做版本对比 |
-| `E:\Data\建筑物` | `3D Tiles` | Cesium/T-GIS 预览样例 | 可作为三维瓦片入口样例 |
-| `E:\Data\大帽山`、`E:\Data\大坪山` | 三维模型/瓦片候选 | 3D Tiles/S3M 场景 | 适合隧道或山体三维专题 |
+| `E:\Data\10-models\bim\全生命周期BIM\桥梁_北环上步立交-LL主线.fbx` | `FBX` | `glTF` / `3D Tiles` / `S3M` | 小体量，适合先做转换样例 |
+| `E:\Data\10-models\bim\全生命周期BIM\边坡_龙景立交D匝道边坡LGBP0026.fbx` | `FBX` | `glTF` / `3D Tiles` / `S3M` | 含设施编码线索，适合业务关联 |
+| `E:\Data\10-models\bim\全生命周期BIM\隧道_塘朗山隧道.fbx` | `FBX` | `3D Tiles` / `S3M` | 体量较大，先做版本对比 |
+| `E:\Data\20-3d-scenes\buildings\建筑物` | `3D Tiles` | Cesium/T-GIS 预览样例 | 可作为三维瓦片入口样例 |
+| `E:\Data\30-projects\tunnels\大帽山`、`E:\Data\30-projects\tunnels\大坪山` | 三维模型/瓦片候选 | 3D Tiles/S3M 场景 | 适合隧道或山体三维专题 |
 | `E:\Data\深圳市行政区` | Shapefile | GeoJSON/图层服务 | 适合作为 GIS 基础图层样例 |
-| `E:\Data\深超总` | 倾斜摄影/压缩包 | 3D Tiles/S3M | 先记录，不解压 |
+| `E:\Data\20-3d-scenes\shenchaozong\深超总` | 倾斜摄影/压缩包 | 3D Tiles/S3M | 先记录，不解压 |
 
 ## 当前结论
 

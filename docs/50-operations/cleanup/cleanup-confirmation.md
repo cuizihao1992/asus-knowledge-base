@@ -49,11 +49,11 @@
 
 | 路径 | 类型 | 保留理由 |
 | --- | --- | --- |
-| `E:\Data\泉厦高速隧道竣工图.zip` | 竣工图大包 | 可能是工程资料资产，不能按压缩包直接判断低价值 |
-| `E:\Data\深超总\倾斜3dtiles集合202203.zip` | 三维瓦片包 | 与 3D Tiles/倾斜摄影资产有关，高价值可能性高 |
-| `E:\Data\深超总\手工模型3dtiles集合-202203.rar` | 三维模型瓦片包 | 与三维场景资产有关 |
-| `E:\Data\大坪山\大坪山隧道数据.zip` | 隧道数据包 | 与隧道/BIM/GIS 项目相关 |
-| `E:\Data\一体化\一体化项目项目模型-提BIM支持平台.rar` | 模型包 | 与一体化 BIM 支撑平台资料相关 |
+| `E:\Data\30-projects\tunnels\泉厦高速隧道竣工图.zip` | 竣工图大包 | 可能是工程资料资产，不能按压缩包直接判断低价值 |
+| `E:\Data\20-3d-scenes\shenchaozong\深超总\倾斜3dtiles集合202203.zip` | 三维瓦片包 | 与 3D Tiles/倾斜摄影资产有关，高价值可能性高 |
+| `E:\Data\20-3d-scenes\shenchaozong\深超总\手工模型3dtiles集合-202203.rar` | 三维模型瓦片包 | 与三维场景资产有关 |
+| `E:\Data\30-projects\tunnels\大坪山\大坪山隧道数据.zip` | 隧道数据包 | 与隧道/BIM/GIS 项目相关 |
+| `E:\Data\30-projects\integrated-platform\一体化\一体化项目项目模型-提BIM支持平台.rar` | 模型包 | 与一体化 BIM 支撑平台资料相关 |
 | `E:\SUTPC\Brancher_004-backup.zip` | 大型项目备份包 | 体量极大但可能含 UE/原型工程，不解压不删除 |
 | `E:\SUTPC\Brancher_004-backup` | 项目备份目录 | 与上面的备份包可能对应，先只记录 |
 | `E:\学习资料\webGL\WebGL编程指南.rar` | 学习资料 | WebGL 学习主线相关 |
@@ -68,8 +68,8 @@
 | --- | --- | --- |
 | `D:\zhc\zhc-companion-source.zip` | 是否与 `D:\zhc\zhc-companion` 内容一致 | 计算哈希；必要时仅列内容，不解压覆盖 |
 | `D:\zhc\zhc-companion-lite-release.apk` | 是否需要作为发布版本留存 | 记录版本号、构建日期、对应源码提交 |
-| `E:\Data\fbx.rar` | 是否与 `E:\Data\全生命周期BIM` 或其他 FBX 重复 | 哈希/文件名清单对比 |
-| `E:\Data\gltf.zip` | 是否是模型转换产物 | 列压缩包内容后判断 |
+| `E:\Data\10-models\archives\fbx.rar` | 是否与 `E:\Data\10-models\bim\全生命周期BIM` 或其他 FBX 重复 | 哈希/文件名清单对比 |
+| `E:\Data\10-models\archives\gltf.zip` | 是否是模型转换产物 | 列压缩包内容后判断 |
 | `E:\学习资料\Cesium资料\Cesium-1.65.zip` | 是否已有解压版或更高版本 | 和 Cesium 资料目录对比 |
 | `E:\学习资料\Cesium资料\SuperMap iEarth(osgb转3Dtiles).rar` | 是否仍有工具价值 | 确认是否用于 OSGB 转 3D Tiles |
 | `E:\学习资料\Cesium资料\专题_测试数据\dae转gltf工具.rar` | 是否仍可作为转换工具 | 和当前格式术语/转换计划关联 |

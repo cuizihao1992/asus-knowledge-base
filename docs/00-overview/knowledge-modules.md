@@ -99,9 +99,9 @@
 
 - `E:\SUTPC\全生命周期`
 - `E:\SUTPC\Bim系统Cesium&UE渲染效果图.pptx`
-- `E:\Data\一体化`
-- `E:\Data\大坪山`
-- `E:\Data\大帽山`
+- `E:\Data\30-projects\integrated-platform\一体化`
+- `E:\Data\30-projects\tunnels\大坪山`
+- `E:\Data\30-projects\tunnels\大帽山`
 
 ## 模块 4：代码项目
 
@@ -171,7 +171,7 @@
 
 - `D:\Mavic3`
 - `D:\DEM_temp`
-- `E:\Data\gltf.zip`
+- `E:\Data\10-models\archives\gltf.zip`
 
 ## 模块 6：待整理
 

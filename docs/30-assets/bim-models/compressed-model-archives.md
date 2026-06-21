@@ -2,7 +2,7 @@
 
 生成日期：2026-06-21
 
-范围：记录 `E:\Data\fbx.rar` 与 `E:\Data\gltf.zip` 两个压缩模型包。本文只做元数据、内容摘要和资产判断；未移动、删除、解压、转换或上传模型数据。
+范围：记录 `E:\Data\10-models\archives\fbx.rar` 与 `E:\Data\10-models\archives\gltf.zip` 两个压缩模型包。本文只做元数据、内容摘要和资产判断；未移动、删除、解压、转换或上传模型数据。
 
 ## 结论先行
 
@@ -14,12 +14,12 @@
 
 | 文件 | 格式 | 大小 | 修改时间 | SHA256 前缀 | 当前状态 | 建议 |
 | --- | --- | ---: | --- | --- | --- | --- |
-| `E:\Data\fbx.rar` | RAR / FBX 模型包 | 274,179,140 bytes | 2022-03-25 14:43:15 | `8A2524E19C1D1ECF` | 未列内容 | 保留；安装 7z/WinRAR 后只列目录 |
-| `E:\Data\gltf.zip` | ZIP / glTF 模型包 | 224,388,770 bytes | 2022-03-25 17:17:16 | `1E5C9C77470A8077` | 已列 zip 目录摘要 | 保留；纳入 glTF 资产索引 |
+| `E:\Data\10-models\archives\fbx.rar` | RAR / FBX 模型包 | 274,179,140 bytes | 2022-03-25 14:43:15 | `8A2524E19C1D1ECF` | 未列内容 | 保留；安装 7z/WinRAR 后只列目录 |
+| `E:\Data\10-models\archives\gltf.zip` | ZIP / glTF 模型包 | 224,388,770 bytes | 2022-03-25 17:17:16 | `1E5C9C77470A8077` | 已列 zip 目录摘要 | 保留；纳入 glTF 资产索引 |
 
 ## glTF 包内容摘要
 
-`E:\Data\gltf.zip` 可通过 .NET Zip API 只读列目录，未解压。
+`E:\Data\10-models\archives\gltf.zip` 可通过 .NET Zip API 只读列目录，未解压。
 
 | 指标 | 值 |
 | --- | ---: |
@@ -49,12 +49,12 @@
 
 ## FBX 包当前限制
 
-`E:\Data\fbx.rar` 当前未列内部目录，原因是本机未检测到 `7z.exe` 或 `7za.exe`，Windows 自带工具不足以稳定列 RAR 内容。后续建议只做目录清单，不解压。
+`E:\Data\10-models\archives\fbx.rar` 当前未列内部目录，原因是本机未检测到 `7z.exe` 或 `7za.exe`，Windows 自带工具不足以稳定列 RAR 内容。后续建议只做目录清单，不解压。
 
 建议命令草案：
 
 ```powershell
-7z l 'E:\Data\fbx.rar'
+7z l 'E:\Data\10-models\archives\fbx.rar'
 ```
 
 ## 资产价值判断
@@ -68,7 +68,7 @@
 
 ## 后续动作
 
-1. 对 `fbx.rar` 使用 7z/WinRAR 只列目录，确认是否与 `E:\Data\全生命周期BIM` 或其他 FBX 目录重复。
+1. 对 `fbx.rar` 使用 7z/WinRAR 只列目录，确认是否与 `E:\Data\10-models\bim\全生命周期BIM` 或其他 FBX 目录重复。
 2. 对 `gltf.zip` 建立 glTF 场景清单，列出 11 个 `.gltf` 场景名称和纹理数量。
 3. 将 `gltf.zip` 与现有 `全生命周期 BIM`、`一体化` 模型资料做项目关联。
 4. 后续若做预览或转换，先复制到临时工作区，不直接改原始压缩包。

@@ -111,17 +111,17 @@
 
 | 术语 | 中文含义 | 工作解释 | 本地资料关联 |
 | --- | --- | --- | --- |
-| BIM | 建筑信息模型 | 以模型和属性表达工程对象，可用于设计、施工、运维和全生命周期管理。 | `E:\Data\全生命周期BIM` |
+| BIM | 建筑信息模型 | 以模型和属性表达工程对象，可用于设计、施工、运维和全生命周期管理。 | `E:\Data\10-models\bim\全生命周期BIM` |
 | FBX | 三维模型格式 | 常见模型交换格式，资料中用于桥梁、边坡、隧道模型。 | `docs/assets/model-assets.md` |
-| OBJ | 三维模型格式 | 简单通用的几何模型格式，通常配合 `.mtl` 材质文件。 | `E:\Data\大帽山` |
+| OBJ | 三维模型格式 | 简单通用的几何模型格式，通常配合 `.mtl` 材质文件。 | `E:\Data\30-projects\tunnels\大帽山` |
 | glTF | GL Transmission Format | 面向实时渲染的三维资产格式，适合 Web/引擎加载。 | Cesium/3D Tiles 资料 |
 | GLB | 二进制 glTF | glTF 的二进制封装形式。 | Cesium 测试数据 |
-| 3D Tiles | 三维瓦片规范 | 面向大规模三维地理数据的分级加载格式，Cesium 常用。 | `E:\Data\建筑物`、`大帽山` |
-| B3DM | Batched 3D Model | 3D Tiles 中用于批量三维模型的瓦片格式。 | `E:\Data\大帽山` |
-| CMPT | Composite Tile | 3D Tiles 复合瓦片，可封装多个瓦片。 | `E:\Data\大帽山` |
-| tileset.json | 3D Tiles 入口文件 | 描述瓦片树、包围体、几何误差和资源路径。 | `E:\Data\建筑物` |
+| 3D Tiles | 三维瓦片规范 | 面向大规模三维地理数据的分级加载格式，Cesium 常用。 | `E:\Data\20-3d-scenes\buildings\建筑物`、`大帽山` |
+| B3DM | Batched 3D Model | 3D Tiles 中用于批量三维模型的瓦片格式。 | `E:\Data\30-projects\tunnels\大帽山` |
+| CMPT | Composite Tile | 3D Tiles 复合瓦片，可封装多个瓦片。 | `E:\Data\30-projects\tunnels\大帽山` |
+| tileset.json | 3D Tiles 入口文件 | 描述瓦片树、包围体、几何误差和资源路径。 | `E:\Data\20-3d-scenes\buildings\建筑物` |
 | scenetree.json | 场景树文件 | 常用于记录模型层级、对象结构或场景组织。具体语义需看工具链。 | Data 目录三维资产 |
-| 倾斜摄影 | Oblique Photogrammetry | 多角度影像重建出的三维城市/地形模型。 | `E:\Data\深超总` |
+| 倾斜摄影 | Oblique Photogrammetry | 多角度影像重建出的三维城市/地形模型。 | `E:\Data\20-3d-scenes\shenchaozong\深超总` |
 
 ## 质量和整理字段
 

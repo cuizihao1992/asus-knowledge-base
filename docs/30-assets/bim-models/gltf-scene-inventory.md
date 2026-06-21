@@ -1,8 +1,8 @@
-# glTF 场景清单：E:\Data\gltf.zip
+# glTF 场景清单：E:\Data\10-models\archives\gltf.zip
 
 生成日期：2026-06-21
 
-范围：只读列出 `E:\Data\gltf.zip` 内的 `.gltf` 场景及其相关文件数量。未解压、未移动、未删除、未转换、未上传。
+范围：只读列出 `E:\Data\10-models\archives\gltf.zip` 内的 `.gltf` 场景及其相关文件数量。未解压、未移动、未删除、未转换、未上传。
 
 ## 结论
 

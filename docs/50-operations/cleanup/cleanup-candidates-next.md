@@ -39,13 +39,13 @@
 
 | 路径 | 类型 | 判断 |
 | --- | --- | --- |
-| `E:\Data\fbx.rar` | 模型压缩包 | 只记录候选；可能与 FBX 模型资产有关 |
-| `E:\Data\gltf.zip` | 模型压缩包 | 只记录候选；可能是转换产物 |
-| `E:\Data\泉厦高速隧道竣工图.zip` | 大型竣工图包 | 高价值可能性高，只记录 |
-| `E:\Data\一体化\一体化项目项目模型-提BIM支持平台.rar` | 模型包 | 只记录；与一体化模型目录有关 |
-| `E:\Data\深超总\倾斜3dtiles集合202203.zip` | 约 6.99GB 三维瓦片包 | 只记录；不解压 |
-| `E:\Data\深超总\手工模型3dtiles集合-202203.rar` | 约 1.43GB 三维瓦片包 | 只记录；不解压 |
-| `E:\Data\大坪山\大坪山隧道数据.zip` | 约 1.36GB 隧道数据包 | 只记录；不解压 |
+| `E:\Data\10-models\archives\fbx.rar` | 模型压缩包 | 只记录候选；可能与 FBX 模型资产有关 |
+| `E:\Data\10-models\archives\gltf.zip` | 模型压缩包 | 只记录候选；可能是转换产物 |
+| `E:\Data\30-projects\tunnels\泉厦高速隧道竣工图.zip` | 大型竣工图包 | 高价值可能性高，只记录 |
+| `E:\Data\30-projects\integrated-platform\一体化\一体化项目项目模型-提BIM支持平台.rar` | 模型包 | 只记录；与一体化模型目录有关 |
+| `E:\Data\20-3d-scenes\shenchaozong\深超总\倾斜3dtiles集合202203.zip` | 约 6.99GB 三维瓦片包 | 只记录；不解压 |
+| `E:\Data\20-3d-scenes\shenchaozong\深超总\手工模型3dtiles集合-202203.rar` | 约 1.43GB 三维瓦片包 | 只记录；不解压 |
+| `E:\Data\30-projects\tunnels\大坪山\大坪山隧道数据.zip` | 约 1.36GB 隧道数据包 | 只记录；不解压 |
 
 判断：`E:\Data` 下大包多数可能是项目数据资产，不适合直接清理。更适合做“资产卡片”和“是否已有解压目录”的对照。
 

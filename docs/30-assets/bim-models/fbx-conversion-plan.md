@@ -2,7 +2,7 @@
 
 生成日期：2026-06-21
 
-范围：面向 `E:\Data\全生命周期BIM` 下三个已登记 FBX，设计从原始 FBX 到 glTF / 3D Tiles / Cesium/T-GIS 加载的验证流程。本文只做方案，不复制、不移动、不转换、不上传原始模型。
+范围：面向 `E:\Data\10-models\bim\全生命周期BIM` 下三个已登记 FBX，设计从原始 FBX 到 glTF / 3D Tiles / Cesium/T-GIS 加载的验证流程。本文只做方案，不复制、不移动、不转换、不上传原始模型。
 
 ## 目标
 
@@ -22,9 +22,9 @@ FBX 原始模型
 
 | 优先级 | 模型 | 原因 | 风险 |
 | --- | --- | --- | --- |
-| 1 | `E:\Data\全生命周期BIM\桥梁_北环上步立交-LL主线.fbx` | 体量小，约 1.03 MB；适合快速验证工具链 | 需确认坐标和构件层级 |
-| 2 | `E:\Data\全生命周期BIM\边坡_龙景立交D匝道边坡LGBP0026.fbx` | 体量小，约 1.56 MB；命名含设施编号，业务价值高 | 需确认 `LGBP0026` 编码含义 |
-| 3 | `E:\Data\全生命周期BIM\隧道_塘朗山隧道.fbx` | 隧道专题价值高，约 36.71 MB | 体量较大；可能与其他塘朗山模型存在版本关系 |
+| 1 | `E:\Data\10-models\bim\全生命周期BIM\桥梁_北环上步立交-LL主线.fbx` | 体量小，约 1.03 MB；适合快速验证工具链 | 需确认坐标和构件层级 |
+| 2 | `E:\Data\10-models\bim\全生命周期BIM\边坡_龙景立交D匝道边坡LGBP0026.fbx` | 体量小，约 1.56 MB；命名含设施编号，业务价值高 | 需确认 `LGBP0026` 编码含义 |
+| 3 | `E:\Data\10-models\bim\全生命周期BIM\隧道_塘朗山隧道.fbx` | 隧道专题价值高，约 36.71 MB | 体量较大；可能与其他塘朗山模型存在版本关系 |
 
 ## 工作区规则
 
@@ -72,7 +72,7 @@ New-Item -ItemType Directory -Force -Path 'C:\tmp\asus-kb-model-work\input'
 New-Item -ItemType Directory -Force -Path 'C:\tmp\asus-kb-model-work\gltf'
 New-Item -ItemType Directory -Force -Path 'C:\tmp\asus-kb-model-work\reports'
 
-Copy-Item -LiteralPath 'E:\Data\全生命周期BIM\桥梁_北环上步立交-LL主线.fbx' -Destination 'C:\tmp\asus-kb-model-work\input\桥梁_北环上步立交-LL主线.fbx'
+Copy-Item -LiteralPath 'E:\Data\10-models\bim\全生命周期BIM\桥梁_北环上步立交-LL主线.fbx' -Destination 'C:\tmp\asus-kb-model-work\input\桥梁_北环上步立交-LL主线.fbx'
 ```
 
 后续如果使用 Blender 命令行，应先确认 Blender 安装路径，再在临时工作区运行转换脚本。

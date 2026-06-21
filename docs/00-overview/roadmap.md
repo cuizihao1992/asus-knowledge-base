@@ -19,7 +19,7 @@
 | `09-knowledge-schema.md` | 知识库对象 | 数据模型规范 |
 | `10-status-board.md` | 全局进度 | 整理状态看板 |
 | `11-evaluation-rules.md` | D/E 盘资料 | 价值评估与整理规则 |
-| `assets/model-assets.md` | `E:\Data\全生命周期BIM` | 模型资产卡片 |
+| `assets/model-assets.md` | `E:\Data\10-models\bim\全生命周期BIM` | 模型资产卡片 |
 | `summaries/mini-transformer.md` | `D:\zhc\mini-transformer` | Transformer 学习项目专题摘要 |
 | `summaries/zhc-companion.md` | `D:\zhc\zhc-companion` | 本地项目伴侣专题摘要 |
 | `summaries/quant-system.md` | `D:\zhc\quant-system` | 个人量化系统专题摘要 |
@@ -56,7 +56,7 @@
 
 ### 2. 建立模型资产卡片
 
-优先处理 `E:\Data\全生命周期BIM`，因为只有 3 个 FBX，结构清晰。
+优先处理 `E:\Data\10-models\bim\全生命周期BIM`，因为只有 3 个 FBX，结构清晰。
 
 建议资产卡片：
 

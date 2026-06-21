@@ -102,14 +102,14 @@ SUTPC 全生命周期监管平台的 GIS 数据需求不是简单底图需求，
 
 | SUTPC 需求 | 本地资产 | 当前状态 | 建议 |
 | --- | --- | --- | --- |
-| 桥梁 BIM 模型 | `E:\Data\全生命周期BIM\桥梁_北环上步立交-LL主线.fbx` | 已建模型资产卡片 | 关联设施库、BIM 属性信息 |
-| 边坡 BIM 模型 | `E:\Data\全生命周期BIM\边坡_龙景立交D匝道边坡LGBP0026.fbx` | 已建模型资产卡片 | 关联边坡监测、设施信息 |
-| 隧道 BIM 模型 | `E:\Data\全生命周期BIM\隧道_塘朗山隧道.fbx` | 已建模型资产卡片 | 关联隧道监测、视频、BIM 展示 |
-| 隧道 3D Tiles / 模型 | `E:\Data\大帽山`、`E:\Data\大坪山` | 已索引 | 可补充 3D Tiles 格式专题 |
-| 倾斜摄影三维底板 | `E:\Data\深超总` | 已索引，大压缩包未解压 | 保持只记录，后续确认后再处理 |
-| 建筑物 3D Tiles 示例 | `E:\Data\建筑物` | 已索引 | 可作为 Cesium 示例数据 |
-| 行政区划 | `E:\Data\t_common_base_district_2019M9_sz_深圳市行政区` | 已索引 Shapefile | 可作为公共专题数据样例 |
-| 隧道视频 | `E:\Data\隧道视频` | 已索引 | 可对应监控视频/巡检视频资产 |
+| 桥梁 BIM 模型 | `E:\Data\10-models\bim\全生命周期BIM\桥梁_北环上步立交-LL主线.fbx` | 已建模型资产卡片 | 关联设施库、BIM 属性信息 |
+| 边坡 BIM 模型 | `E:\Data\10-models\bim\全生命周期BIM\边坡_龙景立交D匝道边坡LGBP0026.fbx` | 已建模型资产卡片 | 关联边坡监测、设施信息 |
+| 隧道 BIM 模型 | `E:\Data\10-models\bim\全生命周期BIM\隧道_塘朗山隧道.fbx` | 已建模型资产卡片 | 关联隧道监测、视频、BIM 展示 |
+| 隧道 3D Tiles / 模型 | `E:\Data\30-projects\tunnels\大帽山`、`E:\Data\30-projects\tunnels\大坪山` | 已索引 | 可补充 3D Tiles 格式专题 |
+| 倾斜摄影三维底板 | `E:\Data\20-3d-scenes\shenchaozong\深超总` | 已索引，大压缩包未解压 | 保持只记录，后续确认后再处理 |
+| 建筑物 3D Tiles 示例 | `E:\Data\20-3d-scenes\buildings\建筑物` | 已索引 | 可作为 Cesium 示例数据 |
+| 行政区划 | `E:\Data\00-gis-layers\administrative-districts\t_common_base_district_2019M9_sz_深圳市行政区` | 已索引 Shapefile | 可作为公共专题数据样例 |
+| 隧道视频 | `E:\Data\40-videos\tunnels\隧道视频` | 已索引 | 可对应监控视频/巡检视频资产 |
 
 ## 数据建模建议
 

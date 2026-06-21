@@ -52,11 +52,11 @@
 | `D:\zhc\zhc-companion-source.zip` | 已对比，不是完全重复 | 暂保留，清理收益低 |
 | `D:\zhc\zhc-companion-lite-release.apk` | 已记录发布产物 | 暂保留，体量很小 |
 | 3 个 RAR | 当前缺少 7z/WinRAR 列目录能力 | 安装或调用可用工具后只列目录，不解压 |
-| `E:\Data\gltf.zip` | 已确认模型资产 | 后续可做临时工作区预览 |
+| `E:\Data\10-models\archives\gltf.zip` | 已确认模型资产 | 后续可做临时工作区预览 |
 | 小体量 FBX | 已有转换预案 | 后续可从桥梁模型开始做临时工作区试验 |
 
 ## 下一步建议
 
-1. 补齐 RAR 只列目录能力，优先处理 `E:\Data\fbx.rar`。
+1. 补齐 RAR 只列目录能力，优先处理 `E:\Data\10-models\archives\fbx.rar`。
 2. 对桥梁小体量 FBX 做临时工作区打开/转换验证。
 3. 建立 SUTPC 大屏“图层分组 + 字段 + 本地样例”矩阵。

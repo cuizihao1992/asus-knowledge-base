@@ -21,19 +21,19 @@
 
 | 目录/文件 | 类型 | 路径 | 最近更新时间 | 初步判断 |
 | --- | --- | --- | --- | --- |
-| 一体化 | 项目模型包 | `E:\Data\一体化` | 2022-04-24 | 高价值，和 SUTPC 项目关联 |
-| 全生命周期BIM | BIM 模型 | `E:\Data\全生命周期BIM` | 2022-04-07 | 高价值，适合优先索引 |
-| 大坪山 | 隧道模型/视频/压缩包 | `E:\Data\大坪山` | 2022-04-21 | 高价值，数据较杂 |
-| 大帽山 | 隧道模型/3D Tiles | `E:\Data\大帽山` | 2022-04-21 | 高价值，三维格式丰富 |
-| 沈海高速0325 | 图片/Max/模型资料 | `E:\Data\沈海高速0325` | 2022-04-24 | 项目素材，需二次筛选 |
-| 深超总 | 倾斜摄影/3D Tiles/建筑模型 | `E:\Data\深超总` | 2022-04-21 | 大体量三维资产 |
-| 隧道视频 | 视频资料 | `E:\Data\隧道视频` | 2022-04-19 | 大体量视频，只做索引 |
-| 泉厦高速隧道竣工图 | 竣工图目录 | `E:\Data\泉厦高速隧道竣工图` | 2022-03-25 | 可和竣工图压缩包关联 |
-| 建筑物 | 3D Tiles 示例 | `E:\Data\建筑物` | 2022-03-27 | 可归入 GIS/三维示例 |
-| 深圳市行政区 | Shapefile | `E:\Data\t_common_base_district_2019M9_sz_深圳市行政区` | 2022-03-29 | GIS 基础数据 |
-| fbx.rar | FBX 压缩包 | `E:\Data\fbx.rar` | 2022-03-25 | 只记录，不入库 |
-| gltf.zip | glTF 压缩包 | `E:\Data\gltf.zip` | 2022-03-25 | 只记录，不入库 |
-| 泉厦高速隧道竣工图.zip | 竣工图压缩包 | `E:\Data\泉厦高速隧道竣工图.zip` | 2022-03-25 | 大文件，只记录 |
+| 一体化 | 项目模型包 | `E:\Data\30-projects\integrated-platform\一体化` | 2022-04-24 | 高价值，和 SUTPC 项目关联 |
+| 全生命周期BIM | BIM 模型 | `E:\Data\10-models\bim\全生命周期BIM` | 2022-04-07 | 高价值，适合优先索引 |
+| 大坪山 | 隧道模型/视频/压缩包 | `E:\Data\30-projects\tunnels\大坪山` | 2022-04-21 | 高价值，数据较杂 |
+| 大帽山 | 隧道模型/3D Tiles | `E:\Data\30-projects\tunnels\大帽山` | 2022-04-21 | 高价值，三维格式丰富 |
+| 沈海高速0325 | 图片/Max/模型资料 | `E:\Data\30-projects\tunnels\沈海高速0325` | 2022-04-24 | 项目素材，需二次筛选 |
+| 深超总 | 倾斜摄影/3D Tiles/建筑模型 | `E:\Data\20-3d-scenes\shenchaozong\深超总` | 2022-04-21 | 大体量三维资产 |
+| 隧道视频 | 视频资料 | `E:\Data\40-videos\tunnels\隧道视频` | 2022-04-19 | 大体量视频，只做索引 |
+| 泉厦高速隧道竣工图 | 竣工图目录 | `E:\Data\30-projects\tunnels\泉厦高速隧道竣工图` | 2022-03-25 | 可和竣工图压缩包关联 |
+| 建筑物 | 3D Tiles 示例 | `E:\Data\20-3d-scenes\buildings\建筑物` | 2022-03-27 | 可归入 GIS/三维示例 |
+| 深圳市行政区 | Shapefile | `E:\Data\00-gis-layers\administrative-districts\t_common_base_district_2019M9_sz_深圳市行政区` | 2022-03-29 | GIS 基础数据 |
+| fbx.rar | FBX 压缩包 | `E:\Data\10-models\archives\fbx.rar` | 2022-03-25 | 只记录，不入库 |
+| gltf.zip | glTF 压缩包 | `E:\Data\10-models\archives\gltf.zip` | 2022-03-25 | 只记录，不入库 |
+| 泉厦高速隧道竣工图.zip | 竣工图压缩包 | `E:\Data\30-projects\tunnels\泉厦高速隧道竣工图.zip` | 2022-03-25 | 大文件，只记录 |
 
 ## 目录体量
 
@@ -41,13 +41,13 @@
 
 | 目录 | 浅层文件数 | 浅层体量 | 判断 |
 | --- | ---: | ---: | --- |
-| `E:\Data\隧道视频` | 14 | 约 24.19GB | 视频资料，体量最大 |
-| `E:\Data\深超总` | 3 | 约 8.04GB | 倾斜摄影和 3D Tiles 压缩包 |
-| `E:\Data\大坪山` | 32 | 约 2.56GB | 隧道模型、视频、压缩包 |
-| `E:\Data\大帽山` | 29 | 约 1.21GB | FBX、OBJ、B3DM/CMPT |
-| `E:\Data\沈海高速0325` | 229 | 约 0.81GB | 图片和 Max 模型资料 |
-| `E:\Data\一体化` | 4 | 约 0.39GB | 一体化项目模型 |
-| `E:\Data\全生命周期BIM` | 3 | 约 0.04GB | 桥梁、边坡、隧道 FBX |
+| `E:\Data\40-videos\tunnels\隧道视频` | 14 | 约 24.19GB | 视频资料，体量最大 |
+| `E:\Data\20-3d-scenes\shenchaozong\深超总` | 3 | 约 8.04GB | 倾斜摄影和 3D Tiles 压缩包 |
+| `E:\Data\30-projects\tunnels\大坪山` | 32 | 约 2.56GB | 隧道模型、视频、压缩包 |
+| `E:\Data\30-projects\tunnels\大帽山` | 29 | 约 1.21GB | FBX、OBJ、B3DM/CMPT |
+| `E:\Data\30-projects\tunnels\沈海高速0325` | 229 | 约 0.81GB | 图片和 Max 模型资料 |
+| `E:\Data\30-projects\integrated-platform\一体化` | 4 | 约 0.39GB | 一体化项目模型 |
+| `E:\Data\10-models\bim\全生命周期BIM` | 3 | 约 0.04GB | 桥梁、边坡、隧道 FBX |
 
 ## 文件类型分布
 
@@ -71,7 +71,7 @@
 
 ### 一体化项目模型
 
-路径：`E:\Data\一体化`
+路径：`E:\Data\30-projects\integrated-platform\一体化`
 
 代表文件：
 
@@ -92,7 +92,7 @@
 
 ### 全生命周期 BIM 模型
 
-路径：`E:\Data\全生命周期BIM`
+路径：`E:\Data\10-models\bim\全生命周期BIM`
 
 代表文件：
 
@@ -109,7 +109,7 @@
 
 ### 大坪山
 
-路径：`E:\Data\大坪山`
+路径：`E:\Data\30-projects\tunnels\大坪山`
 
 代表内容：
 
@@ -129,7 +129,7 @@
 
 ### 大帽山
 
-路径：`E:\Data\大帽山`
+路径：`E:\Data\30-projects\tunnels\大帽山`
 
 代表内容：
 
@@ -150,7 +150,7 @@
 
 ### 深超总
 
-路径：`E:\Data\深超总`
+路径：`E:\Data\20-3d-scenes\shenchaozong\深超总`
 
 代表文件：
 
@@ -167,7 +167,7 @@
 
 ### 隧道视频
 
-路径：`E:\Data\隧道视频`
+路径：`E:\Data\40-videos\tunnels\隧道视频`
 
 代表内容：
 
@@ -184,7 +184,7 @@
 
 ### 深圳市行政区 Shapefile
 
-路径：`E:\Data\t_common_base_district_2019M9_sz_深圳市行政区`
+路径：`E:\Data\00-gis-layers\administrative-districts\t_common_base_district_2019M9_sz_深圳市行政区`
 
 代表文件：
 
@@ -202,7 +202,7 @@
 
 ### 建筑物 3D Tiles 示例
 
-路径：`E:\Data\建筑物`
+路径：`E:\Data\20-3d-scenes\buildings\建筑物`
 
 代表文件：
 
@@ -221,16 +221,16 @@
 
 | 文件 | 大小级别 | 处理建议 |
 | --- | ---: | --- |
-| `E:\Data\深超总\倾斜3dtiles集合202203.zip` | 约 7GB | 只记录，后续按需解压 |
-| `E:\Data\泉厦高速隧道竣工图.zip` | 约 1.9GB | 只记录，可关联档案目录 |
-| `E:\Data\隧道视频\*.mp4` | 单个约 1.8GB | 只做视频索引 |
-| `E:\Data\深超总\手工模型3dtiles集合-202203.rar` | 约 1.4GB | 只记录 |
-| `E:\Data\大坪山\大坪山隧道数据.zip` | 约 1.3GB | 只记录 |
-| `E:\Data\沈海高速0325\沈海高速0325.max` | 约 733MB | 记录源模型 |
-| `E:\Data\大帽山\大帽山fbx\obj.obj` | 约 626MB | 记录 OBJ 模型 |
-| `E:\Data\大帽山\大帽山fbx\20220325.fbx` | 约 404MB | 记录 FBX 模型 |
-| `E:\Data\fbx.rar` | 约 274MB | 只记录 |
-| `E:\Data\gltf.zip` | 约 224MB | 只记录 |
+| `E:\Data\20-3d-scenes\shenchaozong\深超总\倾斜3dtiles集合202203.zip` | 约 7GB | 只记录，后续按需解压 |
+| `E:\Data\30-projects\tunnels\泉厦高速隧道竣工图.zip` | 约 1.9GB | 只记录，可关联档案目录 |
+| `E:\Data\40-videos\tunnels\隧道视频\*.mp4` | 单个约 1.8GB | 只做视频索引 |
+| `E:\Data\20-3d-scenes\shenchaozong\深超总\手工模型3dtiles集合-202203.rar` | 约 1.4GB | 只记录 |
+| `E:\Data\30-projects\tunnels\大坪山\大坪山隧道数据.zip` | 约 1.3GB | 只记录 |
+| `E:\Data\30-projects\tunnels\沈海高速0325\沈海高速0325.max` | 约 733MB | 记录源模型 |
+| `E:\Data\30-projects\tunnels\大帽山\大帽山fbx\obj.obj` | 约 626MB | 记录 OBJ 模型 |
+| `E:\Data\30-projects\tunnels\大帽山\大帽山fbx\20220325.fbx` | 约 404MB | 记录 FBX 模型 |
+| `E:\Data\10-models\archives\fbx.rar` | 约 274MB | 只记录 |
+| `E:\Data\10-models\archives\gltf.zip` | 约 224MB | 只记录 |
 
 ## 建议的数据资产卡片字段
 

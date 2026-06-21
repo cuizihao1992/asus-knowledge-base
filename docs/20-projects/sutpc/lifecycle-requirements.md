@@ -123,14 +123,14 @@ BIM 侧核心流程：
 
 | 需求对象 | 本地数据资产 | 可建立的关联 |
 | --- | --- | --- |
-| BIM 模型 | `E:\Data\全生命周期BIM` 三个 FBX | 桥梁、边坡、隧道模型资产卡片 |
+| BIM 模型 | `E:\Data\10-models\bim\全生命周期BIM` 三个 FBX | 桥梁、边坡、隧道模型资产卡片 |
 | 桥梁 | `桥梁_北环上步立交-LL主线.fbx` | 设施库、BIM 模型、构件信息 |
 | 边坡 | `边坡_龙景立交D匝道边坡LGBP0026.fbx` | 边坡监测、设施信息、BIM 展示 |
 | 隧道 | `隧道_塘朗山隧道.fbx`、大坪山/大帽山数据 | 隧道监测、视频、BIM/GIS 联动 |
-| 3D Tiles | `E:\Data\建筑物`、`E:\Data\大帽山` | Cesium/T-GIS 场景加载 |
-| 倾斜摄影 | `E:\Data\深超总` | 三维底板、城市空间环境 |
-| 行政区划 | `E:\Data\t_common_base_district_2019M9_sz_深圳市行政区` | 公共专题图层、统计分析 |
-| 视频 | `E:\Data\隧道视频` | 监控视频/巡检视频资产索引 |
+| 3D Tiles | `E:\Data\20-3d-scenes\buildings\建筑物`、`E:\Data\30-projects\tunnels\大帽山` | Cesium/T-GIS 场景加载 |
+| 倾斜摄影 | `E:\Data\20-3d-scenes\shenchaozong\深超总` | 三维底板、城市空间环境 |
+| 行政区划 | `E:\Data\00-gis-layers\administrative-districts\t_common_base_district_2019M9_sz_深圳市行政区` | 公共专题图层、统计分析 |
+| 视频 | `E:\Data\40-videos\tunnels\隧道视频` | 监控视频/巡检视频资产索引 |
 
 ## 可复用项目经验
 

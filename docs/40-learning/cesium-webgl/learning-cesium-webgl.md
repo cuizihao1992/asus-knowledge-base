@@ -42,7 +42,7 @@
 整理价值：
 
 - 可形成“BIM/GIS 数据如何进入 Cesium”的操作链路。
-- 和 `E:\Data\深超总`、`E:\Data\建筑物`、`E:\Data\大帽山` 的 3D Tiles 数据强相关。
+- 和 `E:\Data\20-3d-scenes\shenchaozong\深超总`、`E:\Data\20-3d-scenes\buildings\建筑物`、`E:\Data\30-projects\tunnels\大帽山` 的 3D Tiles 数据强相关。
 - 视频体量较大，只做资产索引，不放入 GitHub。
 
 ### 2. WebGL 和三维图形基础
