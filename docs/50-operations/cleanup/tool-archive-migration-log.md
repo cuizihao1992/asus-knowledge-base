@@ -18,7 +18,7 @@
 
 ## 2026-06-21：2B 工具包迁移
 
-执行范围：继续迁移 `tool-archive-plan.md` 中 2B 的旧工具包。`D:\zhc\.build-tools` 暂不处理，避免影响 Android 构建环境。
+执行范围：继续迁移 `tool-archive-plan.md` 中 2B 的旧工具包。`D:\zhc\90-archive\build-tools\.build-tools` 暂不处理，避免影响 Android 构建环境。
 
 | 源路径 | 目标路径 | 大小（字节） | 迁移后源存在 | 迁移后目标存在 |
 | --- | --- | ---: | --- | --- |

@@ -2,7 +2,7 @@
 
 生成日期：2026-06-21
 
-范围：只读比较 `D:\zhc\zhc-companion-source.zip` 与 `D:\zhc\zhc-companion` 中同名文件的 SHA256。未解压、未移动、未删除。
+范围：只读比较 `D:\zhc\90-archive\source-snapshots\zhc-companion-source.zip` 与 `D:\zhc\zhc-companion` 中同名文件的 SHA256。未解压、未移动、未删除。
 
 ## 结论
 
@@ -37,6 +37,6 @@
 
 ## 建议
 
-- 暂保留 `D:\zhc\zhc-companion-source.zip`。
+- 暂保留 `D:\zhc\90-archive\source-snapshots\zhc-companion-source.zip`。
 - 如果后续要删除，应先把 3 个差异文件的内容差异记录清楚，确认 zip 版本没有独立价值。
 - 该 zip 体量很小，清理收益低，不应优先处理。

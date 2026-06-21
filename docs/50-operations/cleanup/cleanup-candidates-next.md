@@ -17,9 +17,9 @@
 
 | 路径 | 类型 | 判断 |
 | --- | --- | --- |
-| `D:\zhc\.build-tools` | 构建工具缓存 | 可迁移候选；确认被哪些 Android 项目使用后再处理 |
-| `D:\zhc\zhc-companion-source.zip` | 源码归档 | 待确认；如果与目录内容一致，可作为重复归档候选 |
-| `D:\zhc\zhc-companion-lite-release.apk` | Android 发布包 | 只记录；知识价值低，但可保留为版本产物 |
+| `D:\zhc\90-archive\build-tools\.build-tools` | 构建工具缓存 | 可迁移候选；确认被哪些 Android 项目使用后再处理 |
+| `D:\zhc\90-archive\source-snapshots\zhc-companion-source.zip` | 源码归档 | 待确认；如果与目录内容一致，可作为重复归档候选 |
+| `D:\zhc\90-archive\releases\zhc-companion-lite-release.apk` | Android 发布包 | 只记录；知识价值低，但可保留为版本产物 |
 
 ## E:\SUTPC 候选
 
@@ -67,7 +67,7 @@
 ## 当前建议
 
 1. 不立刻删除 `E:\Data` 的任何模型包、三维瓦片包和竣工图包。
-2. 可优先确认 `D:\zhc\zhc-companion-source.zip` 是否和源码目录重复。
+2. 可优先确认 `D:\zhc\90-archive\source-snapshots\zhc-companion-source.zip` 是否和源码目录重复。
 3. 可把 SUTPC 的 Axure/XMind 工具包列入“工具归档候选”，但不要影响项目文档和脑图。
 4. 学习资料中的大型安装包适合作为下一批低风险清理候选，但需要用户确认是否仍要保留旧版本工具。
 

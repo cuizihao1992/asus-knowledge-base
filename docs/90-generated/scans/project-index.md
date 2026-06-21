@@ -8,7 +8,7 @@
 
 | 名称 | 路径 | 状态 | 文件数 | 目录数 | 体量 | 跳过目录 | 错误 |
 | --- | --- | --- | ---: | ---: | ---: | ---: | ---: |
-| D zhc | `D:\zhc` | 已扫描 | 122 | 95 | 469.96 MB | 14 | 0 |
+| D zhc | `D:\zhc` | 已扫描 | 119 | 53 | 10.49 MB | 14 | 0 |
 | E SUTPC | `E:\SUTPC` | 已扫描 | 32 | 14 | 21.02 GB | 0 | 0 |
 | E Data | `E:\Data` | 已扫描 | 4 | 23 | 2.26 GB | 0 | 0 |
 | E 学习资料 | `E:\学习资料` | 已扫描 | 276 | 80 | 3.39 GB | 0 | 0 |
@@ -22,7 +22,7 @@
 
 | 名称 | 文件数 | 子目录数 | 浅层体量 | 最近更新时间 |
 | --- | ---: | ---: | ---: | --- |
-| .build-tools | 4 | 46 | 459.47 MB | 2026-06-11 05:31:28 |
+| 90-archive | 2 | 4 | 110.18 KB | 2026-06-11 05:32:18 |
 | mini-transformer | 23 | 6 | 8.74 MB | 2026-06-14 05:56:37 |
 | pi-mono | 46 | 17 | 490.50 KB | 2026-06-09 16:57:31 |
 | quant-system | 24 | 9 | 669.66 KB | 2026-06-10 05:36:54 |
@@ -33,40 +33,37 @@
 | 后缀 | 数量 |
 | --- | ---: |
 | `.py` | 25 |
-| `.md` | 21 |
-| `[no extension]` | 14 |
+| `.md` | 22 |
+| `[no extension]` | 13 |
 | `.mjs` | 13 |
 | `.json` | 10 |
 | `.log` | 6 |
 | `.ts` | 5 |
-| `.zip` | 4 |
 | `.txt` | 4 |
 | `.sh` | 4 |
 | `.js` | 3 |
 | `.html` | 2 |
 | `.gradle` | 2 |
+| `.apk` | 1 |
+| `.zip` | 1 |
 | `.pt` | 1 |
 | `.bat` | 1 |
 | `.ps1` | 1 |
 | `.yaml` | 1 |
 | `.db` | 1 |
 | `.properties` | 1 |
-| `.webmanifest` | 1 |
 
 ### 最大文件
 
 | 文件 | 大小 | 修改时间 |
 | --- | ---: | --- |
-| `D:\zhc\.build-tools\jdk17.zip` | 181.97 MB | 2026-06-10 06:01:13 |
-| `D:\zhc\.build-tools\android-commandlinetools.zip` | 146.47 MB | 2026-06-10 06:06:42 |
-| `D:\zhc\.build-tools\gradle-8.14.3-bin.zip` | 131.03 MB | 2026-06-10 06:12:31 |
 | `D:\zhc\mini-transformer\parameter_view\full_parameter_values.txt` | 4.35 MB | 2026-06-10 05:53:53 |
 | `D:\zhc\mini-transformer\parameter_view\parameter_compare.html` | 3.76 MB | 2026-06-13 10:05:52 |
 | `D:\zhc\quant-system\db\quant.db` | 616.00 KB | 2026-06-10 05:36:54 |
 | `D:\zhc\mini-transformer\checkpoints\tiny_transformer.pt` | 541.09 KB | 2026-06-10 03:27:06 |
 | `D:\zhc\zhc-companion\mobile\package-lock.json` | 399.50 KB | 2026-06-10 05:40:40 |
 | `D:\zhc\pi-mono\package-lock.json` | 197.42 KB | 2026-06-09 15:39:51 |
-| `D:\zhc\zhc-companion-source.zip` | 97.58 KB | 2026-06-10 05:51:54 |
+| `D:\zhc\90-archive\source-snapshots\zhc-companion-source.zip` | 97.58 KB | 2026-06-10 05:51:54 |
 | `D:\zhc\zhc-companion\mobile\android-kotlin.log` | 46.14 KB | 2026-06-10 17:54:32 |
 | `D:\zhc\pi-mono\scripts\edit-tool-stats.mjs` | 31.88 KB | 2026-06-09 15:39:51 |
 | `D:\zhc\pi-mono\docs-cn\coding-agent-README.zh-CN.md` | 23.23 KB | 2026-06-09 16:57:31 |
@@ -77,11 +74,15 @@
 | `D:\zhc\pi-mono\scripts\profile-coding-agent-node.mjs` | 18.62 KB | 2026-06-09 15:39:51 |
 | `D:\zhc\zhc-companion\pwa\app.js` | 18.37 KB | 2026-06-13 07:09:48 |
 | `D:\zhc\mini-transformer\api_server.py` | 13.62 KB | 2026-06-13 09:56:17 |
+| `D:\zhc\pi-mono\scripts\session-transcripts.ts` | 13.51 KB | 2026-06-09 15:39:51 |
+| `D:\zhc\quant-system\services\db_service.py` | 12.99 KB | 2026-06-10 05:33:23 |
+| `D:\zhc\pi-mono\docs-cn\pi-source-learning.md` | 12.60 KB | 2026-06-09 16:49:35 |
 
 ### 最近更新文件
 
 | 文件 | 大小 | 修改时间 |
 | --- | ---: | --- |
+| `D:\zhc\README-目录说明.md` | 635 B | 2026-06-21 09:19:12 |
 | `D:\zhc\mini-transformer\PT_FORMAT.md` | 8.16 KB | 2026-06-14 05:56:37 |
 | `D:\zhc\mini-transformer\parameter_view\parameter_compare.html` | 3.76 MB | 2026-06-13 10:05:52 |
 | `D:\zhc\mini-transformer\PARAMETERS.md` | 2.08 KB | 2026-06-13 10:05:40 |
@@ -99,8 +100,7 @@
 | `D:\zhc\zhc-companion\pwa\index.html` | 6.03 KB | 2026-06-13 07:08:08 |
 | `D:\zhc\zhc-companion\pwa\manifest.webmanifest` | 423 B | 2026-06-11 06:11:20 |
 | `D:\zhc\zhc-companion\.gitignore` | 448 B | 2026-06-11 05:33:14 |
-| `D:\zhc\zhc-companion-lite-release.apk` | 12.60 KB | 2026-06-11 05:32:18 |
-| `D:\zhc\.build-tools\android-sdk\.knownPackages` | 16 B | 2026-06-11 05:31:28 |
+| `D:\zhc\90-archive\releases\zhc-companion-lite-release.apk` | 12.60 KB | 2026-06-11 05:32:18 |
 | `D:\zhc\zhc-companion\android-lite\build.gradle` | 74 B | 2026-06-11 05:25:36 |
 
 ## E SUTPC

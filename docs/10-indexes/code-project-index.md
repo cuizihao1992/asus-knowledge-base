@@ -14,9 +14,9 @@
 | zhc-companion | 本地项目伴侣 / 移动端 + 服务端 + PWA | `D:\zhc\zhc-companion` | 2026-06-11 | 高价值，优先整理 |
 | quant-system | Python / Streamlit / 量化回测 MVP | `D:\zhc\quant-system` | 2026-06-10 | 高价值，优先整理 |
 | pi-mono | TypeScript monorepo / Coding agent 源码学习 | `D:\zhc\pi-mono` | 2026-06-09 | 高价值，但体量较大 |
-| .build-tools | 构建工具缓存 | `D:\zhc\.build-tools` | 2026-06-11 | 只做环境索引 |
-| zhc-companion-source.zip | 源码归档 | `D:\zhc\zhc-companion-source.zip` | 2026-06-10 | 记录即可，不入正文 |
-| zhc-companion-lite-release.apk | Android 发布包 | `D:\zhc\zhc-companion-lite-release.apk` | 2026-06-11 | 记录即可，不入正文 |
+| .build-tools | 构建工具缓存 | `D:\zhc\90-archive\build-tools\.build-tools` | 2026-06-11 | 只做环境索引 |
+| zhc-companion-source.zip | 源码归档 | `D:\zhc\90-archive\source-snapshots\zhc-companion-source.zip` | 2026-06-10 | 记录即可，不入正文 |
+| zhc-companion-lite-release.apk | Android 发布包 | `D:\zhc\90-archive\releases\zhc-companion-lite-release.apk` | 2026-06-11 | 记录即可，不入正文 |
 
 排除 `node_modules`、`.git`、缓存目录后，浅层体量估算：
 
@@ -236,7 +236,7 @@
 
 ### `.build-tools`
 
-路径：`D:\zhc\.build-tools`
+路径：`D:\zhc\90-archive\build-tools\.build-tools`
 
 包含 Android command line tools、Gradle、JDK 等构建工具压缩包。属于环境支撑，不建议纳入知识库正文。
 
@@ -249,13 +249,13 @@
 
 ### `zhc-companion-source.zip`
 
-路径：`D:\zhc\zhc-companion-source.zip`
+路径：`D:\zhc\90-archive\source-snapshots\zhc-companion-source.zip`
 
 源码归档文件。因为已有 `zhc-companion` 目录，建议先判断是否重复。未确认前只记录，不删除。
 
 ### `zhc-companion-lite-release.apk`
 
-路径：`D:\zhc\zhc-companion-lite-release.apk`
+路径：`D:\zhc\90-archive\releases\zhc-companion-lite-release.apk`
 
 Android 发布包。建议只记录版本和来源，不放入 GitHub。
 

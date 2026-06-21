@@ -31,7 +31,7 @@
 
 | 路径 | 类型 | 建议 |
 | --- | --- | --- |
-| `D:\zhc\.build-tools` | Android/JDK/Gradle 构建工具缓存 | 如果 `zhc-companion` 还要构建 Android，先保留；否则迁移到统一工具目录 |
+| `D:\zhc\90-archive\build-tools\.build-tools` | Android/JDK/Gradle 构建工具缓存 | 如果 `zhc-companion` 还要构建 Android，先保留；否则迁移到统一工具目录 |
 | `E:\SUTPC\BIM支撑平台SDK(2022.3.11).zip` | SDK 包 | 保留版本记录；可迁移到 SDK/工具归档 |
 | `E:\SUTPC\00-lifecycle-project\全生命周期\Axure9.zip` | Axure 安装包 | 如果确认不需要旧版 Axure，可删除；否则迁移 |
 | `E:\学习资料\50-archive-zips\近期zip\opencv-3.2.0.zip` | OpenCV 包 | 迁移到开发工具归档或删除 |
@@ -66,8 +66,8 @@
 
 | 路径 | 待确认问题 | 建议检查 |
 | --- | --- | --- |
-| `D:\zhc\zhc-companion-source.zip` | 是否与 `D:\zhc\zhc-companion` 内容一致 | 计算哈希；必要时仅列内容，不解压覆盖 |
-| `D:\zhc\zhc-companion-lite-release.apk` | 是否需要作为发布版本留存 | 记录版本号、构建日期、对应源码提交 |
+| `D:\zhc\90-archive\source-snapshots\zhc-companion-source.zip` | 是否与 `D:\zhc\zhc-companion` 内容一致 | 计算哈希；必要时仅列内容，不解压覆盖 |
+| `D:\zhc\90-archive\releases\zhc-companion-lite-release.apk` | 是否需要作为发布版本留存 | 记录版本号、构建日期、对应源码提交 |
 | `E:\Data\10-models\archives\fbx.rar` | 是否与 `E:\Data\10-models\bim\全生命周期BIM` 或其他 FBX 重复 | 哈希/文件名清单对比 |
 | `E:\Data\10-models\archives\gltf.zip` | 是否是模型转换产物 | 列压缩包内容后判断 |
 | `E:\学习资料\00-gis-cesium-webgl\Cesium资料\Cesium-1.65.zip` | 是否已有解压版或更高版本 | 和 Cesium 资料目录对比 |
