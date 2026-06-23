@@ -1,0 +1,260 @@
+.doc-shell {
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr);
+  min-height: 100vh;
+}
+
+.doc-sidebar {
+  position: sticky;
+  top: 0;
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  height: 100vh;
+  padding: 24px;
+  overflow: auto;
+  border-right: 1px solid var(--line);
+  background: var(--panel);
+}
+
+.doc-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.doc-brand span:last-child {
+  display: grid;
+  gap: 3px;
+}
+
+.doc-brand small {
+  color: var(--muted);
+}
+
+.doc-nav {
+  display: grid;
+  gap: 16px;
+}
+
+.doc-nav-group {
+  display: grid;
+  gap: 5px;
+}
+
+.doc-nav-group h2 {
+  margin: 0 0 2px;
+  padding: 0 12px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.doc-nav-item {
+  display: block;
+  padding: 10px 12px;
+  border-radius: 8px;
+  color: var(--ink);
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.doc-nav-item:hover,
+.doc-nav-item.active {
+  background: var(--panel-strong);
+  color: var(--accent-strong);
+}
+
+.doc-main {
+  min-width: 0;
+  padding: 32px;
+}
+
+.doc-article,
+.doc-home {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+
+.doc-article h1,
+.doc-home h1 {
+  margin-top: 0;
+  font-size: 30px;
+  line-height: 1.25;
+}
+
+.doc-article h2 {
+  margin-top: 34px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  font-size: 22px;
+}
+
+.doc-article h3 {
+  margin-top: 26px;
+  font-size: 18px;
+}
+
+.doc-article p,
+.doc-article li,
+.doc-home p {
+  line-height: 1.8;
+}
+
+.doc-article a {
+  color: var(--accent);
+}
+
+.doc-article code {
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: #eef3f1;
+}
+
+.doc-article pre {
+  overflow: auto;
+  padding: 14px;
+  border-radius: 8px;
+  background: #17211e;
+  color: #f4fbf8;
+}
+
+.doc-article pre code {
+  padding: 0;
+  background: transparent;
+  color: inherit;
+}
+
+.doc-article blockquote {
+  margin-left: 0;
+  padding-left: 14px;
+  border-left: 3px solid var(--accent);
+  color: var(--muted);
+}
+
+.table-wrap {
+  width: 100%;
+  overflow: auto;
+  margin: 18px 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.doc-article table {
+  width: 100%;
+  min-width: 680px;
+  border-collapse: collapse;
+}
+
+.doc-article th,
+.doc-article td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.doc-article th {
+  background: var(--panel-strong);
+  color: var(--accent-strong);
+}
+
+.doc-article tr:last-child td {
+  border-bottom: 0;
+}
+
+.doc-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.doc-section {
+  margin-top: 28px;
+}
+
+.doc-section h2 {
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+  font-size: 18px;
+}
+
+.doc-search {
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr);
+  align-items: center;
+  max-width: 520px;
+  min-height: 44px;
+  margin-top: 18px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.doc-search span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.doc-search input {
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--ink);
+}
+
+.doc-card {
+  display: grid;
+  gap: 8px;
+  min-height: 104px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.doc-card:hover {
+  border-color: var(--accent);
+}
+
+.doc-card span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+@media (max-width: 900px) {
+  .doc-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .doc-sidebar {
+    position: static;
+    height: auto;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .doc-main {
+    padding: 16px;
+  }
+
+  .doc-article,
+  .doc-home {
+    padding: 18px;
+  }
+}

@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>随笔知识库</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="知识库导航">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">文</div>
+          <div>
+            <h1>随笔知识库</h1>
+            <p id="statsText">0 篇随笔</p>
+          </div>
+        </div>
+
+        <div class="toolbar">
+          <button id="newNoteBtn" class="primary-button" type="button">新建</button>
+          <a class="secondary-button nav-button" href="docs/index.html">文档</a>
+          <button id="exportBtn" class="icon-button" type="button" title="导出 JSON" aria-label="导出 JSON">⇩</button>
+          <label class="icon-button" title="导入 JSON" aria-label="导入 JSON">
+            ⇧
+            <input id="importInput" type="file" accept="application/json" hidden />
+          </label>
+        </div>
+
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" placeholder="搜索标题、正文、标签" autocomplete="off" />
+        </label>
+
+        <section class="filter-section" aria-labelledby="tagFilterTitle">
+          <div class="section-title" id="tagFilterTitle">标签</div>
+          <div id="tagFilters" class="tag-filters"></div>
+        </section>
+
+        <section class="filter-section" aria-labelledby="viewTitle">
+          <div class="section-title" id="viewTitle">视图</div>
+          <div class="segmented" role="group" aria-label="视图">
+            <button class="segment active" type="button" data-view="all">全部</button>
+            <button class="segment" type="button" data-view="pinned">置顶</button>
+            <button class="segment" type="button" data-view="recent">最近</button>
+          </div>
+        </section>
+      </aside>
+
+      <main class="workspace">
+        <section class="note-list-pane" aria-label="随笔列表">
+          <div class="pane-header">
+            <div>
+              <h2 id="listTitle">全部随笔</h2>
+              <p id="resultText">按更新时间排序</p>
+            </div>
+            <select id="sortSelect" aria-label="排序">
+              <option value="updated">最近更新</option>
+              <option value="created">创建时间</option>
+              <option value="title">标题</option>
+            </select>
+          </div>
+          <div id="noteList" class="note-list"></div>
+        </section>
+
+        <section class="editor-pane" aria-label="编辑区">
+          <div class="editor-header">
+            <input id="titleInput" class="title-input" placeholder="标题" />
+            <div class="editor-actions">
+              <button id="pinBtn" class="icon-button" type="button" title="置顶" aria-label="置顶">☆</button>
+              <button id="deleteBtn" class="danger-button" type="button">删除</button>
+            </div>
+          </div>
+
+          <div class="meta-grid">
+            <label>
+              <span>标签</span>
+              <input id="tagsInput" placeholder="用逗号分隔" />
+            </label>
+            <label>
+              <span>出处</span>
+              <input id="sourceInput" placeholder="书名、链接或灵感来源" />
+            </label>
+          </div>
+
+          <div class="editor-tabs" role="tablist" aria-label="编辑模式">
+            <button class="tab active" id="writeTab" type="button" data-mode="write">书写</button>
+            <button class="tab" id="previewTab" type="button" data-mode="preview">预览</button>
+          </div>
+
+          <textarea id="contentInput" class="content-input" placeholder="写下片段、观点、引用、问题与下一步想法。"></textarea>
+          <article id="previewPane" class="preview-pane" hidden></article>
+
+          <div class="insight-strip">
+            <div>
+              <span class="metric" id="wordCount">0</span>
+              <span>字</span>
+            </div>
+            <div>
+              <span class="metric" id="updatedText">未保存</span>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <template id="noteItemTemplate">
+      <article class="note-item">
+        <div class="note-item-top">
+          <h3></h3>
+          <span class="pin-indicator" aria-hidden="true">★</span>
+        </div>
+        <p class="excerpt"></p>
+        <div class="note-meta">
+          <span class="date"></span>
+          <div class="mini-tags"></div>
+        </div>
+      </article>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
