@@ -59,14 +59,16 @@
 | E:\SUTPC 目录重组 | 完成 | `50-operations/cleanup/sutpc-directory-reorganization-2026-06-21.md` |
 | D:\zhc 目录重组 | 完成 | `50-operations/cleanup/zhc-directory-reorganization-2026-06-21.md` |
 | 最近更新看板 | 完成 | `90-generated/scans/recent-changes.md` |
+| 下载池/网盘目录浅层盘点 | 完成 | `50-operations/cleanup/download-pool-inventory-2026-06-23.md` |
 
 ## 下一批建议
 
 | 优先级 | 任务 | 原因 | 建议产物 |
 | --- | --- | --- | --- |
-| 高 | 下载池/网盘目录浅层盘点 | 目录重组阶段已稳定，下一块应先只盘点下载池，不直接移动 | 新增下载池盘点清单 |
+| 高 | 下载池压缩包只列目录 | 已发现 `崔子豪交接整理.zip`、`360Downloads.zip` 等大包，需先只列目录，不解压 | 更新下载池盘点清单 |
 | 高 | RAR 只列目录能力补齐 | `fbx.rar`、SuperMap iEarth、dae 转 glTF 工具仍需 7z/WinRAR 只列目录 | 更新 `archive-content-review.md` 和模型资产卡片 |
 | 中 | 小体量 FBX 临时工作区验证 | 已有转换预案，可先验证桥梁模型，输出报告，不上传模型 | `30-assets/bim-models/fbx-conversion-report-bridge.md` |
+| 中 | 下载池工具归档候选整理 | ArcGIS、Oracle、SuperMap、CesiumLab 等安装介质应归入工具归档候选，不直接删除 | 工具归档候选清单 |
 | 中 | SUTPC 大屏图层字段矩阵维护 | 已有矩阵，后续可按真实字段继续补全 | `20-projects/sutpc/dashboard-layer-field-matrix.md` |
 | 低 | 代码项目构建检查 | `.build-tools` 已归档，如后续构建失败再修路径 | zhc 构建检查记录 |
 
@@ -82,4 +84,4 @@
 
 ## 当前判断
 
-知识库已经进入“结构化文档 + 自动扫描 + 顶层目录重组完成”的阶段。`E:\Data`、`E:\学习资料`、`E:\SUTPC`、`D:\zhc` 已完成顶层重组并同步知识库路径；后续应先做下载池/网盘浅层盘点，再决定是否继续重组。
+知识库已经进入“结构化文档 + 自动扫描 + 顶层目录重组完成 + 下载池浅层盘点完成”的阶段。`E:\Data`、`E:\学习资料`、`E:\SUTPC`、`D:\zhc` 已完成顶层重组并同步知识库路径；`E:\Download`、`E:\BaiduNetdiskDownload`、`E:\360Downloads`、`E:\迅雷下载` 已完成只读盘点。后续应先做大压缩包只列目录和工具归档候选整理，再决定是否继续移动文件。

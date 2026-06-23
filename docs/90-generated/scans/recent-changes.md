@@ -14,6 +14,7 @@
 | SUTPC 重组 | 将 `E:\SUTPC` 顶层整理为全生命周期、BIM SDK、汇报、遥感、备份、待复核 | `50-operations/cleanup/sutpc-directory-reorganization-2026-06-21.md` |
 | zhc 重组 | 保留源码项目原位，仅归档 `.build-tools`、APK、源码快照 | `50-operations/cleanup/zhc-directory-reorganization-2026-06-21.md` |
 | 扫描索引 | 重跑本地扫描，当前扫描 5 个根目录 | `90-generated/scans/project-index.md` |
+| 下载池盘点 | 只读盘点 `E:\Download`、`E:\BaiduNetdiskDownload`、`E:\360Downloads`、`E:\迅雷下载` | `50-operations/cleanup/download-pool-inventory-2026-06-23.md` |
 | 压缩包评估 | 对待确认 zip/apk/rar 做只读内容评估 | `50-operations/cleanup/archive-content-review.md` |
 | 模型资产 | 为 `fbx.rar` / `gltf.zip` 建立资产卡片，并列出 glTF 场景 | `30-assets/bim-models/compressed-model-archives.md`、`30-assets/bim-models/gltf-scene-inventory.md` |
 | SUTPC 交互 | 提炼大屏地图交互对象、链路、图层字段矩阵 | `20-projects/sutpc/dashboard-map-interaction.md`、`20-projects/sutpc/dashboard-layer-field-matrix.md` |
@@ -31,7 +32,7 @@
 
 | 项目 | 当前状态 | 后续建议 |
 | --- | --- | --- |
-| 下载池/网盘目录 | 尚未进入系统整理 | 先浅层盘点，不直接移动 |
+| 下载池/网盘目录 | 已完成浅层盘点 | 下一步先对大压缩包只列目录，不解压 |
 | `D:\zhc\90-archive\build-tools\.build-tools` | 已归档 | 如 Android 构建失败，再修脚本或环境变量 |
 | 3 个 RAR | 当前缺少 7z/WinRAR 列目录能力 | 安装或调用可用工具后只列目录，不解压 |
 | `E:\Data\10-models\archives\gltf.zip` | 已确认模型资产 | 后续可做临时工作区预览 |
@@ -39,6 +40,7 @@
 
 ## 下一步建议
 
-1. 对下载池/网盘目录做只读浅层盘点，先找出大文件、重复压缩包和明显垃圾。
+1. 对 `E:\BaiduNetdiskDownload\崔子豪交接整理.zip`、`E:\360Downloads\360Downloads.zip` 做只列目录检查。
 2. 补齐 RAR 只列目录能力，优先处理 `E:\Data\10-models\archives\fbx.rar`。
-3. 做桥梁小体量 FBX 的临时工作区打开/转换验证。
+3. 整理 ArcGIS、Oracle、SuperMap、CesiumLab 等旧安装介质的工具归档候选。
+4. 做桥梁小体量 FBX 的临时工作区打开/转换验证。
