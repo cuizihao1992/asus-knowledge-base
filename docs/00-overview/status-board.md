@@ -1,6 +1,6 @@
 # 整理状态看板
 
-更新日期：2026-06-21
+更新日期：2026-06-23
 
 这个看板用于记录当前知识库整理进度。它不是任务系统，只是阶段性状态快照。
 
@@ -54,16 +54,21 @@
 | zhc-companion 发布产物记录 | 完成 | `20-projects/zhc/zhc-companion-release-artifacts.md` |
 | 压缩模型包资产卡片 | 完成 | `30-assets/bim-models/compressed-model-archives.md` |
 | glTF 场景清单 | 完成 | `30-assets/bim-models/gltf-scene-inventory.md` |
+| E:\Data 目录重组 | 完成 | `50-operations/cleanup/data-directory-reorganization-2026-06-21.md` |
+| E:\学习资料 目录重组 | 完成 | `50-operations/cleanup/learning-directory-reorganization-2026-06-21.md` |
+| E:\SUTPC 目录重组 | 完成 | `50-operations/cleanup/sutpc-directory-reorganization-2026-06-21.md` |
+| D:\zhc 目录重组 | 完成 | `50-operations/cleanup/zhc-directory-reorganization-2026-06-21.md` |
+| 最近更新看板 | 完成 | `90-generated/scans/recent-changes.md` |
 
 ## 下一批建议
 
 | 优先级 | 任务 | 原因 | 建议产物 |
 | --- | --- | --- | --- |
+| 高 | 下载池/网盘目录浅层盘点 | 目录重组阶段已稳定，下一块应先只盘点下载池，不直接移动 | 新增下载池盘点清单 |
 | 高 | RAR 只列目录能力补齐 | `fbx.rar`、SuperMap iEarth、dae 转 glTF 工具仍需 7z/WinRAR 只列目录 | 更新 `archive-content-review.md` 和模型资产卡片 |
-| 高 | 小体量 FBX 转换预案 | 为桥梁/边坡模型设计 glTF/3D Tiles 试验步骤 | `30-assets/bim-models/fbx-conversion-plan.md` |
-| 中 | SUTPC 大屏地图交互摘要 | 提炼大屏图层、模型跳转和监测视频交互 | `20-projects/sutpc/dashboard-map-interaction.md` |
-| 中 | Cesium/WebGL 渲染术语 | 连接三维数据和前端可视化资料 | `40-learning/cesium-webgl/cesium-webgl-glossary.md` |
-| 中 | 文档标签和最近更新看板 | 让 Pages 更像可维护的资料库 | `90-generated/scans/recent-changes.md` |
+| 中 | 小体量 FBX 临时工作区验证 | 已有转换预案，可先验证桥梁模型，输出报告，不上传模型 | `30-assets/bim-models/fbx-conversion-report-bridge.md` |
+| 中 | SUTPC 大屏图层字段矩阵维护 | 已有矩阵，后续可按真实字段继续补全 | `20-projects/sutpc/dashboard-layer-field-matrix.md` |
+| 低 | 代码项目构建检查 | `.build-tools` 已归档，如后续构建失败再修路径 | zhc 构建检查记录 |
 
 ## 暂不处理
 
@@ -77,4 +82,4 @@
 
 ## 当前判断
 
-知识库已经进入“结构化文档 + 自动扫描 + 小批迁移归档”的阶段。工具安装包已从资料区迁入 `E:\ToolsArchive` 并纳入扫描；后续重点应转向 RAR 只列目录、模型转换预案和 SUTPC 交互知识沉淀。
+知识库已经进入“结构化文档 + 自动扫描 + 顶层目录重组完成”的阶段。`E:\Data`、`E:\学习资料`、`E:\SUTPC`、`D:\zhc` 已完成顶层重组并同步知识库路径；后续应先做下载池/网盘浅层盘点，再决定是否继续重组。
